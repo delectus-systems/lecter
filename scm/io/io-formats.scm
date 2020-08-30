@@ -46,6 +46,15 @@
    ((io:beta-2-format? data) $delectus-format-beta-2)
    (else #f)))
 
+(define (delectus-format-number->name version-number)
+  (cond 
+   ((eqv? version-number $delectus-format-1.0) "delectus-format-1.0")
+   ((eqv? version-number $delectus-format-alpha-1) "delectus-format-alpha-1")
+   ((eqv? version-number $delectus-format-alpha-2) "delectus-format-alpha-2")
+   ((eqv? version-number $delectus-format-alpha-4) "delectus-format-alpha-4")
+   ((eqv? version-number $delectus-format-beta-2) "delectus-format-beta-2")
+   (else "INVALID")))
+
 ;;; ----------------------------------------------------------------------
 ;;; converting delectus formats
 ;;; ----------------------------------------------------------------------
