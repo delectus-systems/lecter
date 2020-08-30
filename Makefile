@@ -14,7 +14,7 @@ GCC = gcc
 SCHEME_SOURCES = scm/base/constants.scm \
 		 scm/lib/lists.scm scm/lib/vectors.scm scm/lib/strings.scm \
                  scm/lib/Sort.scm scm/lib/sort-keys.scm scm/lib/filter-keys.scm \
-		 scm/lib/functions.scm \
+		 scm/lib/functions.scm scm/lib/uuid.scm \
 	         scm/api/api.scm \
                  scm/data/entries.scm scm/data/rows.scm scm/data/columns.scm \
                  scm/data/tables.scm scm/data/views.scm scm/data/registry.scm \
@@ -25,7 +25,7 @@ SCHEME_SOURCES = scm/base/constants.scm \
 C_SOURCES = scm/base/constants.c \
             scm/lib/lists.c scm/lib/vectors.c scm/lib/strings.c \
             scm/lib/Sort.c scm/lib/sort-keys.c scm/lib/filter-keys.c \
-            scm/lib/functions.c \
+            scm/lib/functions.c scm/lib/uuid.c \
             scm/api/api.c \
             scm/data/entries.c scm/data/rows.c scm/data/columns.c \
             scm/data/tables.c scm/data/views.c scm/data/registry.c \
@@ -36,7 +36,7 @@ C_SOURCES = scm/base/constants.c \
 OBJS = scm/base/constants.o \
        scm/lib/lists.o scm/lib/vectors.o scm/lib/strings.o \
        scm/lib/Sort.o scm/lib/sort-keys.o scm/lib/filter-keys.o \
-       scm/lib/functions.o \
+       scm/lib/functions.o scm/lib/uuid.o \
        scm/api/api.o \
        scm/data/entries.o scm/data/rows.o scm/data/columns.o \
        scm/data/tables.o scm/data/views.o scm/data/registry.o \
@@ -46,10 +46,16 @@ OBJS = scm/base/constants.o \
 
 LIB = libDelectus.a
 
+EXE = lecter
+
+
 lib: obj
 	ar rc ${LIB} ${OBJS} && ranlib ${LIB}
 	rm -f ${C_SOURCES}
 	rm -f ${OBJECTS}
+
+exe:
+	${GSC} -f -o ${EXE} -exe ${SCHEME_SOURCES} scm/lecter.scm
 
 obj: compile_scheme
 	${GSC} -obj -cc-options "-D___LIBRARY -mmacosx-version-min=10.12" ${C_SOURCES}
