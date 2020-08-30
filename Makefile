@@ -1,56 +1,58 @@
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Darwin)
-  GAMBIT_HOME=/usr/local
+  GAMBIT_HOME=/usr/local/Gambit
 endif
 ifeq ($(UNAME_S),Linux)
   GAMBIT_HOME=/usr/local/Gambit
 endif
 
-GCC = gcc
-
 GSC=${GAMBIT_HOME}/bin/gsc
-GSC_BIN=${GAMBIT_HOME}/bin
 GSC_INC=${GAMBIT_HOME}/include
 GSC_LIB=${GAMBIT_HOME}/lib
+GCC = gcc
 
-SCHEME_SOURCES = src/constants.scm src/uuid.scm src/lists.scm		\
-		 src/vectors.scm src/strings.scm src/Sort.scm		\
-		 src/sort-keys.scm src/filter-keys.scm			\
-		 src/functions.scm src/entries.scm src/rows.scm		\
-		 src/columns.scm src/tables.scm src/views.scm		\
-		 src/registry.scm src/csv.scm src/io-formats.scm	\
-		 src/io.scm 
+SCHEME_SOURCES = scm/base/constants.scm \
+		 scm/lib/lists.scm scm/lib/vectors.scm scm/lib/strings.scm \
+                 scm/lib/Sort.scm scm/lib/sort-keys.scm scm/lib/filter-keys.scm \
+		 scm/lib/functions.scm \
+	         scm/api/api.scm \
+                 scm/data/entries.scm scm/data/rows.scm scm/data/columns.scm \
+                 scm/data/tables.scm scm/data/views.scm scm/data/registry.scm \
+                 scm/api/engine.scm \
+                 scm/io/csv.scm scm/io/io-formats.scm scm/io/io.scm  \
+                 scm/api/Delectus.scm
 
-C_SOURCES = src/constants.c src/uuid.c src/lists.c src/vectors.c	\
-	    src/strings.c src/Sort.c src/sort-keys.c			\
-	    src/filter-keys.c src/functions.c src/entries.c		\
-	    src/rows.c src/columns.c src/tables.c src/views.c		\
-	    src/registry.c src/csv.c src/io-formats.c src/io.c		\
-	    src/io_.c
+C_SOURCES = scm/base/constants.c \
+            scm/lib/lists.c scm/lib/vectors.c scm/lib/strings.c \
+            scm/lib/Sort.c scm/lib/sort-keys.c scm/lib/filter-keys.c \
+            scm/lib/functions.c \
+            scm/api/api.c \
+            scm/data/entries.c scm/data/rows.c scm/data/columns.c \
+            scm/data/tables.c scm/data/views.c scm/data/registry.c \
+            scm/api/engine.c \
+            scm/io/csv.c scm/io/io-formats.c scm/io/io.c  \
+            scm/api/Delectus.c scm/api/Delectus_.c
 
-OBJS = src/constants.o src/uuid.o src/lists.o src/vectors.o		\
-       src/strings.o src/Sort.o src/sort-keys.o src/filter-keys.o	\
-       src/functions.o src/entries.o src/rows.o src/columns.o		\
-       src/tables.o src/views.o src/registry.o src/csv.o		\
-       src/io-formats.o src/io.o src/io_.o
-
-
-OBJ_FLAGS = -I${GSC_INC} -L${GSC_LIB} -Wno-unused -O1 -fno-math-errno -fno-trapping-math -fno-strict-aliasing -fwrapv -fomit-frame-pointer -fPIC -fno-common -mieee-fp 
-
-EXE = lecter
+OBJS = scm/base/constants.o \
+       scm/lib/lists.o scm/lib/vectors.o scm/lib/strings.o \
+       scm/lib/Sort.o scm/lib/sort-keys.o scm/lib/filter-keys.o \
+       scm/lib/functions.o \
+       scm/api/api.o \
+       scm/data/entries.o scm/data/rows.o scm/data/columns.o \
+       scm/data/tables.o scm/data/views.o scm/data/registry.o \
+       scm/api/engine.o \
+       scm/io/csv.o scm/io/io-formats.o scm/io/io.o  \
+       scm/api/Delectus.o scm/api/Delectus_.o
 
 LIB = libDelectus.a
 
-lecter:
-	${GSC} -f -o ${EXE} -exe ${SCHEME_SOURCES} src/lecter.scm
-
-lib: static_obj
-	ar rc ${LIB} ${LIB} && ranlib ${LIB}
+lib: obj
+	ar rc ${LIB} ${OBJS} && ranlib ${LIB}
 	rm -f ${C_SOURCES}
 	rm -f ${OBJECTS}
 
-static_obj: compile_scheme
-	${GCC} ${OBJ_FLAGS} -c ${C_SOURCES} ${GSC_LIB}/libgambit.a -D___LIBRARY
+obj: compile_scheme
+	${GSC} -obj -cc-options "-D___LIBRARY -mmacosx-version-min=10.12" ${C_SOURCES}
 
 compile_scheme:
 	${GSC} -link ${SCHEME_SOURCES}
@@ -64,3 +66,4 @@ clean:
 	rm -f *.o1
 	rm -f *.o2
 	rm -f *~
+
