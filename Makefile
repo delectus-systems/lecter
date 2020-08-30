@@ -64,6 +64,8 @@ compile_scheme:
 	${GSC} -link ${SCHEME_SOURCES}
 
 clean:
+	rm -f lecter
+	rm -f libDelectus.a
 	rm -f ${C_SOURCES}
 	rm -f ${OBJS}
 	rm -f src/*.o1

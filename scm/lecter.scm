@@ -30,12 +30,6 @@
   (display "  lecter --json PATH # prints the Delectus data to stdio as JSON")(newline)
   (display "  lecter --couchdb PATH # prints the Delectus data to stdio as a CouchDB document")(newline))
 
-
-(define (delectus-format-version pathname)
-  (let* ((raw-data (io:read-binary-file pathname))
-         (delectus-data (u8vector->object raw-data)))
-    (delectus-format delectus-data)))
-
 (let ((args (cdr (command-line))))
   (if (< (length args) 1)
       (print-lecter-usage)
