@@ -50,7 +50,7 @@
 (define (read-delectus-file path)
   (reg:register-delectus! (read-delectus-data path)))
 
-;;; (define $jr-path "/Users/mikel/Projects/delectus/delectus/test-data/junior-movies.delectus")
+;;; (define $jr-path "/Users/mikel/Workshop/src/delectus/test-data/junior-movies.delectus")
 ;;; (define $jr (read-delectus-file $jr-path))
 
 ;;; ----------------------------------------------------------------------

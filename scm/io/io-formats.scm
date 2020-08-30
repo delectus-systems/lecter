@@ -39,7 +39,7 @@
 
 (define (delectus-format data)
   (cond
-   ((table? data) $delectus-format-1.0)
+   ((delectus-table? data) $delectus-format-1.0)
    ((io:alpha-1-format? data) $delectus-format-alpha-1)
    ((io:alpha-2-format? data) $delectus-format-alpha-2)
    ((io:alpha-4-format? data) $delectus-format-alpha-4)
