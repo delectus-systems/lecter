@@ -128,3 +128,4 @@
   (let* ((raw-data (io:read-binary-file pathname))
          (delectus-data (u8vector->object raw-data)))
     (delectus-format delectus-data)))
+

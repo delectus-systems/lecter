@@ -182,6 +182,15 @@
         (lambda () (close-output-port out))))
   dest-path)
 
+(define (write-csv path)
+  (let ((out #f))
+    (dynamic-wind
+        (lambda () (set! out (open-output-file dest-path)))
+        (lambda () 
+          (write-table-csv tbl out))
+        (lambda () (close-output-port out))))
+  dest-path)
+
 ;;; (define $ziptest-path "/Users/mikel/Desktop/ziptest.csv")
 ;;; (write-csv-file (find-document $zipid) $ziptest-path)
 
@@ -235,3 +244,80 @@
 ;;; (define $zips-in (string-append $test-data-root "zipcode.delectus"))
 ;;; (define $zips-out "/Users/mikel/Desktop/zipcode.csv")
 ;;; (delectus->csv-file $zips-in $zips-out)
+
+
+;;; ---------------------------------------------------------------------
+;;; output as lisp expressions
+;;; ---------------------------------------------------------------------
+
+(define (value->lisp val)
+  (cond ((equal? #t val) "T")
+        ((equal? #f val) "NIL")
+        ((equal? '() val) "NIL")
+        (else val)))
+
+(define (columns->lisp tbl)
+  (let* ((colseq (table:column-sequence tbl))
+         (cols (vector->list (column-sequence:columns colseq))))
+    (map (lambda (col)(column:label col))
+         cols)))
+
+(define (rows->lisp tbl)
+  (map (lambda (row)
+         (let* ((entries (vector->list (row:entries row))))
+           (map (lambda (entry)(value->lisp (entry:value entry)))
+                entries)))
+       (vector->list (table:rows tbl))))
+
+(define (table->lisp tbl)
+  (let* ((cols (columns->lisp tbl))
+         (rows (rows->lisp tbl)))
+    (list ':COLUMNS cols
+          ':ROWS rows)))
+
+(define (delectus->lisp src-path)
+  (let* ((raw (io:read-binary-file src-path))
+         (data (u8vector->object raw))
+         (converter (converter-for-format data))
+         (tbl (if (delectus-table? data)
+                  (compacted-delectus-table data)
+                  (compacted-delectus-table (data->table data)))))
+    (if tbl
+        (table->lisp tbl)
+        (begin (format "~%Not a Delectus 1.x file: ~s" src-path)
+               (format "~%No conversion performed.~%")
+               $ERR_BAD_FORMAT))))
+
+(define (write-lisp path)
+  (let* ((data (delectus->lisp path))
+         (columns-tail (member ':COLUMNS data))
+         (columns (if columns-tail (cadr columns-tail) '()))
+         (rows-tail (member ':ROWS data))
+         (rows (if rows-tail (cadr rows-tail) '())))
+    (display "(")
+    (display ":DELECTUS :LISP")
+    (newline)
+    (display ":COLUMNS")
+    (newline)
+    (display "(")
+    (for-each (lambda (column)
+                (display " ")
+                (write column))
+              columns)
+    (display " )")
+    (newline)
+    (display ":ROWS (")
+    (for-each (lambda (row)
+                (newline)
+                (display "(")
+                (for-each (lambda (it)
+                            (display " ")
+                            (write it))
+                          row)
+                (display " )"))
+              rows)
+    (display "))")))
+
+
+;;; (define $movies-path "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus")
+;;; (define $movies (delectus->lisp $movies-path))
