@@ -28,8 +28,7 @@
   (display "                            # or INVALID if it's not a recognized Delectus format")(newline)
   (display "  lecter --lisp PATH # prints the Delectus data to stdio as Common Lisp expressions")(newline)
   (display "  lecter --csv PATH # prints the Delectus data to stdio as CSV")(newline)
-  (display "  lecter --json PATH # prints the Delectus data to stdio as JSON")(newline)
-  (display "  lecter --couchdb PATH # prints the Delectus data to stdio as a CouchDB document")(newline))
+  (newline))
 
 (let ((args (cdr (command-line))))
   (if (< (length args) 1)

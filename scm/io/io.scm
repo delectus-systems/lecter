@@ -316,7 +316,8 @@
                           row)
                 (display " )"))
               rows)
-    (display "))")))
+    (display "))")
+    (newline)))
 
 
 ;;; (define $movies-path "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus")
