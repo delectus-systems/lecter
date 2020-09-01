@@ -40,7 +40,7 @@ extern bool has_deleted (int id);
 extern char* filter_text (int id);
 extern int count_rows (int id);
 extern int count_deleted_rows (int id);
-extern char* value_at (int id, char* column_label, int row_index); // returns a value id
+extern char* value_at (int id, char* column_label, int row_index);
 extern int put_value_at (int id, char* column_label, int row_index, char* value);
 extern int add_row (int id);
 extern int add_column (int oid, char* label);
