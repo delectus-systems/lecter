@@ -30,30 +30,45 @@
   (display "  lecter --csv PATH # prints the Delectus data to stdio as CSV")(newline)
   (newline))
 
-(let ((args (cdr (command-line))))
-  (if (< (length args) 1)
-      (print-lecter-usage)
-      (let ((option (list-ref args 0)))
-        (cond ((equal? option "--version") (begin (newline)
-                                                  (display $lecter-version-string)
-                                                  (newline)))
-              ((equal? option "--uuid") (begin (write (make-uuid))
-                                               (newline)))
-              ((equal? option "--format-version") (let* ((path (list-ref args 1))
-                                                 (format-number (delectus-format-version path)))
-                                            (begin (write format-number)
-                                                   (newline))))
-              ((equal? option "--format-name") (let* ((path (list-ref args 1))
-                                                      (format-number (delectus-format-version path)))
-                                                 (if (equal? "INVALID" format-number)
-                                                     (begin (write format-number)
-                                                            (newline))
-                                                     (let ((format-name (delectus-format-number->name format-number)))
-                                                       (write format-name)
-                                                       (newline)))))
-              ((equal? option "--lisp") (write-lisp (list-ref args 1)))
-              ((equal? option "--csv") (delectus->csv (list-ref args 1)))
-              (else (print-lecter-usage))))))
+;;; main command interpreter
 
-
+(let* ((args (cdr (command-line)))
+       (argcount (length args)))
+  (cond ((< argcount 1)(print-lecter-usage))
+        ((= argcount 1)(let ((option (list-ref args 0)))
+                         (cond
+                          ;; --version
+                          ((equal? option "--version")
+                           (begin (newline)
+                                  (display $lecter-version-string)
+                                  (newline)))
+                          ;; --uuid
+                          ((equal? option "--uuid")
+                           (begin (write (make-uuid))
+                                  (newline)))
+                          ;; unrecognized option
+                          (else (print-lecter-usage)))))
+        ((= argcount 2) (let ((option (list-ref args 0))
+                              (path (list-ref args 1)))
+                          (cond ;; --format-version
+                           ((equal? option "--format-version")
+                            (let* ((format-number (delectus-format-version path)))
+                              (begin (write format-number)
+                                     (newline))))
+                           ;; --format-name
+                           ((equal? option "--format-name")
+                            (let* ((format-number (delectus-format-version path)))
+                              (if (equal? "INVALID" format-number)
+                                  (begin (write format-number)
+                                         (newline))
+                                  (let ((format-name (delectus-format-number->name format-number)))
+                                    (write format-name)
+                                    (newline)))))
+                           ;; --lisp
+                           ((equal? option "--lisp") (write-lisp path))
+                           ;; --csv
+                           ((equal? option "--csv") (delectus->csv path))
+                           ;; unrecognized options
+                           (else (print-lecter-usage)))))
+        (else (print-lecter-usage))))
 
