@@ -1,4 +1,5 @@
 /lecter
 libDelectus.a
+libDelectus.dylib
 *.o
 *.c

@@ -43,6 +43,13 @@
   :result-type (:pointer :char)
   :language :ansi-c)
 
+
+(fli:define-foreign-function 
+    (read-delectus-file "read_delectus_file" :source)
+    ((path (:pointer (:unsigned :char))))
+  :result-type :int
+  :language :ansi-c)
+
 ;;; ---------------------------------------------------------------------
 ;;; higher-level (lispier) wrapper functions
 ;;; ---------------------------------------------------------------------
@@ -56,4 +63,7 @@
 ;;; (load-libDelectus)
 ;;; (init-delectus)
 ;;; (get-delectus-version)
+;;; (fli:with-foreign-string (str element-count byte-count)"/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus" (read-delectus-file str))
+
+
 
