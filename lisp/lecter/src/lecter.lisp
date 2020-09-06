@@ -43,7 +43,8 @@
   :result-type (:pointer :char)
   :language :ansi-c)
 
-
+;;; returns an int that identifies the delectus document in
+;;; libDelectus memory that is created when the library reads the file
 (fli:define-foreign-function 
     (read-delectus-file "read_delectus_file" :source)
     ((path (:pointer (:unsigned :char))))
