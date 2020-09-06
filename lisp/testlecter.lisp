@@ -1,5 +1,7 @@
 (in-package :cl-user)
 
+#-lispworks (error "This code requires Lispworks")
+
 (fli:define-foreign-function 
     (init-delectus "initDelectus" :source)
     ()

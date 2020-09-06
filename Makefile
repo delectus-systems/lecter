@@ -52,8 +52,8 @@ CFLAGS = "-D___LIBRARY -mmacosx-version-min=10.12"
 DYLIB_FLAGS = "-D___LIBRARY -D___SHARED -mmacosx-version-min=10.12"
 
 dylib: compile_scheme
-	${GSC} -obj -cc-options ${DYLIB_FLAGS} ${C_SOURCES} initDelectus.c
-	${GCC} -L${GSC_LIB} -lgambit -dynamiclib ${OBJS} initDelectus.o -install_name libDelectus.dylib -o libDelectus.dylib
+	${GSC} -obj -cc-options ${DYLIB_FLAGS} ${C_SOURCES} src/initDelectus.c
+	${GCC} -L${GSC_LIB} -lgambit -dynamiclib ${OBJS} src/initDelectus.o -install_name libDelectus.dylib -o libDelectus.dylib
 
 lib: obj
 	ar rc ${LIB} ${OBJS} && ranlib ${LIB}
@@ -75,8 +75,12 @@ clean:
 	rm -f libDelectus.dylib
 	rm -f ${C_SOURCES}
 	rm -f ${OBJS}
+	rm -f src/*.o
 	rm -f src/*.o1
 	rm -f src/*.o2
+	rm -f scm/*.o
+	rm -f scm/*.o1
+	rm -f scm/*.o2
 	rm -f *.o
 	rm -f *.o1
 	rm -f *.o2
