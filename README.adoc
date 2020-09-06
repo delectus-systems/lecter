@@ -1,0 +1,13 @@
+= libDelectus
+:toc:
+
+## Building and using
+
+`make lib` to build `libDelectus.a`. Use by statically linking to an Objective-C application project.
+
+`make exe` to build `lecter`, a command-line tool for reading and converting Delectus data files. Run `lecter` with no argument for help using it.
+
+`make dylib` to build `libDelectus.dylib`, the Delectus data engine as a dynamically-loadable library. Use by loading the library, calling initDelectus(), and then using the C functions declared in `include/Delectus.h`.
+
+Tested in Lispworks using the code in `testdelectus.lisp`.
+
