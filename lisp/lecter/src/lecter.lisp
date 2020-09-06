@@ -12,7 +12,7 @@
   (fli:register-module $libdelectus-path))
 
 ;;; ---------------------------------------------------------------------
-;;; define Delectus api functions
+;;; Delectus library api functions
 ;;; ---------------------------------------------------------------------
 
 ;;; gambit APIs
@@ -44,7 +44,7 @@
   :language :ansi-c)
 
 ;;; ---------------------------------------------------------------------
-;;; wrap Delectus APIs in lispier functions
+;;; higher-level (lispier) wrapper functions
 ;;; ---------------------------------------------------------------------
 
 (defun get-delectus-version ()
