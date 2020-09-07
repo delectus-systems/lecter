@@ -17,8 +17,6 @@
          (cons $libdelectus-path cffi:*foreign-library-directories*)))
     (use-foreign-library libdelectus)))
 
-;;; (load-libDelectus)
-
 ;;; ---------------------------------------------------------------------
 ;;; Delectus library API constants
 ;;; ---------------------------------------------------------------------
@@ -74,6 +72,7 @@
 (defcfun ("read_delectus_file" %read-delectus-file) :int (path :string))
 
 
+;;; (load-libDelectus)
 ;;; (%init-delectus)
 ;;; (setf $v (%delectus-version))
 ;;; (setf $movies-path "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus")
