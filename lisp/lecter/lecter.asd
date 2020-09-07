@@ -10,7 +10,6 @@
     :components ((:module "src"
                           :serial t
                           :components ((:file "package")
-                                       #+sbcl (:file "sbcl")
-                                       #+lispworks (:file "lispworks")))))
+                                       (:file "cffi")))))
 
 ;;; (asdf:load-system :lecter)

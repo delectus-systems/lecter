@@ -1,4 +1,5 @@
-;;;; lecter.lisp
+;;;; cffi.lisp
+;;;; cffi wrapper on the Delectus APIs
 
 (in-package #:lecter)
 
@@ -55,13 +56,19 @@
 ;;; ---------------------------------------------------------------------
 
 ;;; gambit APIs
+;;; -----------
 
 (defcfun ("___release_string" %release-string) :void (s :string))
 
 ;;; Delectus APIs
+;;; -------------
+
+;;; init the library
 
 (defcfun ("initDelectus" %init-delectus) :int)
 (defcfun ("finalizeDelectus" %finalize-delectus) :int)
+
+;;; Delectus APIs
 
 (defcfun ("version" %delectus-version) :string)
 (defcfun ("new_delectus" %new-delectus) :int)
@@ -69,8 +76,13 @@
 (defcfun ("update_view" %update-view) :int
   (d :int include-deleted :bool sort-column :string sort-order :int filter-text :string))
 (defcfun ("count_columns" %count-columns) :int (d :int))
-(defcfun ("read_delectus_file" %read-delectus-file) :int (path :string))
+(defcfun ("count_deleted_columns" %count-deleted-columns) :int (d :int))
+(defcfun ("column_at_index" %column-at-index) :string (d :int) (index :int))
+(defcfun ("sort_column" %sort-column) :string (d :int))
+(defcfun ("sort_order" %sort-order) :int (d :int))
+(defcfun ("include_deleted" %include-deleted) :bool (d :int))
 
+(defcfun ("read_delectus_file" %read-delectus-file) :int (path :string))
 
 ;;; (load-libDelectus)
 ;;; (%init-delectus)
@@ -78,3 +90,8 @@
 ;;; (setf $movies-path "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus")
 ;;; (setf $id (with-foreign-string (s $movies-path)(%read-delectus-file s)))
 ;;; (%count-columns $id)
+;;; (%count-deleted-columns $id)
+;;; (%column-at-index $id 8)
+;;; (%sort-column $id)
+;;; (%sort-order $id)
+;;; (%include-deleted $id)
