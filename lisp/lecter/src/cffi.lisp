@@ -3,6 +3,10 @@
 
 (in-package #:lecter)
 
+;;; NOTE: works with on macOS with SBCL, Lispworks, and CCL
+;;; with ECL, attempting (%init-delectus) signals the error "resource
+;;; temporarily unavailable"
+
 ;;; ---------------------------------------------------------------------
 ;;; load and initialize the delectus library
 ;;; ---------------------------------------------------------------------
@@ -91,7 +95,7 @@
 ;;; (setf $id (with-foreign-string (s $movies-path)(%read-delectus-file s)))
 ;;; (%count-columns $id)
 ;;; (%count-deleted-columns $id)
-;;; (%column-at-index $id 8)
+;;; (%column-at-index $id 7)
 ;;; (%sort-column $id)
 ;;; (%sort-order $id)
 ;;; (%include-deleted $id)
