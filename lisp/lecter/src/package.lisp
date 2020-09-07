@@ -1,4 +1,4 @@
 ;;;; package.lisp
 
 (defpackage #:lecter
-  (:use #:cl))
+  (:use #:cl #:cffi))
