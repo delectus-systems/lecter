@@ -90,6 +90,12 @@
 (defcfun ("count_rows" %count-rows) :int (d :int))
 (defcfun ("count_deleted_rows" %count-deleted-rows) :int (d :int))
 (defcfun ("value_at" %value-at) :string (d :int)(column-label :string)(row-index :int))
+(defcfun ("put_value_at" %put-value-at) :int (d :int)(column-label :string)(row-index :int)(value :string))
+(defcfun ("add_row" %add-row) :int (d :int))
+(defcfun ("add_column" %add-column) :int (d :int)(label :string))
+(defcfun ("rename_column" %rename-column) :int (d :int)(old-label :string)(new-label :string))
+(defcfun ("is_column_deleted" %column-deleted?) :bool (d :int)(label :string))
+(defcfun ("is_duplicate_label" %duplicate-column-label?) :bool (d :int)(label :string))
 
 (defcfun ("read_delectus_file" %read-delectus-file) :int (path :string))
 
@@ -109,3 +115,5 @@
 ;;; (%count-rows $id)
 ;;; (%count-deleted-rows $id)
 ;;; (%value-at $id "Title" 900)
+;;; (%column-deleted? $id "Title")
+;;; (%duplicate-column-label? $id "Title")
