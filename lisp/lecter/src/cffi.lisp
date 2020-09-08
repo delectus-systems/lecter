@@ -98,9 +98,12 @@
 (defcfun ("is_duplicate_label" %duplicate-column-label?) :bool (d :int)(label :string))
 (defcfun ("mark_column_deleted" %mark-column-deleted) :int (d :int)(label :string)(deleted? :bool))
 (defcfun ("is_row_deleted" %row-deleted?) :bool (d :int)(row-index :int))
-(defcfun ("mark_row_deleted" %row-deleted?) :int (d :int)(row-index :int)(deleted? :bool))
-
+(defcfun ("mark_row_deleted" %mark-row-deleted) :int (d :int)(row-index :int)(deleted? :bool))
+(defcfun ("compact_delectus" %compact-delectus) :int (d :int))
+(defcfun ("write_delectus_file" %write-delectus-file) :int (d :int)(path :string))
 (defcfun ("read_delectus_file" %read-delectus-file) :int (path :string))
+(defcfun ("write_delectus_csv" %write-delectus-csv) :int (d :int)(path :string))
+(defcfun ("read_delectus_csv" %read-delectus-csv) :int (path :string))
 
 ;;; (load-libDelectus)
 ;;; (%init-delectus)
