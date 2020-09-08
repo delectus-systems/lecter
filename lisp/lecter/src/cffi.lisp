@@ -111,7 +111,7 @@
 
 ;;; (setf $movies-path "/Users/mikel/Desktop/Movies.delectus")
 ;;; (setf $id (with-foreign-string (s $movies-path)(%read-delectus-file s)))
-;;; (with-foreign-strings ((col "Title")(filter "foo"))(%update-view $id nil col $SORT_DESCENDING filter))
+;;; (with-foreign-strings ((col "Title")(filter ""))(%update-view $id nil col $SORT_ASCENDING filter))
 ;;; (%count-columns $id)
 ;;; (%count-deleted-columns $id)
 ;;; (%column-at-index $id 0)
@@ -123,6 +123,7 @@
 ;;; (%count-rows $id)
 ;;; (%count-deleted-rows $id)
 ;;; (%value-at $id "Title" 0)
+;;; (with-foreign-string (s "Twelve Angry Men")(%put-value-at $id "Title" 0 s))
 ;;; (%column-deleted? $id "Title")
 ;;; (%duplicate-column-label? $id "Title")
 ;;; (%row-deleted? $id 2)
