@@ -96,6 +96,9 @@
 (defcfun ("rename_column" %rename-column) :int (d :int)(old-label :string)(new-label :string))
 (defcfun ("is_column_deleted" %column-deleted?) :bool (d :int)(label :string))
 (defcfun ("is_duplicate_label" %duplicate-column-label?) :bool (d :int)(label :string))
+(defcfun ("mark_column_deleted" %mark-column-deleted) :int (d :int)(label :string)(deleted? :bool))
+(defcfun ("is_row_deleted" %row-deleted?) :bool (d :int)(row-index :int))
+(defcfun ("mark_row_deleted" %row-deleted?) :int (d :int)(row-index :int)(deleted? :bool))
 
 (defcfun ("read_delectus_file" %read-delectus-file) :int (path :string))
 
@@ -117,3 +120,4 @@
 ;;; (%value-at $id "Title" 900)
 ;;; (%column-deleted? $id "Title")
 ;;; (%duplicate-column-label? $id "Title")
+;;; (%row-deleted? $id 2)
