@@ -3,9 +3,9 @@
 
 (in-package #:lecter)
 
-;;; NOTE: works with on macOS with SBCL, Lispworks, and CCL
-;;; with ECL, attempting (%init-delectus) signals the error "resource
-;;; temporarily unavailable"
+;;; NOTE: works with on macOS with SBCL, Lispworks, and CCL with ECL,
+;;; the code works, but (%init-delectus) screws up Slime's streams so
+;;; that emacs stops being able to interact with the lisp
 
 ;;; ---------------------------------------------------------------------
 ;;; load and initialize the delectus library
