@@ -11,4 +11,4 @@
 (in-package #:cl-user)
 
 (defpackage #:lecter
-  (:use #:cl #:cffi))
+  (:use #:cl #:cffi #:sqlite))

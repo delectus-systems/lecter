@@ -16,7 +16,7 @@
     :license  "Apache 2.0"
     :version "1.5.2"
     :serial t
-    :depends-on (:cffi)
+    :depends-on (:cffi :sqlite)
     :components ((:module "src"
                           :serial t
                           :components ((:file "package")
