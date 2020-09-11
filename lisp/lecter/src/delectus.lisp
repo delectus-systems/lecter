@@ -22,9 +22,6 @@
 (defparameter *pathname->document-id-table* (make-hash-table :test 'equal))
 (defparameter *document-id->pathname-table* (make-hash-table :test 'eql))
 
-(defmethod read-delectus-v1-file ((path pathname))
-  (read-delectus-v1-file (namestring path)))
-
 (defmethod read-delectus-v1-file ((path string))
   (let ((docid (with-foreign-string (s path)
                  (%read-delectus-file s))))
@@ -36,6 +33,9 @@
                      path)
                docid))))
 
+(defmethod read-delectus-v1-file ((path pathname))
+  (read-delectus-v1-file (namestring path)))
+
 (defmethod pathname->document-id ((path string))
   (gethash path *pathname->document-id-table* nil))
 
@@ -46,5 +46,14 @@
   (gethash docid *document-id->pathname-table* nil))
 
 ;;; (init-delectus)
-;;; (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus")
-;;; (document-id->pathname 2)
+;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
+;;; (document-id->pathname $id)
+
+(defmethod document-id->columns ((docid integer))
+  (assert (stringp (document-id->pathname docid))()
+          "No document id ~S" docid)
+  (let ((col-count (%count-columns docid)))
+    (loop for i from 0 below col-count
+       collect (%column-at-index docid i))))
+
+;;; (document-id->columns $id)
