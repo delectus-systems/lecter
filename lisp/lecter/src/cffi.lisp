@@ -117,6 +117,8 @@
 ;;; (setf $v (%delectus-version))
 
 ;;; (setf $movies-path "/Users/mikel/Desktop/Movies.delectus")
+;;; intentional failure:
+;;; (setf $id (with-foreign-string (s ".emacs")(%read-delectus-file s)))
 ;;; (setf $id (with-foreign-string (s $movies-path)(%read-delectus-file s)))
 ;;; (with-foreign-strings ((col "Title")(filter ""))(%update-view $id nil col $SORT_ASCENDING filter))
 ;;; (%count-columns $id)

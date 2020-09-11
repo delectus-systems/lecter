@@ -20,7 +20,9 @@
     :components ((:module "src"
                           :serial t
                           :components ((:file "package")
-                                       (:file "cffi")))))
+                                       (:file "cffi")
+                                       (:file "sqlite")
+                                       (:file "delectus")))))
 
 ;;; (asdf:load-system :lecter)
 ;;; (ql:quickload :lecter)
