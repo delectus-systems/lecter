@@ -1,4 +1,13 @@
-;;;; lecter.lisp
+;;;; ***********************************************************************
+;;;;
+;;;; Name:          lispworks.lisp
+;;;; Project:       lecter: Delectus 1.x as a library
+;;;; Purpose:       lispworks-specific FFI wrappers
+;;;;                included for reference; cffi.lisp makes this code unnecessary
+;;;; Author:        mikel evins
+;;;; Copyright:     2020 by mikel evins
+;;;;
+;;;; ***********************************************************************
 
 (in-package #:lecter)
 

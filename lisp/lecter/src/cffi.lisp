@@ -1,5 +1,12 @@
-;;;; cffi.lisp
-;;;; cffi wrapper on the Delectus APIs
+;;;; ***********************************************************************
+;;;;
+;;;; Name:          cffi.lisp
+;;;; Project:       lecter: Delectus 1.x as a library
+;;;; Purpose:       cffi wrapper on the Delectus APIs
+;;;; Author:        mikel evins
+;;;; Copyright:     2020 by mikel evins
+;;;;
+;;;; ***********************************************************************
 
 (in-package #:lecter)
 
