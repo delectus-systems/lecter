@@ -88,3 +88,4 @@
   (sqlite-table-column-info (pathname path) table-name))
 
 ;;; (sqlite-table-column-info $testpath "kinder_data")
+
