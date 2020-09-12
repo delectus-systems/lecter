@@ -15,9 +15,13 @@
 (defun init-delectus ()
   (if *delectus-initialized*
       nil
-      (progn (load-libDelectus)
-             (%init-delectus)
-             (setf *delectus-initialized* t))))
+      (handler-case (progn (load-libDelectus)
+                           (%init-delectus)
+                           (setf *delectus-initialized* t))
+        (error (err)
+          (delectus-error "Failed to load libDelectus"
+                          :error err
+                          :code $ERR_UNKNOWN_ERROR)))))
 
 (defvar *pathname->document-id-table* (make-hash-table :test 'equal))
 (defvar *document-id->pathname-table* (make-hash-table :test 'eql))
@@ -26,12 +30,15 @@
   (let ((docid (with-foreign-string (s path)
                  (%read-delectus-file s))))
     (if (equal docid $OBJ_NO_OID)
-        (error "Unable to read file: ~S" path)
+        (delectus-error (format nil "Unable to read file: ~S" path)
+                        $ERR_CANT_READ)
         (progn (setf (gethash path *pathname->document-id-table*)
                      docid)
                (setf (gethash docid *document-id->pathname-table*)
                      path)
                docid))))
+
+;;; (read-delectus-v1-file "~/.emacs")
 
 (defmethod read-delectus-v1-file ((path pathname))
   (read-delectus-v1-file (namestring path)))

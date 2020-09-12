@@ -27,6 +27,7 @@
 (defun load-libDelectus ()
   (let ((cffi:*foreign-library-directories*
          (cons $libdelectus-path cffi:*foreign-library-directories*)))
+    ;; signals cffi:load-foreign-library-error on failure
     (use-foreign-library libdelectus)))
 
 ;;; ---------------------------------------------------------------------

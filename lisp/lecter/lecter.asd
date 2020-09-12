@@ -22,6 +22,7 @@
                           :components ((:file "package")
                                        (:file "cffi")
                                        (:file "sqlite")
+                                       (:file "conditions")
                                        (:file "delectus")))))
 
 ;;; (asdf:load-system :lecter)
