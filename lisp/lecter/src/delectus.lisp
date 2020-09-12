@@ -19,8 +19,8 @@
              (%init-delectus)
              (setf *delectus-initialized* t))))
 
-(defparameter *pathname->document-id-table* (make-hash-table :test 'equal))
-(defparameter *document-id->pathname-table* (make-hash-table :test 'eql))
+(defvar *pathname->document-id-table* (make-hash-table :test 'equal))
+(defvar *document-id->pathname-table* (make-hash-table :test 'eql))
 
 (defmethod read-delectus-v1-file ((path string))
   (let ((docid (with-foreign-string (s path)
@@ -49,6 +49,19 @@
 ;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
 ;;; (document-id->pathname $id)
 
+(defmethod ensure-valid-docid ((id integer))
+  (multiple-value-bind (path found?)(document-id->pathname id)
+    (assert found? () "The docid ~S was not found" id)
+    (assert (uiop:file-pathname-p path)() "The value ~S is not a valid file pathname" path)
+    (assert (probe-file path)() "The pathname ~S does not name an existing file" path)
+    path))
+
+(defmethod document-id->column-count ((docid integer))
+  (ensure-valid-docid docid)
+  (%count-columns docid))
+
+;;; (document-id->column-count $id)
+
 (defmethod document-id->columns ((docid integer))
   (assert (stringp (document-id->pathname docid))()
           "No document id ~S" docid)
@@ -57,3 +70,4 @@
        collect (%column-at-index docid i))))
 
 ;;; (document-id->columns $id)
+
