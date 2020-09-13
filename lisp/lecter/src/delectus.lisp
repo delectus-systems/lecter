@@ -113,6 +113,15 @@
 
 ;;; (document-id->row-count $id)
 
+(defmethod document-row-at ((docid integer)(row-index integer))
+  (ensure-valid-docid docid)
+  (let ((cols (document-id->columns docid)))
+    (loop for lbl in cols
+       collect (with-foreign-string (col lbl)
+                 (with-released-string+ptr
+                   (%value-at docid col row-index))))))
+
+;;; (document-row-at $id 900)
 
 ;;; ---------------------------------------------------------------------
 ;;;  read and write fields
