@@ -16,7 +16,7 @@
 ;;; function naming conventions:
 ;;;   db-sqlite-foo: requires a valid, open sqlite handle as an argument
 ;;;   sqlite-foo: operates on a string or pathname that names a sqlite file;
-;;;   calls db-sqlite-foo with with-open-database
+;;;   calls with-open-database to create an open sqlite handle
 
 ;;; GENERIC FUNCTION sqlite-library-version (path)
 ;;; ---------------------------------------------------------------------
