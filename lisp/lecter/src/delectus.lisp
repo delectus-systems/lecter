@@ -56,11 +56,8 @@
 ;;; (document-id->pathname $id)
 
 (defun delectus-version ()
-  (let* ((version-data (%delectus-version))
-         (version-string (first version-data))
-         (version-ptr (second version-data)))
-    (%release-string version-ptr)
-    version-string))
+  (with-released-string+ptr
+    (%delectus-version)))
 
 ;;; (delectus-version)
 
