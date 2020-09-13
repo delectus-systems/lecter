@@ -73,13 +73,14 @@
   (%count-columns docid))
 
 ;;; (document-id->column-count $id)
-;;; (macroexpand '(%column-at-index $id 0))
+;;; (%column-at-index $id 0)
 
 (defmethod document-id->columns ((docid integer))
   (ensure-valid-docid docid)
   (let ((col-count (%count-columns docid)))
     (loop for i from 0 below col-count
-       collect (%column-at-index docid i))))
+       collect (with-released-string+ptr
+                 (%column-at-index docid i)))))
 
 ;;; (document-id->columns $id)
 
@@ -98,6 +99,7 @@
 (defmethod document-value-at ((docid integer)(column-label string)(row-index integer))
   (ensure-valid-docid docid)
   (with-foreign-string (col column-label)
-    (%value-at docid col row-index)))
+    (with-released-string+ptr
+      (%value-at docid col row-index))))
 
-;;; (document-value-at $id "Title" 4)
+;;; (document-value-at $id "Title" 40)
