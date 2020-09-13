@@ -10,6 +10,14 @@
 
 (in-package #:lecter)
 
+;;; ---------------------------------------------------------------------
+;;; ABOUT
+;;; ---------------------------------------------------------------------
+;;; function naming conventions:
+;;;   db-sqlite-foo: requires a valid, open sqlite handle as an argument
+;;;   sqlite-foo: operates on a string or pathname that names a sqlite file;
+;;;   calls db-sqlite-foo with with-open-database
+
 ;;; GENERIC FUNCTION sqlite-library-version (path)
 ;;; ---------------------------------------------------------------------
 ;;; check the SQLite library's version. 
