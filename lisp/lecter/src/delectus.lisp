@@ -55,6 +55,15 @@
 ;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
 ;;; (document-id->pathname $id)
 
+(defun delectus-version ()
+  (let* ((version-data (%delectus-version))
+         (version-string (first version-data))
+         (version-ptr (second version-data)))
+    (%release-string version-ptr)
+    version-string))
+
+;;; (delectus-version)
+
 (defmethod ensure-valid-docid ((id integer))
   (multiple-value-bind (path found?)(document-id->pathname id)
     (assert found? () "The docid ~S was not found" id)
@@ -67,6 +76,7 @@
   (%count-columns docid))
 
 ;;; (document-id->column-count $id)
+;;; (macroexpand '(%column-at-index $id 0))
 
 (defmethod document-id->columns ((docid integer))
   (ensure-valid-docid docid)

@@ -82,7 +82,7 @@
 
 ;;; Delectus APIs
 
-(defcfun ("version" %delectus-version) :string)
+(defcfun ("version" %delectus-version) :string+ptr)
 (defcfun ("new_delectus" %new-delectus) :int)
 (defcfun ("release_delectus" %release-delectus) :int (d :int))
 (defcfun ("update_view" %update-view) :int
