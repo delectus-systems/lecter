@@ -38,8 +38,6 @@
                      path)
                docid))))
 
-;;; (read-delectus-v1-file "~/.emacs")
-
 (defmethod read-delectus-v1-file ((path pathname))
   (read-delectus-v1-file (namestring path)))
 
@@ -53,6 +51,7 @@
   (gethash docid *document-id->pathname-table* nil))
 
 ;;; (init-delectus)
+;;; (read-delectus-v1-file "~/.emacs")
 ;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
 ;;; (document-id->pathname $id)
 
@@ -70,11 +69,28 @@
 ;;; (document-id->column-count $id)
 
 (defmethod document-id->columns ((docid integer))
-  (assert (stringp (document-id->pathname docid))()
-          "No document id ~S" docid)
+  (ensure-valid-docid docid)
   (let ((col-count (%count-columns docid)))
     (loop for i from 0 below col-count
        collect (%column-at-index docid i))))
 
 ;;; (document-id->columns $id)
 
+(defmethod document-column-index ((docid integer)(column-label string))
+  (ensure-valid-docid docid)
+  (position column-label (document-id->columns docid) :test #'equal))
+
+;;; (document-column-index $id "NOPE!")
+
+(defmethod document-id->row-count ((docid integer))
+  (ensure-valid-docid docid)
+  (%count-rows docid))
+
+;;; (document-id->row-count $id)
+
+(defmethod document-value-at ((docid integer)(column-label string)(row-index integer))
+  (ensure-valid-docid docid)
+  (with-foreign-string (col column-label)
+    (%value-at docid col row-index)))
+
+;;; (document-value-at $id "Title" 4)
