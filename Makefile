@@ -69,6 +69,20 @@ obj: compile_scheme
 compile_scheme:
 	${GSC} -link ${SCHEME_SOURCES}
 
+tidy:
+	rm -f ${C_SOURCES}
+	rm -f ${OBJS}
+	rm -f src/*.o
+	rm -f src/*.o1
+	rm -f src/*.o2
+	rm -f scm/*.o
+	rm -f scm/*.o1
+	rm -f scm/*.o2
+	rm -f *.o
+	rm -f *.o1
+	rm -f *.o2
+	rm -f *~
+
 clean:
 	rm -f lecter
 	rm -f libDelectus.a
