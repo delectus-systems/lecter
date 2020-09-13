@@ -1,9 +1,11 @@
 # lecter
-### _Your Name <your.name@example.com>_
+### _mikel evins <mikel@evins.net>_
 
-This is a project to do ... something.
+The Delectus 1.x data engine as a static and dynamic library, plus
+Common Lisp code to work with it.
 
 ## License
 
-Specify license here
+Apache 2.0
+
 
