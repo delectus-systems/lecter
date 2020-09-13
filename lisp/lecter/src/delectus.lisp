@@ -86,7 +86,6 @@
   (%count-columns docid))
 
 ;;; (document-id->column-count $id)
-;;; (%column-at-index $id 0)
 
 (defmethod document-id->columns ((docid integer))
   (ensure-valid-docid docid)
@@ -121,7 +120,18 @@
                  (with-released-string+ptr
                    (%value-at docid col row-index))))))
 
-;;; (document-row-at $id 900)
+;;; (time (document-row-at $id 900))
+
+(defmethod document-rows ((docid integer) &key (start 0)(end nil))
+  (ensure-valid-docid docid)
+  (assert (>= start 0)() ":START must be an integer greater than or equal to zero")
+  (let ((end (or end (document-id->row-count docid))))
+    (assert (>= end 0)() ":END must be an integer greater than or equal to zero")
+    (assert (>= end start)() ":END must be an integer greater than or equal to :START")
+    (loop for i from start below end
+       collect (document-row-at docid i))))
+
+;;; (time (document-rows $id))
 
 ;;; ---------------------------------------------------------------------
 ;;;  read and write fields
