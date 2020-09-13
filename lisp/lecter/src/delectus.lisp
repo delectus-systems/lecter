@@ -12,6 +12,10 @@
 
 (defvar *delectus-initialized* nil)
 
+;;; ---------------------------------------------------------------------
+;;; init libDelectus
+;;; ---------------------------------------------------------------------
+
 (defun init-delectus ()
   (if *delectus-initialized*
       nil
@@ -22,6 +26,16 @@
           (delectus-error "Failed to load libDelectus"
                           :error err
                           :code $ERR_UNKNOWN_ERROR)))))
+
+(defun delectus-version ()
+  (with-released-string+ptr
+    (%delectus-version)))
+
+;;; (delectus-version)
+
+;;; ---------------------------------------------------------------------
+;;; read Delectus1 files
+;;; ---------------------------------------------------------------------
 
 (defvar *pathname->document-id-table* (make-hash-table :test 'equal))
 (defvar *document-id->pathname-table* (make-hash-table :test 'eql))
@@ -55,18 +69,17 @@
 ;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
 ;;; (document-id->pathname $id)
 
-(defun delectus-version ()
-  (with-released-string+ptr
-    (%delectus-version)))
-
-;;; (delectus-version)
-
 (defmethod ensure-valid-docid ((id integer))
   (multiple-value-bind (path found?)(document-id->pathname id)
     (assert found? () "The docid ~S was not found" id)
     (assert (uiop:file-pathname-p path)() "The value ~S is not a valid file pathname" path)
     (assert (probe-file path)() "The pathname ~S does not name an existing file" path)
     path))
+
+
+;;; ---------------------------------------------------------------------
+;;;  get column data
+;;; ---------------------------------------------------------------------
 
 (defmethod document-id->column-count ((docid integer))
   (ensure-valid-docid docid)
@@ -90,11 +103,20 @@
 
 ;;; (document-column-index $id "NOPE!")
 
+;;; ---------------------------------------------------------------------
+;;;  get row data
+;;; ---------------------------------------------------------------------
+
 (defmethod document-id->row-count ((docid integer))
   (ensure-valid-docid docid)
   (%count-rows docid))
 
 ;;; (document-id->row-count $id)
+
+
+;;; ---------------------------------------------------------------------
+;;;  read and write fields
+;;; ---------------------------------------------------------------------
 
 (defmethod document-value-at ((docid integer)(column-label string)(row-index integer))
   (ensure-valid-docid docid)
