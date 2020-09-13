@@ -87,18 +87,18 @@
 
 ;;; (document-id->column-count $id)
 
-(defmethod document-id->columns ((docid integer))
+(defmethod document-columns ((docid integer))
   (ensure-valid-docid docid)
   (let ((col-count (%count-columns docid)))
     (loop for i from 0 below col-count
        collect (with-released-string+ptr
                  (%column-at-index docid i)))))
 
-;;; (document-id->columns $id)
+;;; (document-columns $id)
 
 (defmethod document-column-index ((docid integer)(column-label string))
   (ensure-valid-docid docid)
-  (position column-label (document-id->columns docid) :test #'equal))
+  (position column-label (document-columns docid) :test #'equal))
 
 ;;; (document-column-index $id "NOPE!")
 
@@ -114,7 +114,7 @@
 
 (defmethod document-row-at ((docid integer)(row-index integer))
   (ensure-valid-docid docid)
-  (let ((cols (document-id->columns docid)))
+  (let ((cols (document-columns docid)))
     (loop for lbl in cols
        collect (with-foreign-string (col lbl)
                  (with-released-string+ptr
