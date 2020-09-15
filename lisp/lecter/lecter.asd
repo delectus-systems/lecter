@@ -22,6 +22,7 @@
                           :components ((:file "package")
                                        (:file "cffi")
                                        (:file "sqlite")
+                                       (:file "utils")
                                        (:file "conditions")
                                        (:file "delectus")))))
 

@@ -133,6 +133,12 @@
 
 ;;; (time (document-rows $id))
 
+;;; (init-delectus)
+;;; (time (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/zipcode.delectus")))
+;;; (document-id->pathname $id)
+;;; (time (progn (setf $rows (document-rows $id)) 'done))
+
+
 ;;; ---------------------------------------------------------------------
 ;;;  read and write fields
 ;;; ---------------------------------------------------------------------
@@ -144,3 +150,16 @@
       (%value-at docid col row-index))))
 
 ;;; (document-value-at $id "Title" 40)
+
+;;; ---------------------------------------------------------------------
+;;; convert to csv
+;;; ---------------------------------------------------------------------
+
+(defmethod write-to-csv ((docid integer)(out-path string))
+  (with-foreign-string (out out-path)
+    (%write-delectus-csv docid out)))
+
+(defmethod write-to-csv ((docid integer)(out-path pathname))
+  (write-to-csv docid (namestring out-path)))
+
+;;; (time (write-to-csv $id "/Users/mikel/Desktop/testzips.csv"))
