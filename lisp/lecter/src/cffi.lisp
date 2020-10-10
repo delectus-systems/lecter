@@ -10,9 +10,9 @@
 
 (in-package #:lecter)
 
-;;; NOTE: works with on macOS with SBCL, Lispworks, and CCL with ECL,
-;;; the code works, but (%init-delectus) screws up Slime's streams so
-;;; that emacs stops being able to interact with the lisp
+;;; NOTE: works with on macOS with SBCL, Lispworks, and CCL
+;;; with ECL, the code works, but (%init-delectus) screws up Slime's
+;;; streams so that emacs stops being able to interact with the lisp
 
 ;;; ---------------------------------------------------------------------
 ;;; load and initialize the delectus library
@@ -118,6 +118,7 @@
 ;;; (setf $v (%delectus-version))
 
 ;;; (setf $movies-path "/Users/mikel/Desktop/Movies.delectus")
+;;; (setf $movies-path "/Users/mikel/Workshop/src/delectus/test-data//Movies.delectus")
 ;;; intentional failure:
 ;;; (setf $id (with-foreign-string (s ".emacs")(%read-delectus-file s)))
 ;;; (setf $id (with-foreign-string (s $movies-path)(%read-delectus-file s)))
