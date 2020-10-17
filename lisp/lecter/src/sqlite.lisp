@@ -79,6 +79,7 @@
 (defmethod sqlite-list-tables ((path string))
   (sqlite-list-tables (pathname path)))
 
+;;; (defparameter $testpath (uiop:native-namestring "~//Workshop/data/kinder/kinder_data.sqlite3"))
 ;;; (sqlite-list-tables $testpath)
 
 ;;; GENERIC FUNCTION sqlite-list-table-column-info (path table-name)
@@ -96,5 +97,5 @@
 (defmethod sqlite-table-column-info ((path string) (table-name string))
   (sqlite-table-column-info (pathname path) table-name))
 
+;;; (defparameter $testpath (uiop:native-namestring "~//Workshop/data/kinder/kinder_data.sqlite3"))
 ;;; (sqlite-table-column-info $testpath "kinder_data")
-

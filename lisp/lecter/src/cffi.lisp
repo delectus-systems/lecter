@@ -117,7 +117,6 @@
 ;;; (%init-delectus)
 ;;; (setf $v (%delectus-version))
 
-;;; (setf $movies-path "/Users/mikel/Desktop/Movies.delectus")
 ;;; (setf $movies-path "/Users/mikel/Workshop/src/delectus/test-data//Movies.delectus")
 ;;; intentional failure:
 ;;; (setf $id (with-foreign-string (s ".emacs")(%read-delectus-file s)))

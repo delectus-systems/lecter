@@ -31,6 +31,7 @@
   (with-released-string+ptr
     (%delectus-version)))
 
+;;; (init-delectus)
 ;;; (delectus-version)
 
 ;;; ---------------------------------------------------------------------
@@ -94,13 +95,16 @@
        collect (with-released-string+ptr
                  (%column-at-index docid i)))))
 
+;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
 ;;; (document-columns $id)
 
 (defmethod document-column-index ((docid integer)(column-label string))
   (ensure-valid-docid docid)
   (position column-label (document-columns docid) :test #'equal))
 
+;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
 ;;; (document-column-index $id "NOPE!")
+;;; (document-column-index $id "Star")
 
 ;;; ---------------------------------------------------------------------
 ;;;  get row data
@@ -110,6 +114,7 @@
   (ensure-valid-docid docid)
   (%count-rows docid))
 
+;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
 ;;; (document-id->row-count $id)
 
 (defmethod document-row-at ((docid integer)(row-index integer))
@@ -120,6 +125,7 @@
                  (with-released-string+ptr
                    (%value-at docid col row-index))))))
 
+;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
 ;;; (time (document-row-at $id 900))
 
 (defmethod document-rows ((docid integer) &key (start 0)(end nil))
@@ -131,12 +137,15 @@
     (loop for i from start below end
        collect (document-row-at docid i))))
 
+;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
 ;;; (time (document-rows $id))
 
 ;;; (init-delectus)
 ;;; (time (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/zipcode.delectus")))
 ;;; (document-id->pathname $id)
 ;;; (time (progn (setf $rows (document-rows $id)) 'done))
+;;; (length $rows)
+;;; (elt $rows (random (length $rows)))
 
 
 ;;; ---------------------------------------------------------------------
@@ -149,6 +158,7 @@
     (with-released-string+ptr
       (%value-at docid col row-index))))
 
+;;; (time (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/zipcode.delectus")))
 ;;; (document-value-at $id "Title" 40)
 
 ;;; ---------------------------------------------------------------------
@@ -162,4 +172,5 @@
 (defmethod write-to-csv ((docid integer)(out-path pathname))
   (write-to-csv docid (namestring out-path)))
 
+;;; (time (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/zipcode.delectus")))
 ;;; (time (write-to-csv $id "/Users/mikel/Desktop/testzips.csv"))
