@@ -21,6 +21,8 @@
 
 ;;; (template-environment '(:NAME "Fred" :DAY "Tuesday"))
 
+;;; because we use SYMBOL-NAME to convert keywords to template variables,
+;;; the template expressions must capitalize the variable names
 (defmethod parse-template ((template string) &rest bindings)
   (funcall *template-parser* template (template-environment bindings)))
 
