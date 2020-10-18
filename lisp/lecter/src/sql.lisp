@@ -12,7 +12,16 @@
 
 
 (defvar *template-parser* (cl-strings:make-template-parser "{{" "}}"))
-(defmethod parse-template ((template string) &rest bindings)
-  (funcall *template-parser* template (plist-to-alist bindings)))
 
-;;; (parse-template "Hello {{name}}, it's {{day}}" "name" "Fred" "day" "Tuesday")
+(defun template-environment (bindings-plist)
+  (mapcar (lambda (binding)
+            (cons (symbol-name (car binding))
+                  (cdr binding)))
+          (plist-to-alist bindings-plist)))
+
+;;; (template-environment '(:NAME "Fred" :DAY "Tuesday"))
+
+(defmethod parse-template ((template string) &rest bindings)
+  (funcall *template-parser* template (template-environment bindings)))
+
+;;; (parse-template "Hello {{NAME}}, it's {{DAY}}" :NAME "Fred" :DAY "Tuesday")
