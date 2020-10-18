@@ -16,11 +16,12 @@
     :license  "Apache 2.0"
     :version "1.5.2"
     :serial t
-    :depends-on (:cffi :sqlite)
+    :depends-on (:cffi :sqlite :cl-strings)
     :components ((:module "src"
                           :serial t
                           :components ((:file "package")
                                        (:file "cffi")
+                                       (:file "sql")
                                        (:file "sqlite")
                                        (:file "utils")
                                        (:file "conditions")
