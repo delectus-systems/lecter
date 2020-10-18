@@ -23,6 +23,7 @@
 
 ;;; because we use SYMBOL-NAME to convert keywords to template variables,
 ;;; the template expressions must capitalize the variable names
+;;; by convention I also capitalize the keywords for visual congruence
 (defmethod parse-template ((template string) &rest bindings)
   (funcall *template-parser* template (template-environment bindings)))
 
