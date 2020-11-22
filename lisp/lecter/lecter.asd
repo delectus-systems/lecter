@@ -16,6 +16,13 @@
   (when (probe-file quicklisp-init)
     (load quicklisp-init)))
 
+#-abcl
+(eval-when (:compile-toplevel :load-toplevel :execute)
+  (ql:quickload :cffi))
+
+;;; needed in order to load :sqlite on Lispworks
+;;; ---------------------------------------------------------------------
+
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (ql:quickload :cffi))
 
@@ -23,6 +30,22 @@
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (pushnew (pathname "/usr/local/Cellar/sqlite/3.33.0/lib/")
            cffi:*foreign-library-directories*))
+
+;;; ---------------------------------------------------------------------
+
+;;; needed in order to load :sqlite and :hunchentoot on ABCL:
+;;; ---------------------------------------------------------------------
+
+#+abcl
+(setf abcl-asdf:*mvn-libs-directory* "/usr/local/Cellar/maven/3.6.3_1/libexec/lib/")
+
+#+abcl
+(asdf:defsystem :jna
+  :defsystem-depends-on (abcl-asdf)
+  :components ((:mvn "net.java.dev.jna/jna" :version "5.6.0")))
+
+;;; ---------------------------------------------------------------------
+
 
 (asdf:defsystem #:lecter
     :description "Lecter: reading Delectus 1.x files using libDelectus"
