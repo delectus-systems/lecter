@@ -19,7 +19,7 @@
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (ql:quickload :cffi))
 
-#+lispworks
+#+(and lispworks darwin)
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (pushnew (pathname "/usr/local/Cellar/sqlite/3.33.0/lib/")
            cffi:*foreign-library-directories*))
