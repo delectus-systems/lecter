@@ -63,7 +63,7 @@
                                        (:file "sqlite")
                                        (:file "utils")
                                        (:file "conditions")
-                                       (:file "delectus")))))
+                                       (:file "delectus1")))))
 
 ;;; (asdf:load-system :lecter)
 ;;; (ql:quickload :lecter)
