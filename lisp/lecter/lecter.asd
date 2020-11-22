@@ -35,6 +35,7 @@
 
 ;;; needed in order to load :sqlite and :hunchentoot on ABCL:
 ;;; ---------------------------------------------------------------------
+;;; NOTES: need Maven 3.x.x installed to make this work
 
 #+abcl
 (setf abcl-asdf:*mvn-libs-directory* "/usr/local/Cellar/maven/3.6.3_1/libexec/lib/")
