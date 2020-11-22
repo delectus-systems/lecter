@@ -1,0 +1,742 @@
+Alert,/console/admin,console,"<file name> not found. This file should only be missing on newly installed management consoles"""
+Alert,/console/admin,console,Audit log <file name> has been deleted
+Alert,/console/admin,console,"Audit log <file name> has no end marker. It may have been tampered, or the webapp may have crashed"
+Alert,/console/admin,console,Error accesing current log file <file name>
+Alert,/console/admin,console,Error accessing audit log <file name>
+Alert,/console/admin,console,Error adding entry to audit log <file name>
+Alert,/console/admin,console,Error creating signature for <file name>
+Alert,/console/admin,console,Error creating signer to sign current audit log file name - 
+Alert,/console/admin,console,Error creating signer using private key in <file name>
+Alert,/console/admin,console,Error creating verifier to verify signature on current audit log file name - 
+Alert,/console/admin,console,Error creating verifying using certificate in <file name>
+Alert,/console/admin,console,Error finalizing audit log on close - 
+Alert,/console/admin,console,Error opening audit log <file name>
+Alert,/console/admin,console,Error reading <file name>
+Alert,/console/admin,console,Error reading audit log <file name> - 
+Alert,/console/admin,console,Error reading certificate in <file name>
+Alert,/console/admin,console,Error reading entry 0 of audit log <file name>
+Alert,/console/admin,console,Error reading entry 0 of audit log <file name>
+Alert,/console/admin,console,Error reading private key in <file name>
+Alert,/console/admin,console,Error signing audit log entry - 
+Alert,/console/admin,console,Error verifying signature in <file name>
+Alert,/console/admin,console,Error writing to <file name>
+Alert,/console/admin,console,Invalid signature found in <file name>
+Alert,/network/httpin ,startup,Fatal error: Failed to initialize shared memory manager
+Alert,/policy/setup,message,Reconfiguration request failed; system state may now be inconsistent. (%s)
+Alert,/policy/setup,message,Unable to store uploaded resource on disk; policy will be unable to use this resource!  (could not open file '%s')
+Alert,/system/license,license,The feature '%s' at line %d in license file '%s' is not properly signed.
+Alert,/system/startup,startup,Error opening IO manifest file: %s. No IO processes will start. 
+Alert,/system/startup,startup,Error opening init.d directory: %s. No IO processes will start. 
+Alert,/system/startup,startup,"There was a problem loading the encryption key for the logging subsystem, preventing correct startup."
+Alert,/system/startup/ssl,startup,Unable to start core SSL listener; the DH file cannot be read.
+Alert,/system/startup/ssl,startup,Unable to start core SSL listener; the DH parameters could not be initialized.
+Alert,/system/startup/ssl,startup,Unable to start core SSL listener; the RSA key couldn't be set up properly.
+Alert,/system/startup/ssl,startup,Unable to start core SSL listener; the certificate file cannot be read.
+Alert,/system/startup/ssl,startup,Unable to start core SSL listener; the key file file cannot be read.
+Alert,/system/startup/ssl,startup,Unable to start core SSL listener; the randomness provider cannot be read.
+Alert,/system/startup/ssl,startup,Unable to start core SSL listener; the trusted CA directory cannot be read.
+Alert,/system/test,message,Initiating test <test name>
+Debug,/console/load,console,Checking to see whether the Management Console needs to be restarted...
+Debug,/console/load,console,Checking to see whether we need to shutdown the webapp
+Debug,/console/load,console,"Management Console wasn't running, no need to restart"
+Debug,/console/load,console,"No shutdown, Managment Console is not running"
+Debug,/console/load,console,Policy archive file: <file name> 
+Debug,/console/load,console,Webapp not running
+Debug,/console/load,console,cleaning up <directory name>
+Debug,/console/load,console,extracting policy archive file to <directory name>
+Debug,/console/load,console,extracting webapp state file to <directory name>
+Debug,/console/load,console,loading policy archive...
+Debug,/console/load,console,loading uploads
+Debug,/console/load,console,loading webapp state
+Debug,/console/load,console,webapp state file <file name> 
+Debug,/console/load,console,"webapp wasn't running, no need to restart"
+Debug,/console/policy,console,No nfast keystore is found 
+Debug,/console/restart,console,Checking to see whether we need to shutdown the webapp
+Debug,/console/restart,console,Webapp not running
+Debug,/console/restart,console,"webapp wasn't running, no need to restart"
+Debug,/console/save,GUID,Collecting dumps into <file name>
+Debug,/console/save,GUID,Dumping uploads directory
+Debug,/console/save,GUID,Dumping webapp database contents
+Debug,/network/httpin ,GUID,Sending request to core
+Debug,/network/httpin ,message,Received response for request id:m%s
+Debug,/network/httpin/secure ,GUID,Got fingerprint list of %s
+Debug,/network/httpin/secure ,GUID,list of fingerprints from peer certification path is %s
+Debug,/network/httpin/secure ,GUID,"DN of client certificate subject is %s"",sdn"
+Debug,/network/httpin/secure ,GUID ,"DN of client certificate issuer is %s"",idn"
+Debug,/network/httpout,GUID,HTTP header contained redirection; following to new URL
+Debug,/network/httpout,message,"Setting SSL Cipher Suite to \%s\"""""
+Debug,/network/httpout,message,Not sending any client certificate with request
+Debug,/network/httpout,message,Received HTTP response %s %s; %d bytes of content.
+Debug,/network/httpout,message,Sending body: %d bytes
+Debug,/network/httpout,message,Sending header: '%s'
+Debug,/network/httpout,message,Using SSL Engine '%s'
+Debug,/network/httpout,message,Verifying destination server's certificate with: id:%s Distinguished Name:%s
+Debug,/network/httpout/internal,guid,HTTP Trace %s: %s
+Debug,/network/input,message,Successfully received message
+Debug,/network/mqin,message,processing report options: %s
+Debug,/network/mqin,message,"request: length %d, id '%s', content '%s'"
+Debug,/network/mqin,message,request: report options: %s
+Debug,/network/mqin,processing ,"message is %ld bytes, allocing new buffer and getting again"
+Debug,/network/mqin,processing ," ""reading message off the input queue '%.48s' timeout %d ms"""
+Debug,/network/mqin,startup ,"%sconnected to queue manager '%.48s' on MQSeries server '%s', using handler <handler>"
+Debug,/network/mqin,startup ,"%sopened %s input queue '%.48s', using handler <handler>"
+Debug,/network/mqin,startup ,"Strating up MQ listener thread on: server '%s/TCP/%s(%s)', queue manager '%s', queue '%s'"
+Debug,/network/mqout, message,"reply: length %d, id '%s', content '%s'"
+Debug,/network/mqout,message,"already connected to queue manager '%.48s' on MQSeries server '%s', using handler <handler>"
+Debug,/network/mqout,message,"connected to queue manager '%.48s' on MQSeries server '%s', using handler <handler>"
+Debug,/network/mqout,message,"opened %s reply queue '%.48s', using handler <handler>"
+Debug,/network/mqout,message,received reply message from core. Delivering to final destination
+Debug,/network/mqout,message,received request message from core. Sending and waiting for reply
+Debug,/network/mqout,message,"reply is %ld bytes, allocing new buffer and getting again"
+Debug,/network/mqout,message,"reply: length %d, id '%s', content '%s'"
+Debug,/network/mqout,message,"request: length %d, id '%s', content '%s'"
+Debug,/network/mqout,message,"server '%s/TCP/%s(%s)', queue manager '%s', queue '%s', error '%s'"
+Debug,/network/mqout,message,"server '%s/TCP/%s(%s)', queue manager '%s', queue '%s', reply-to queue '%s', timeout %lld ms"
+Debug,/network/mqout,message,waiting up to %lld ms for reply on queue '%.48s'
+Debug,/network/output,message,Dispatching message to output handler '%s'
+Debug,/network/output,message,Scheduling message for an output (%s)  
+Debug,/network/output,message,Sending HTTP response back to HTTP server
+Debug,/policy/access,message,Current time %d is in minute range %d - %d
+Debug,/policy/access,message,Current time %d is not in minute range %d - %d
+Debug,/policy/access,message,Request client IP '%s' is in range '%s'-'%s'
+Debug,/policy/access,message,Request client IP '%s' is not in range
+Debug,/policy/contentsec,message,Completed content scan %s: %lld msec
+Debug,/policy/contentsec,message,Starting string content scan %s on message
+Debug,/policy/crypto,message,Signature verification: canonicalized XML and digests matched; now verifying signature
+Debug,/policy/crypto,message,Signature verification: signature failed cryptographic validity check; either the signature or the certificate is invalid.
+Debug,/policy/crypto,message,Signature verification: signature is valid and was signed by a policy-specified certificate.
+Debug,/policy/crypto,message,Signature verification: signature is valid; checking whether signing certificate is trusted
+Debug,/policy/crypto,message,Computing digest of input data with algorithm %s
+Debug,/policy/crypto,message,Verifying signature of payload with algorithm %s
+Debug,/policy/crypto,startup,Checking for OpenSSL engine '%s'
+Debug,/policy/id,message,Generated WSU ID: %s
+Debug,/policy/log,message,Logging message at log level %s
+Debug,/policy/log,message,Message accepted for logging
+Debug,/policy/process,message,"About to make call to Java SDK Host at localhost, port %d"
+Debug,/policy/process,message,Got response from SOAP Callout: %s
+Debug,/policy/process,message,Performing SOAP Callout to %s:%s%s with SOAPAction %s; body is %s
+Debug,/policy/process,message,Sent message to Java SDK Host; waiting for response
+Debug,/policy/process,message,Successfully read response from Java SDK Host; processing it now
+Debug,/policy/process,message,Attribute %s %s {policy value} : FAILED
+Debug,/policy/process,message,Attribute %s %s {policy value} : SUCCEEDED
+Debug,/policy/process,message,Attribute %s as [%s] %s {policy value} : FAILED
+Debug,/policy/process,message,Attribute %s as [%s] %s {policy value} : SUCCEEDED
+Debug,/policy/process,message,Checking cache for scope '%s' and key '%s'
+Debug,/policy/process,message,Decoded Basic authentication header; user was '%s'
+Debug,/policy/process,message,Extracted item: '%s' 
+Debug,/policy/process,message,Inserting message into cache
+Debug,/policy/process,message,"Malformed Basic authentication, missing ':' character; header was %s"
+Debug,/policy/process,message,"Malformed Basic authentication, must start with 'Basic'; header was %s"
+Debug,/policy/process,message,Regex '%s' failed on '%s'
+Debug,/policy/process,message,Regex '%s' matched '%s' 
+Debug,/policy/process,message,Result of LDAP %s was placed in the cache
+Debug,/policy/process,message,Result of SOAP callout was placed in the cache
+Debug,/policy/process,startup,Loading password file at path '%s'
+Debug,/policy/process ,message,Backslash replacement '%s' resulted in '%s'  
+Debug,/policy/process ,message,Extracted item: '%s'  
+Debug,/policy/process ,message,Regex '%s' extracted parameters from '%s'  
+Debug,/policy/process ,message,Regex '%s' failed on '%s' 
+Debug,/policy/process ,message,Regex '%s' matched '%s' 
+Debug,/policy/process ,message,Regex '%s' replaced '%s' with '%s' 
+Debug,/policy/process ,startup,Regex '%s' failed on '%s' 
+Debug,/policy/route,message,Assigned HTTP route: %s to %s:%s%s
+Debug,/policy/saml,message,"SAML AuthenticationStatement did not match AttributeName: found '%s', expected '%s'"
+Debug,/policy/saml,message,"SAML AuthenticationStatement did not match AttributeName: found '%s', expected '%s'"
+Debug,/policy/saml,message,"SAML AuthenticationStatement did not match AttributeValue: found '%s', expected '%s'"
+Debug,/policy/saml,message,"SAML AuthenticationStatement's AuthenticationMethod did not match value. found '%s', expected '%s'"
+Debug,/policy/saml,message,"SAML AuthorizationDecisionStatement's Decision did not match value. found '%s', expected '%s'"
+Debug,/policy/saml,message,"SAML AuthorizationDecisionStatement's Resource did not match value. found '%s', expected '%s'"
+Debug,/policy/saml,message,"SAML AuthorizationDecisionStatement's action did not match value. found '%s', expected '%s'"
+Debug,/policy/saml,message,"SAML AuthorizationDecisionStatement's action namespace did not match value. found '%s', expected '%s'"
+Debug,/policy/saml,message,SAML ConfirmationMethod was 'holder-of-key': testing message to make sure that key was demonstrated
+Debug,/policy/saml,message,SAML Subject key matches client certificate used in SSL handshake - key has been demonstrated
+Debug,/policy/saml,message,"SAML Subject key was used in a signature in the message, but the signature was found to be invalid; rejecting statement"
+Debug,/policy/saml,message,SAML Subject key was used in a valid signature in the message - key has been demonstrated
+Debug,/policy/saml,message,SAML Subject's ConfirmationMethod did not match value. Expected '%s'
+Debug,/policy/saml,message,SAML Subject's ConfirmationMethod is missing.  Expected '%s'
+Debug,/policy/saml,message,"SAML Subject's NameIdentifier did not match Format.  found '%s', expected '%s'"
+Debug,/policy/saml,message,"SAML Subject's NameIdentifier did not match NameQualifier.  found '%s', expected '%s'"
+Debug,/policy/saml,message,"SAML Subject's NameIdentifier did not match value. found '%s', expected '%s'"
+Debug,/policy/saml,message,SAML Subject's NameIdentifier missing required NameQualifier.  Expected '%s'
+Debug,/policy/saml,message,SAML Subject's NameIdentifier was missing required Format.  Expected '%s'
+Debug,/policy/saml,message,SAML Subject's NameIdentifier was missing required value.  Expected '%s'
+Debug,/policy/saml,message,"Verifying SAML %s Statement with Subject: %s (Name format '%s', qualifier '%s', value '%s')"
+Debug,/policy/setup,message,Received dos statistics request message
+Debug,/policy/setup,message,Received log scan request message
+Debug,/policy/setup,message,CRL status request received
+Debug,/policy/setup,message,Policy description request handled
+Debug,/policy/setup,message,Policy description request received
+Debug,/policy/setup,message,Status request received
+Debug,/policy/setup,message,Uploaded policy resource '%s'
+Debug,/policy/soap,message,SOAP Header %s in namespace %s%s%s%s was not processed; leaving it
+Debug,/policy/soap,message,SOAP Header %s in namespace %s for role '%s' was processed internally; removing it
+Debug,/policy/xml,message,Applying XPath '%s'
+Debug,/policy/xml,message,Applying XSL transform 'id:%s' to message content
+Debug,/policy/xml,message,Cannot apply XPath: %s
+Debug,/policy/xml,message,Checking for identical documents already validated
+Debug,/policy/xml,message,Checking for identically structured documents already validated
+Debug,/policy/xml,message,Escaping XML
+Debug,/policy/xml,message,Normalizing node as QName
+Debug,/policy/xml,message,"Simple Schema validation succeeded: A valid, idetically structured document exists and document content conforms to schema type declarations"
+Debug,/policy/xml,message,Validating XPath '%s'
+Debug,/policy/xml,startup,Successfully compiled XPath '%s'
+Debug,/system/database,processing," provided a DB connection (%s) to requester. Pool: %d free, %d busy"
+Debug,/system/database,processing," returned a DB connection (%s) to the pool. Pool: %d free, %d busy"
+Debug,/system/database,processing,Created SQL connection to '%s'. Pool size (free:busy) %d:%d
+Debug,/system/database,processing,Created SQL connection to '%s'. Pool size (free:busy) %d:%dNoPool
+Debug,/system/database,processing,all DB connections in pool busy. Allocating temporary connection to '%s'.
+Debug,/system/database,processing,destroyed a DB connection (%s).
+Debug,/system/database,processing,"destroyed a temporary DB connection (%s). Pool: %d free, %d busy"
+Debug,/system/database,processing,detected a bad connection (%s) in pool killing it.
+Debug,/system/database,processing,failed to destroy a DB connection (%s). Exception: %s
+Debug,/system/database,processing,"failed to provide a DB connection (%s) to requester. Pool: %d free, %d busy"
+Debug,/system/database/spinner,processing,spinner failed to create a connection to '%s' for an unknown reason.
+Debug,/system/database/spinner,processing,spinner failed to create a connection to '%s'. Exception: %s
+Debug,/system/database/spinner,processing,spinner failed to create a connection to '%s'. SQL Exception: %s
+Debug,/system/notification,message,"Not sending notification for id:%s; count is %ld, frequency is %d"
+Debug,/system/snapshot,console,Changing to directory '%s'
+Debug,/system/snapshot,console,FTP connection set to active mode
+Debug,/system/snapshot,console,FTP connection set to passive mode
+Debug,/system/snapshot,console,Sending PUT command to FTP server
+Debug,/system/snmp,message,Throwing SNMP trap %s to %s: '%s'
+Debug,/system/startup,,starting up %d threads
+Debug,/system/startup,startup,Initializing output queues
+Debug,/system/startup,startup,Unable to set SO_RESUSEADDR option: %s
+Debug,,,Initializing netegrity API
+Debug,,,Missing username and/or password attributes - Using TransactionMinder
+Debug,,,SMSESSION cookie: <cookie>
+Debug,,,User not authenticated by the policy server
+Debug,,,uninitializing Netegrity API
+Debug,,,unknown attribute id <attribute id> found - skipping
+Debug,,GUID,closed %s queue '%.48s'
+Error,/console/admin,console,Exception while uploading webapp certificate:  
+Error,/console/license,console,The backup license file could not be restored.
+Error,/console/load,console,Error executing <command>: <status>
+Error,/console/load,console,Error executing <script> start
+Error,/console/load,console,Error executing <script> stop
+Error,/console/load,console,Failed to decompress policy archive: <error message>
+Error,/console/load,console,Failed to decompress webapp state: <error message>
+Error,/console/load,console,Failed to restore database
+Error,/console/load,console,Failed to restore policy archive database
+Error,/console/load,console,Invalid state file <file name>
+Error,/console/load,console,unable to determine webapp port number
+Error,/console/policy,console,Could not restart webapp
+Error,/console/policy,console,Connection dropped while deploying policy to  <server>
+Error,/console/policy,console,Connection refused while deploying policy to  <server>
+Error,/console/policy,console,Failed to deploy policy to server  <server list> Error: <error message>
+Error,/console/policy,console,Unable to construct compiled policy for <policy name> Error: <error message>
+Error,/console/policy,console,Unexpected error while deploying policy to <server>
+Error,/console/policy,console,error deleting compiled policy <policy ID>
+Error,/console/restart,console,Error executing <command>: <status>
+Error,/console/restart,console,Error executing <script> start
+Error,/console/restart,console,Error executing <script> stop
+Error,/console/restart,console,unable to determine webapp port number
+Error,/console/save,GUID,<status>
+Error,/ipc,message ,Message contains invalid response IPC ID
+Error,/ipc,message ,Message does not contain response IPC ID
+Error,/ipc,message ,Writing IPC request failed: %s 
+Error,/ipc,message ,Writing IPC response failed: %s 
+Error,/ipc,message,IPC session key missmatch. Expected %d - gotten %d
+Error,/ipc,message,Unable to find IPC session key. Dropping the message
+Error,/ipc,network,Checksum error - potential missconfiguratoin. IPC MMap File '%s'
+Error,/ipc,network,Failed to memory-MAP IPC File '%s': error '%s'
+Error,/ipc,network,Failed to open IPC MMap File '%s': error '%s'
+Error,/ipc,network,Failed to open temporary file to spill: %s
+Error,/ipc,network,Failed to stat IPC MMap File '%s': error '%s'
+Error,/ipc,network,Failed to write to temporary spill file: %s
+Error,/ipc,network,IPC client can't stat IPC MMap File '%s':  %s
+Error,/ipc,network,Lseek failed on file '%s': error '%s'
+Error,/ipc,network,Reading IPC response failed: %s 
+Error,/ipc,network,Reading IPC response failed: timedout
+Error,/ipc,network,Record lock operation failed: %s
+Error,/ipc,network,Semaphore operation failed: %s
+Error,/ipc,network,Sempahore get failed for key %d: error '%s'
+Error,/ipc,network,Server can't proceed: Potentially broken semaphore or unexpected error
+Error,/ipc,network,Unable to generate a semaphore key: %s
+Error,/ipc,network,write failed on file '%s': error '%s'
+Error,/network/core/ssl,network,Error while accepting SSL connection
+Error,/network/core/ssl,network,Internal SSL error: %s
+Error,/network/httpin ,startup,Unable to open firewall pid file; cannot monitor memory usage
+Error,/network/httpin ,GUID ,"Core processing engine unavailable, rejecting because of load: %s"
+Error,/network/httpin ,GUID ,No response from the core; returning 'service unavailable'
+Error,/network/httpin ,GUID ,Out of available memory: rejecting post body as too large
+Error,/network/httpin ,GUID ,Timeout backend server response after %d seconds
+Error,/network/httpin ,GUID ,Unexpected error while waiting for response from the core
+Error,/network/httpin ,GUID ,Unknown exception trying to contact core
+Error,/network/httpin ,request ,Out of available memory: rejecting post body as too large
+Error,/network/jmsin,startup,JMS Listener is configured to use a JMS implementation (%s) that is not installed.
+Error,/network/mqin,processing,error getting request off %s queue '%.48s': %s
+Error,/network/mqin,processing ,"Empty reply to queue name, for request message off queue '%.48s'"
+Error,/network/mqin,startup,error %sconnecting to queue manager '%.48s' on MQSeries server '%s': %s
+Error,/network/mqin,startup,error %sopening input queue '%s': %s
+Error,/network/output,message,Routing error: output handler '%s' unknown.  Message will be dropped.
+Error,/policy/access,message,Request message has no client IP; cannot check range
+Error,/policy/crypto,message,Computing digest of input data with algorithm %s
+Error,/policy/crypto,startup,Error initializing OpenSSL engine '%s': %s: %s: %s
+Error,/policy/crypto,startup,Failed to load OpenSSL engine '%s': %s: %s: %s
+Error,/policy/init,startup,Unable to determine supported namespaces for XML processing.
+Error,/policy/process,message,"Handler is configured to allow attachments, but no attachment validation specification was provided"
+Error,/policy/process,message,Missing throttling specification.  Possible system misconfiguration?  No throttling will be performed.
+Error,/policy/process,message,"This SOAP handler requires attachments, but the message has none"
+Error,/policy/process,message,An error occurred while decompressing the uploaded policy file.  Please contact your administrator.
+Error,/policy/process,message,An error occurred while parsing the policy file: '%s'.  The current policy will continue to run.
+Error,/policy/process,message,No policy file specified in configuration xml.  The current policy will continue to run.
+Error,/policy/process,message,Unable to open policy file.  The current policy will continue to run.
+Error,/policy/process,message,Unable to successfully read the policy file.  The current policy will continue to run.
+Error,/policy/process,startup,Cannot load password file: %s
+Error,/policy/process ,startup,Malformed regular expression '%s'; reason '%s'
+Error,/policy/setup,startup,"CA Resource %s specifies a CRL uri, but no CRL file found."
+Error,/policy/startup,,<error message>
+Error,/policy/xml,message,Missing XML schema validator: XML Schema was not loaded
+Error,/policy/xml,message,Unable to determine document validaty. Fall trough to next level of validation is disabled.
+Error,/policy/xml,startup,Applying XSL transform 'id:%s' to message contentCompile
+Error,/policy/xml,startup,Applying XSL transform 'id:%s' to message content
+Error,/policy/xml,startup,Cannot compile XPath: %s
+Error,/policy/xml,startup,Cannot load XML Schema file: %s
+Error,/policy/xml,startup,Checking SOAP Header element
+Error,/system/access,console ,Fetching console roles for '%s'. LDAP Query [%s]
+Error,/system/database,processing,Failed to create SQL connection to '%s'. 
+Error,/system/log,Message Logger,There was a problem rolling the logs: %s
+Error,/system/notification,message,Unable to send e-mail.
+Error,/system/snapshot,console,An error occurred while generating the system snapshot on the Management Console host. No system snapshot will be sent or downloaded.
+Error,/system/snapshot,console,Failed to retrieve a snapshot from the server: <server name>:<port number> : <error message>
+Error,/system/snapshot,console,Generated Snapshot exceeds allowed size
+Error,/system/snapshot,console,One or more configuration properties for the Reactivity support server could not be found.  Sending the system snapshot will fail.
+Error,/system/snapshot,console,Sending system snapshot failed because the FTP server hostname %s could not be resolved (DNS problem?)
+Error,/system/snapshot,console,Sending system snapshot failed because the Management Console could not connect to the FTP server %s (connection was rejected or timed out)
+Error,/system/snapshot,console,Sending system snapshot failed because there is no route from the Management Console machine to %s
+Error,/system/snapshot,console,Sending system snapshot failed due to an FTP error after the connection was made (server reply code: %s)
+Error,/system/snapshot,console,Sending system snapshot failed due to an unknown I/O error
+Error,/system/snapshot,console,Sending system snapshot failed due to an unknown error
+Error,/system/snapshot,console,The system snapshot has failed due to an unknown error.
+Error,/system/startup,startup,Error binding to socket %d: %s
+Error,/system/startup,startup,Error listening to socket: %s
+Error,/system/startup,startup,Failed to open a secure input port (%d) 
+Error,/system/startup,startup,Failed to open input port (%d) 
+Error,/system/startup,startup,Failed to reload nfast keystore: '%s' 
+Error,/system/startup,startup,Invalid attachment validation specification: %s 
+Error,/system/startup,startup,No configuration URL provided.  Will use default (minimal) rule set.
+Error,/system/startup,startup,Parsed empty host from configuration URL.  Skipping configuration load step.
+Error,/system/startup,startup,"Policy may be using nfast keys, but nfast keystore directory '%s' can't be opened."
+Error,/system/startup,startup,Starting policy configuration is missing!  Will start with no policy -- all requests will be rejected.
+Error,/system/startup,startup,Unable to create socket.
+Error,/system/startup,startup,Unable to parse host from configuration URL.  Skipping configuration load step.
+Error,/system/startup,startup,Unable to retrieve configuration data; will start with default (minimal) rule set.
+Error,/system/startup,startup,Unable to start up.  Check to see if another instance is already running.
+Error,/system/startup/,startup,"Unable to load last policy, starting with minimal (empty) ruleset.  (internal error: '%s' while loading %s)"
+Error,System,Console,Error reading compiled policy properties: 
+Error,System,Console,Error writing compiled policy properties: 
+Error,System,Console,Filed to write compiled policy tar file: 
+Error ,/network/mqin,processing,error getting message off queue '%.48s' after new buffer allocation: %s
+Info,/console/policy,console,Compiling policy  <policy ID>
+Info,/console/policy,console,Deploying Policy to server <server>
+Info,/ipc,network,Cleaning up IPC MMap File '%s'
+Info,/ipc,network,Exception while waiting for response. Wait is terminated: Error '%s'
+Info,/ipc,network,Starting up IPC Forward Client: IPC MMap File '%s'
+Info,/ipc,network,Starting up IPC Forward Server: IPC MMap File '%s'
+Info,/network/core/dos,dos,Blocking DoS offending ip address %s for %lf seconds
+Info,/network/core/dos,dos,Blocking DoS offending ip address %s for another %lf seconds
+Info,/network/core/dos,dos,Requests from %s will be blocked for another %.3lf seconds. (minimum duration %.3lf) 
+Info,/network/core/dos,dos,Suggest blocking %s for %.3lf seconds to allow rate return to normal. (minimum duration %.3lf)
+Info,/network/core/dos,dos,Unblocking DoS offending ip address %s
+Info,/network/httpin ,startup,Can't read process statm
+Info,/network/httpin ,startup," ""Converted process statm to bytes: size=%llu rss=%llu"""
+Info,/network/httpin ,startup," ""Firewall memory usage is: %lld %lld"""
+Info,/network/httpin ,startup," ""Firewall pid file is %d; checking memory usage %s"""
+Info,/network/httpin ,startup," ""Read process statm: %s"""
+Info,/network/httpin ,startup," ""Read process statm: size=%llu rss=%llu"""
+Info,/network/httpin ,startup," ""Unable to read firewall memory usage; returning error"""
+Info,/network/httpin ,GUID,Accepted a new HTTP %s request from %s on port %d for %s
+Info,/network/httpin ,response ,Returning response %s for request id:m%s to client; %ld bytes
+Info,/network/httpin ,startup,"Initializing httpserver module.  ""Logging level: '%s'; Max memory limit: %d; Min memory limit: %d"" "
+Info,/network/httpin/secure,GUID,Client certificate could not be verified against any installed CA cert. (subject: %s)
+Info,/network/httpin/secure ,GUID,Client certificate is invalid. Forwarding message for error classification and reporting only. (%s; subject: %s; issuer: %s; serial %s)
+Info,/network/httpin/secure ,GUID,HTTPS connection established without client certificate
+Info,/network/httpin/secure ,GUID,"Client certificate is valid. (subject: %s)"", sdn"
+Info,/network/httpout,message,Requesting HTTP method '%s' to URL '%s'
+Info,/network/httpout,message,Sending HTTP client certificate: id:%s
+Info,/network/mqin,message,got request off %s queue '%.48s'
+Info,/network/mqout, message,got reply off %s queue '%.48s'
+Info,/network/mqout,message,found connection to have been dropped - reconnecting to queue manager '%.48s' on MQSeries server '%s'
+Info,/network/mqout,message,put reply on to queue '%.48s'
+Info,/network/mqout,message,put request on to queue '%.48s'
+Info,/policy,message,Executing policy on response to id:m%s
+Info,/policy,message,No user-defined policy defined; executing default (minimal) policy
+Info,/policy,message,Reading file at path '%s'
+Info,/policy/access,message,Current time is in acceptable time range
+Info,/policy/crypto,message,Attempt to verify certificate with empty subject or issuer field
+Info,/policy/crypto,message,Certificate for subject %s FAILED verification by Certificate Authority %s
+Info,/policy/crypto,message,Certificate for subject %s is REVOKED according to Certificate Authority %s
+Info,/policy/crypto,message,"Certificate for subject %s was trusted by Certificate Authority %s, but this authority was not in the list of authorities to use - rejecting certificate"
+Info,/policy/crypto,message,No known Certificate Authority matches issuer %s
+Info,/policy/crypto,message,Signature verification failed
+Info,/policy/crypto,message,Signature verification succeeded
+Info,/policy/crypto,message,Base64 decoding input data
+Info,/policy/crypto,message,Base64 encoding input data
+Info,/policy/crypto,message,Decrypting XML
+Info,/policy/crypto,message,Decrypting input data with algorithm %s
+Info,/policy/crypto,message,Encrypting XML at XPath '%s' with key '%s' using encryption algorithm %s and key transport algorithm %s
+Info,/policy/crypto,message,Encrypting XML at XPath '%s' with key '%s' using encryption algorithm %s and key transport algorithm %s
+Info,/policy/crypto,message,Encrypting input data with algorithm %s
+Info,/policy/crypto,message,Generating %d random alphanumeric characters
+Info,/policy/crypto,message,Generating %d random bytes
+Info,/policy/crypto,message,Generating XML signature of elements at XPath '%s' with digest algorithm %s and signature algorithm %s
+Info,/policy/crypto,message,"Signature was valid, and contained an embedded certificate that was trusted by CA id:%s"
+Info,/policy/crypto,message,"Signature was valid, but contained an embedded certificate that was not trusted by any known CA.  Will only match specific cert check."
+Info,/policy/crypto,message,"Signature was valid, using policy-specified certificate, was was trusted by CA id:%s"
+Info,/policy/crypto,message,"Signature was valid, using policy-specified certificate, which is not trusted by any known CA.  Accepting."
+Info,/policy/crypto,message,Verifying XML signature
+Info,/policy/crypto,message,Verifying signature of payload with algorithm %s
+Info,/policy/crypto,message,Verifying signature of payload with algorithm %s
+Info,/policy/crypto,message,Verifying signature of payload with algorithm %s
+Info,/policy/crypto,startup,No OpenSSL engine specified in configuration file; using default engine
+Info,/policy/crypto,startup,Using OpenSSL engine '%s'
+Info,/policy/log,message,Logging message at log level %s
+Info,/policy/process,message,Calling out to Java SDK host for authorization service %s
+Info,/policy/process,message,Calling out to SOAP service at http:%s:%s%s with SOAPAction '%s'
+Info,/policy/process,message,Callout to SOAP authorization Service got non-200 result code
+Info,/policy/process,message,Java SDK Host returned 'deny' decision from hosted class %s
+Info,/policy/process,message,Java SDK Host returned 'permit' decision from hosted class %s
+Info,/policy/process,message,Reponse attributes will be copied into outgoing request
+Info,/policy/process,message,Attempting LDAP login with username '%s' and password '%s'
+Info,/policy/process,message,Binding to '%s' anonymously 
+Info,/policy/process,message,Binding to '%s' with username='%s' and password='%s' 
+Info,/policy/process,message,Executing LDAP Query: base='%s' filter='%s' attribute='%s' scope='sub' 
+Info,/policy/process,message,Initializing LDAP request to '%s'
+Info,/policy/process,message,Inserting message into cache
+Info,/policy/process,message,LDAP Query results in '%s'
+Info,/policy/process,message,LDAP Query returned no result
+Info,/policy/process,message,LDAP query failed because required arguments were not available
+Info,/policy/process,message,Letting SOAP message without attachments go through
+Info,/policy/process,message,Result of LDAP %s was found in the cache
+Info,/policy/process,message,Result of SOAP callout was found in the cache
+Info,/policy/process,message,Validating Attachment '%s' 
+Info,/policy/process,message,Validating user '%s' from password file with MD5 password
+Info,/policy/process,message,Validating user '%s' from password file with SHA1 password
+Info,/policy/process ,message,Unable to select item from list; index %d is out of bounds [0:%d] 
+Info,/policy/process/attachments,message,No attachments found in message; getAttachment returning null
+Info,/policy/process/attachments,message,Retrieving attachment #%d of type %s
+Info,/policy/process/attachments,message,Retrieving attachment #%d
+Info,/policy/process/attachments,message,Unable to locate attachment #%d of type %s; returning null
+Info,/policy/process/attachments,message,Unable to locate attachment #%d; returning null
+Info,/policy/saml,message,"Verifying SAML %s Statement with Subject: %s (Name format '%s', qualifier '%s', value '%s')"
+Info,/policy/setup,startup,Loaded CA Cert '%s'; corresponding CRL file '%s' 
+Info,/policy/setup,startup,Loaded CA Cert '%s'; corresponding CRL file '%s'  
+Info,/policy/soap,message,"Locating Security header for role \%s\""; checking \""%s\"" """
+Info,/policy/soap,message,Message Decryption succeeded
+Info,/policy/soap,message,Signature Verification %s
+Info,/policy/soap,message,"WS Security Header processing requested, but no WS Security header found"
+Info,/policy/soap,message,Checking SOAP Envelope
+Info,/policy/soap,message,Checking SOAP Header element
+Info,/policy/soap,message,Checking WSS Security SOAP Header element
+Info,/policy/soap,message,Constructing SOAP body %s with operation name %s (namespace %s)
+Info,/policy/soap,message,Constructing SOAP body %s with operation name %s (namespace %s)
+Info,/policy/soap,message,Discarding SOAP Header %s:%s without processing
+Info,/policy/soap,message,Getting SOAP header '%s' in '%s' for role '%s'%s
+Info,/policy/soap,message,Removing any SOAP headers that were processed internally
+Info,/policy/soap,message,Retrieving username and password from wsse:
+Info,/policy/soap,message,Validating SOAP array with type %s
+Info,/policy/soap/timestamp,message,Accepted timestamp; message was created %s and expires %s
+Info,/policy/soap/timestamp,message,Creating wsu:Timestamp that will expire in %d seconds
+Info,/policy/soap/timestamp,message,Creating wsu:Timestamp that will expire in %d seconds
+Info,/policy/soap/timestamp,message,"Message contains timestamp trace: timestamp %s, role '%s' %s"
+Info,/policy/soap/timestamp,message,Creating wsu:Timestamp that will expire in %d seconds
+Info,/policy/soap/timestamp,message,Verifying that SOAP message is fewer than %d seconds stale
+Info,/policy/soap/timestamp,message,Verifying that timestamped SOAP message has not expired
+Info,/policy/xml,message,XPath resulted in empty XPathResult - returning empty string
+Info,/policy/xml,message,All specified references were signed by trusted certs
+Info,/policy/xml,message,Canonicalizing XML message data
+Info,/policy/xml,message,Checking document for well-formed XML
+Info,/policy/xml,message,"Parsing XML document, with a default encoding of '%s'"
+Info,/policy/xml,message,Schema validation failed. An identical document has failed schema validation before
+Info,/policy/xml,message,Schema validation succeeded: An identical document has been successfully validated before. 
+Info,/policy/xml,message,Transforming message with XSLT
+Info,/policy/xml,message,Validating XML at root element '%s' against DTD
+Info,/policy/xml,message,Validating XML at root element '%s' against schema
+Info,/policy/xml,message,Verifying that specified references were signed by trusted certs
+Info,/policy/xml,message,XML successfully validated
+Info,/system/access,console ,Fetching full DN for user '%s' from LDAP server. Query: [%s] 
+Info,/system/license,license,Reading license file %s.
+Info,/system/notification,message,Sending notification to %s with problem in id:%s
+Info,/system/notification,message,To=<to address> Subject=<subject>
+Info,/system/setup,,XML Firewall doesn't respond to roll signal
+Info,/system/setup,,XML Firewall successfully signalled to roll logs
+Info,/system/shouldhavebeenprocess,nomessageguid,Inserting message into cache
+Info,/system/shutdown,shutdown,Closing logging services
+Info,/system/shutdown,shutdown,Closing output queues
+Info,/system/shutdown,shutdown,Shutting down IO processes
+Info,/system/shutdown,shutdown,Shutting down policy execution
+Info,/system/signal,processing,Suspending policy execution
+Info,/system/snapshot,console,Successfully logged into Reactivity Support FTP server at %s as user '%s'
+Info,/system/snapshot,message,Executing system snapshot command: %s
+Info,/system/snapshot,message,System snapshot failed
+Info,/system/startup,startup,Initializing Crypto libraries
+Info,/system/startup,startup,Initializing XML libraries
+Info,/system/startup,startup,Opened a secure input port (%d) 
+Info,/system/startup,startup,Opened input port (%d) 
+Info,/system/startup,startup,Reloading nfast keystore
+Info,/system/startup,startup,Starting logging services
+Info,/system/startup,startup,Starting up External IO processes
+Info,/system/startup,startup,Starting up Notification Manager
+Info,/system/startup,startup,System started successfully
+Info,,,Authentication failure for resource <resource name>
+Info,,,Authorization failure for resource <resource name>
+Info,,,Copying <number> attributes from policy server response
+Info,,,DemoAuthorizer initialized
+Info,,,DemoAuthorizer torn down
+Info,,,Missing username and/or password attributes and failed to initialize TransactionMinder API - rejecting
+Info,,,Received <number> attributes from policy server response to authorizeEx()
+Info,,,Received <number> attributes from policy server response to doManagement
+Info,,,Resource is not protected
+Info,,,Successfully wrote SMSESSION cookie
+Info,,,User not authorized by the policy server.
+Notice,/console/cert,console,A new console certificate has been uploaded by %s.
+Notice,/console/license,console,A license check failed because the current license does not allow %s %s.
+Notice,/console/license,console,The license file was modified by %s.
+Notice,/console/load,console,Loading webapp state
+Notice,/console/load,console,Management Console restarted successfully
+Notice,/console/load,console,Migrating policy archive database into Managment Console...
+Notice,/console/load,console,Restarting Management Console...
+Notice,/console/load,console,Restarting webapp
+Notice,/console/load,console,Shutting down Management Console...
+Notice,/console/load,console,Shutting down webapp
+Notice,/console/load,console,Webapp restarted successfully
+Notice,/console/policy,console,"Policy \""%s\"" is being deployed by %s."
+Notice,/console/restart,,Error executing <command>: <status>
+Notice,/console/restart,console,Restarting webapp
+Notice,/console/restart,console,Shutting down webapp
+Notice,/console/restart,console,Webapp restarted successfully
+Notice,/console/restart,console,dev mode
+Notice,/console/restart,console,prod mode
+Notice,/console/users,console,"Radius reject packet received for username \""%s\"" with message \""%s\"""
+Notice,/console/users,console,"The username \""%s\"" has been deleted by %s."
+Notice,/network/httpin/secure ,GUID,"Client certificate has been revoked."""
+Notice,/network/mqout,message,timeout waiting for reply on %s queue '%.48s'
+Notice,/network/sla,message,"The Service took %lld ms to process this message, exceeding its allowed threshold of %lld ms"
+Notice,/policy/setup,message,Policy reconfiguration complete; I/O processes reset
+Notice,/policy/setup,message,Policy reconfiguration request received
+Notice,/policy/setup,message,Policy reconfigured; now reconfiguring I/O processes
+Notice,/policy/setup,message,Policy resource refresh request handled
+Notice,/policy/setup,message,Policy resource refresh request received
+Notice,/policy/setup,message,Start IO process '%s' message received; starting
+Notice,/policy/setup,message,Stop IO process '%s' message received; stopping
+Notice,/system/access,console ,Fetching full DN for user '%s' from LDAP server. Query: [%s] EmptyUser
+Notice,/system/license,license,The feature '%s' only allows %d instances.
+Notice,/system/log,message,Basic Auth headers were stripped from message
+Notice,/system/shutdown,shutdown,Shutting down
+Notice,/system/shutdown,shutdown,Successful shutdown
+Notice,/system/snapshot,console,An error occurred while sending the system snapshot to the user's web browser (page load was canceled or connection broken?)
+Notice,/system/snapshot,console,The system snapshot has been successfully uploaded to %s
+Notice,/system/startup,startup,Requesting refreshed policy from console.
+Notice,/system/startup,startup,Running an untagged build!
+Notice,/system/startup,startup,Running build %s.
+Notice,/system/startup,startup,Starting up with last deployed policy.
+Notice,/system/startup,startup,Starting up with no policy.  All requests will be rejected.
+Notice,/system/startup,startup,Welcome to the Reactivity XML Firewall!
+Notice,/system/startup/,startup,Policy loaded and running; this policy was deployed by '%s' at %s
+Notice,,,Could not gather credentials from document
+Notice,,GUID,error closing queue %.48s: %s
+Notice,,GUID,error determining queue type of %.48s: %s
+Warn,/console/admin,console,Exception while uploading webapp certificate
+Warn,/console/admin,console,Exception while uploading webapp certificate: <error message>
+Warn,/console/admin,console,Set event log level to <logging level> for management console
+Warn,/console/admin,console,Setting event log level to <logging level> for all hosts
+Warn,/console/admin,console,Setting event log level to <logging level> for management console
+Warn,/console/license,console,The new license file could not be loaded.
+Warn,/console/systemsnapshot,console,A system snapshot has been initiated by user '%s' and will be downloaded to disk.
+Warn,/console/users,console,"Console user \""%s\"" has been reverted to \""Public Only\"" developer privileges because its assigned consumer no longer exists."
+Warn,/console/users,console,"Failed login attempt (too many previous failed attempts) with username \""%s\"""
+Warn,/console/users,console,"Failed login attempt with username \""%s\"""
+Warn,/console/users,console,"Login attempt by a disabled user \""%s\"""
+Warn,/console/users,console,The current user does not have permission to perform this action.
+Warn,/ipc,network,Semaphore operation failed. Unable to signal the recieving peer
+Warn,/ipc,network,Unable to place a full lock over file '%s'
+Warn,/ipc,network,memory unmap failed: error '%s'
+Warn,/network/core/dos,dos,"DoS Attack is still in progress; rate of %s requests from %s exceeded limit by %5.2lf%%,"
+Warn,/network/core/dos,dos,"Possible DoS Attack in progress; rate of %s requests from %s exceeded limit by %5.2lf%%,"
+Warn,/network/httpclient,message,Warning: replacing existing body with POST arguments.
+Warn,/network/httpin,GUID,buf
+Warn,/network/httpin,messageGuid,Malformed HTTP request. Rejecting a message.
+Warn,/network/httpin,messageGuid,URI too long. Rejecting a message.
+Warn,/network/httpin,GUID,"Unable to read request: HTTP request status %d.  ""Rejecting a message."""
+Warn,/network/httpin ,httpd monitoring,"Rejecting request because of high system memory usage (in use: %lld, limit is %lld)"
+Warn,/network/httpin ,GUID,Content-Length header is missing from HTTP POST request
+Warn,/network/httpin ,GUID,HTTP header key or value too large. Dropping the request
+Warn,/network/httpin ,GUID,Content-Length header is missing from HTTP POST request
+Warn,/network/httpin ,GUID,HTTP header key or value too large. Dropping the request
+Warn,/network/httpout,message,Could not create SSL connection: There was a problem with the local (client-side) certificate while connecting to '%s' (internal error: %s)
+Warn,/network/httpout,message,"Could not create SSL connection: there was a problem with the CA cert, or while validating the peer cert against the CA cert, while connecting to '%s' (internal error: %s)"
+Warn,/network/httpout,message,Could not create SSL connection: unrecognized SSL cipher while connecting to '%s' (internal error: %s)
+Warn,/network/httpout,message,SSL Engine failure: could not set SSL Engine to '%s'.  Perhaps an SSL accelerator was misconfigured? (internal error: %s)
+Warn,/network/httpout,message,Unable to handle request to URL '%s': generic error in HTTP library (internal error: %d %s)
+Warn,/network/httpout,message,Unable to make request: SSL connection error while connecting to URL '%s' (internal error: %s)
+Warn,/network/httpout,message,"Unable to make request: SSL connection to URL '%s' had bad peer certificate; either the DN of the certificate failed to match the hostname, the fingerprint of the certificate failed to match the specified value or it failed to verify against 'id:%s' (internal error: %s)"
+Warn,/network/httpout,message,Unable to make request: URL '%s' was bad
+Warn,/network/httpout,message,Unable to make request: cannot resolve host in URL '%s' (internal error: %s)
+Warn,/network/httpout,message,Unable to make request: could not connect to URL '%s' (internal error: %s)
+Warn,/network/httpout,message,Unable to make request: error while handling response from '%s' (internal error: %s)
+Warn,/network/httpout,message,Unable to make request: receive error while reading from '%s' (internal error: %s)
+Warn,/network/httpout,message,Unable to make request: request timed out while connecting to URL '%s'
+Warn,/network/httpout,message,Unable to make request: send error while sending to '%s' (internal error: %s)
+Warn,/network/httpout,message,Unable to make request: too many redirects while connecting to URL '%s'
+Warn,/network/httpout,message,Unable to communicate with core; response message dropped
+Warn,/network/input,processing ,Incompatible protocol number (%d). Dropping connection
+Warn,/network/input,processing ,Incompatible protocol version (%d). Dropping connection
+Warn,/network/input,processing ,Malformed input data. Dropping connection
+Warn,/network/jmsin,message,No response from the core; returning 'service unavailable'
+Warn,/network/jmsin,startup,Problem while loading JMS Listener configuration.
+Warn,/network/mqin,processing,"found connection to have been dropped - reconnecting to queue manager  ""'%.48s' on MQSeries server '%s': %s"""
+Warn,/network/mqout,message,%s
+Warn,/network/mqout,message,Back end service error %d: %s 
+Warn,/network/mqout,message,error connecting to queue manager '%.48s' on MQSeries server '%s': %s
+Warn,/network/mqout,message,error getting reply off %s queue '%.48s': %s
+Warn,/network/mqout,message,error getting reply off queue '%.48s' after new buffer allocation: %s
+Warn,/network/mqout,message,error opening reply queue '%s': %s
+Warn,/network/mqout,message,error putting reply on to queue '%s': %s
+Warn,/network/mqout,message,error putting request on to queue '%s': %s
+Warn,/network/mqout,message,error reconnecting to queue manager '%.48s' on MQSeries server '%s': %s
+Warn,/network/mqout,message," ""Unsupported MQ message type of the reply %d: %s"""
+Warn,/network/out,network,"Message bodies in system using too much memory, rejecting new data connection"
+Warn,/network/output,message,Routing error: could not reach output handler process.
+Warn,/network/output,message,Routing error: failed connection to output handler process: %s.
+Warn,/policy,message,Reading file at path '%s'
+Warn,/policy/contentsec,message,Content security scan %s matched Attribute name '%s' at %s
+Warn,/policy/contentsec,message,Content security scan %s matched Attribute value '%s' at %s
+Warn,/policy/contentsec,message,Content security scan %s matched text at %s: '%s'
+Warn,/policy/crypto,message,Cannot attach certificate to SAML Subject: Cannot open certificate resource '%s'
+Warn,/policy/crypto,message,Cannot determine XML Encryption coverage: The input XML document is empty
+Warn,/policy/crypto,message,Cannot generate signature: Cannot open key resource '%s'
+Warn,/policy/crypto,message,Decrypting XML
+Warn,/policy/crypto,message,Decrypting input data with algorithm %s
+Warn,/policy/crypto,message,Encrypting XML at XPath '%s' with key '%s' using encryption algorithm %s and key transport algorithm %s
+Warn,/policy/crypto,message,Encrypting input data with algorithm %s
+Warn,/policy/crypto,message,Generating XML signature of elements at XPath '%s' with digest algorithm %s and signature algorithm %s
+Warn,/policy/crypto,message,One or more of the specified elements contained child elements other than EncryptedData
+Warn,/policy/crypto,message,One or more of the specified elements was not contained within any digital signature found in the target document
+Warn,/policy/crypto,message,"The signature was valid, but the certificate used was neither known nor trusted by any CA allowed by the identity"
+Warn,/policy/crypto,message,Verifying XML signature
+Warn,/policy/crypto,message,Verifying signature of payload with algorithm %s
+Warn,/policy/crypto,message,Verifying signature of payload with algorithm %s
+Warn,/policy/input,message,Illegal HTTP GET request; parameter may not have zero-length name
+Warn,/policy/input,message,HTTP POST argument name contained whitespace before it was translated: '%s'
+Warn,/policy/input,message,HTTP POST argument value contained whitespace before it was translated: '%s'
+Warn,/policy/input,message,"Parsing HTTP POST arguments because Content-Type was x-www-form-urlencoded, but body looks like XML: '%s'"
+Warn,/policy/process,message,QName is malformed or uses an undefined prefix: %s
+Warn,/policy/process,message,Message matched no rule in policy; terminating
+Warn,/policy/process,message,Attachment of type '%s' failed validation 
+Warn,/policy/process,message,Attachment of type '%s' not allowed
+Warn,/policy/process,message,Cannot authorize user: MD5 passwords are not supported
+Warn,/policy/process,message,Cannot authorize user: The password file was not loaded properly when the policy was deployed
+Warn,/policy/process,message,Cannot authorize user: The username '%s' is not in the password file
+Warn,/policy/process,message,Cannot execute LDAP query: %s
+Warn,/policy/process,message,"Cannot execute LDAP query: Alias deref value '%s' should be one of never, search, find, or always"
+Warn,/policy/process,message,Cannot execute LDAP query: Cannot set LDAP_OPT_DEREF %d
+Warn,/policy/process,message,Cannot execute LDAP query: Cannot set LDAP_OPT_PROTOCOL_VERSION %d
+Warn,/policy/process,message,Cannot execute LDAP query: Cannot set LDAP_OPT_REFERRALS on
+Warn,/policy/process,message,Cannot execute LDAP query: Cannot set LDAP_OPT_TIMELIMIT %d
+Warn,/policy/process,message,Cannot initialize LDAP request to '%s': The LDAP library failed
+Warn,/policy/process,message,Cannot initialize LDAP request: no host name provided for server
+Warn,/policy/process,message,Checking cache for scope '%s' and key '%s'
+Warn,/policy/process,message,Empty namespace argument
+Warn,/policy/process,message,Inserting message into cache
+Warn,/policy/process,message,LDAP bind to '%s' failed: username '%s' and password '%s'
+Warn,/policy/process,message,LDAP query bind failure: Binding to '%s' username='%s' and password='%s' 
+Warn,/policy/process,message,MIME error: %s 
+Warn,/policy/process,message,Malformed regular expression '%s'; reason '%s'
+Warn,/policy/process,message,SMIME command %s failed: %s 
+Warn,/policy/process,message,Size %d of attachment of type '%s' exceeds size limit '%d' 
+Warn,/policy/process,message,Size %d of attachment of type '%s' is bellow specified limit '%d' 
+Warn,/policy/process,message,Too few attachments of type '%s'. Lower limit is '%d' 
+Warn,/policy/process,message,Too many attachments of type '%s'. Upper limit is '%d' 
+Warn,/policy/process,processing,Input message queue is full. Rejecting new data connection
+Warn,/policy/process ,message,Backslash replacement '%s' failed 
+Warn,/policy/process ,message,Empty backslash replacement pattern
+Warn,/policy/process ,message,Malformed regular expression '%s'; reason '%s'
+Warn,/policy/saml,message,"SAML Assertion had unexpected major version number.  Expected %d, but found %d."
+Warn,/policy/saml,message,"SAML Assertion had unexpected minor version number.  Expected %s, but found %d."
+Warn,/policy/saml,message,SAML Assertion has expired: could not be used on or after %s.
+Warn,/policy/saml,message,SAML Assertion is not yet valid: could not be used before %s.
+Warn,/policy/saml,message,SAML statement satisfied requirements but was not signed by a valid signature.
+Warn,/policy/saml,message,SAML subject key was not successfully demonstrated.  Holder-of-key subject confirmation rejected.
+Warn,/policy/saml,message,Unable to resolve key for SAML SubjectConfirmation whose method was 'holder-of-key'; rejecting statement
+Warn,/policy/saml,message,"Verifying SAML %s Statement with Subject: %s (Name format '%s', qualifier '%s', value '%s')"
+Warn,/policy/soap,message,Unexpected input while constructing SOAP envelope: %s
+Warn,/policy/soap,message,Error decrypting message: %s
+Warn,/policy/soap,message,Malformed SAML Assertion: missing AssertionID
+Warn,/policy/soap,message,Message Decryption failed
+Warn,/policy/soap,message, Checking SOAP Header element
+Warn,/policy/soap,message,Checking SOAP Envelope
+Warn,/policy/soap,message,Checking SOAP Header element
+Warn,/policy/soap,message,Checking SOAP Header element
+Warn,/policy/soap,message,Getting SOAP header '%s' in '%s' for role '%s'%s
+Warn,/policy/soap,message,Invalid SOAP array: %s
+Warn,/policy/soap,message,"Invalid SOAP array: contained item of type '%s%s%s', but array has type '%s'"
+Warn,/policy/soap,message,Invalid SOAP array: contained more than %d items
+Warn,/policy/soap/fault,message,Returning a SOAP %s %s Fault (in namespace %s) to client
+Warn,/policy/soap/timestamp,message,Checking SOAP Header element
+Warn,/policy/soap/timestamp,message,"Rejecting message because the timestamp has expired (creation date was: %s, expiration date was: %s)"
+Warn,/policy/soap/timestamp,message,"Rejecting message because the timestamp has expired (creation date was: %s, expiration date was: %s)"
+Warn,/policy/soap/timestamp,message,"Timestamp has too large a window between Created and Expires (creation date was: %s, expiration date was: %s, max allowed window: %d seconds)"
+Warn,/policy/soap/wss,message,Cannot verify WSS Security Header: %s
+Warn,/policy/xml,xml-processor,Unable to use direct-memory-access acceleration with XML parser because message is larger than mapped buffer allocation; consider increasing it
+Warn,/policy/xml,message,Cannot check SOAP message because message is not legal XML: %s
+Warn,/policy/xml,message,Unable to load CA cert: %s
+Warn,/policy/xml,message,Applying XSL transform 'id:%s' to message content
+Warn,/policy/xml,message,Cannot apply XPath because there are no XML source arguments
+Warn,/policy/xml,message,Cannot apply XPath: %s
+Warn,/policy/xml,message,Cannot apply XPath: The XPath was not compiled properly when the policy was deployed
+Warn,/policy/xml,message,Cannot insert XML: %s
+Warn,/policy/xml,message,Canonicalizing XML message data
+Warn,/policy/xml,message,Checking SOAP Header element
+Warn,/policy/xml,message,Checking document for well-formed XML
+Warn,/policy/xml,message,Error while parsing XML document using default encoding '%s': %s
+Warn,/policy/xml,message,Normalizing node as 
+Warn,/policy/xml,message,Simple Schema validation failed: %s
+Warn,/policy/xml,message,Transforming message with XSLT
+Warn,/policy/xml,message,XML was not valid: %s
+Warn,/policy/xml,message,"XML was not valid: element %s is valid according to DTD, but policy required element %s"
+Warn,/policy/xml,message,"XML was not valid: element %s is valid according to XML schema, but policy required element %s"
+Warn,/policy/xml,startup,Checking SOAP Header element
+Warn,/system/access,console ,No accessible sub-policies found for user '%s' 
+Warn,/system/access,console ,No console roles found for user '%s' 
+Warn,/system/configure,shutdown,Idle terminal session timed out. (<username> on <terminal>)
+Warn,/system/database,processing,Failed to create SQL connection to '%s'. 
+Warn,/system/license,license,Duplicate feature '%s' found at line %d in license file '%s'.  Last one wins.
+Warn,/system/license,license,Feature '%s' has expired.
+Warn,/system/license,license,The feature '%s' was not found in the license file '%s'.
+Warn,/system/license,license,The license file '%s' was not found.
+Warn,/system/license,license,There was an error parsing the license file: '%s'.
+Warn,/system/license,license,There was an error reading the license file '%s'.
+Warn,/system/memory,GUID,Total message attribute memory allocation overflowed!  Rejecting message.
+Warn,/system/memory,GUID,Total message memory allocation overflowed!  Rejecting message.
+Warn,/system/policy,message,Policy specified by message not found; executing current policy
+Warn,/system/setup,,Unable to roll logs: <directory name>/reactivity-firewall.pid inaccesible
+Warn,/system/startup,startup,Error setting socket to close-on-exec: %s.
+Warn,/system/startup,startup,Error setting socket to non blocking: %s
+Warn,/system/startup,startup,IO startup script '%s' is not manifested. Rejecting .... 
+Warn,/system/startup,startup,Reloading nfast keystore
+Warn,/system/startup,startup,The local port range of your system is currently %d...%d.  We recommend a range of at least %d...%d
+Warn,/system/startup,startup,"The maximum number of TCP time wait buckets your system supports is %d.  We recommend this number be at least the size of your local port range, %d."
+Warn,/system/startup,startup,"error '%s' while creating listener with service: %s, network: %s, and daemon: %s."
+Warn,/system/startup/configure,startup,The maximum number of open files you system can support is currently %d.  We recommend at least %d.
+Warn,,,Attempted to use TransactionMinder authentication <authentication scheme> scheme on Basic-protected resource
+Warn,,,Attempted to use basic authentication <authentication scheme> scheme on TransactionMinder-protected resource
+Warn,,,Could not create TransactionMinder agent service
+Warn,,,Could not create TransactionMinder helper object
+Warn,,,Could not register SiteMinder agent with policy server.
+Warn,,,Error during authentication: result = <result>
+Warn,,,Error during authorization: result = <result>
+Warn,,,Error in initializing Java Agent API - getConfig
+Warn,,,Error in initializing Java Agent API
+Warn,,,Error while determining whether resource is protected
+Warn,,,Error: Could not uninitialize SiteMinder Agent API.
+Warn,,,Exception while loading <file name>
+Warn,,,Failed to write SMSESSION cookie
+Warn,,,No agent name <agent-name property> property found in <file name>
+Warn,,,Server connection lost while Writing SMSESSION cookie
+Warn,,,TransactionMinder error during authorization: Could not apply responses.
+Warn,,,TransactionMinder error during authorization: Could not resolve document variables
+Warn,,,TransactionMinder error while attempting to identify resource
+Warn,,,Unable to process authentication: SiteMinder API result code was <result> 
+Warn,,,Unable to process authorization - SiteMinder API result code was <result>
+Warn ,/network/mqin,processing ,Non Request Message: message type %d '%s' queue '%.48s'

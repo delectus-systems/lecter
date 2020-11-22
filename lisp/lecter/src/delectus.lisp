@@ -67,7 +67,7 @@
 
 ;;; (init-delectus)
 ;;; (read-delectus-v1-file "~/.emacs")
-;;; (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus"))
+;;; (setf $id (read-delectus-v1-file (asdf:system-relative-pathname :lecter "../../test-data/Movies.delectus")))
 ;;; (document-id->pathname $id)
 
 (defmethod ensure-valid-docid ((id integer))
