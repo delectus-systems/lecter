@@ -174,3 +174,25 @@
 
 ;;; (time (setf $id (read-delectus-v1-file "/Users/mikel/Workshop/src/delectus/test-data/zipcode.delectus")))
 ;;; (time (write-to-csv $id "/Users/mikel/Desktop/testzips.csv"))
+
+
+;;; ---------------------------------------------------------------------
+;;; read delectus sexp
+;;; ---------------------------------------------------------------------
+
+(defmethod read-delectus1-sexp-file ((path pathname))
+  (with-open-file (in path)
+    (read in)))
+
+(defmethod read-delectus1-sexp-file ((path string))
+  (read-delectus1-sexp-file (pathname path)))
+
+;;; (setf $movies-sexp (read-delectus-sexp-file (asdf:system-relative-pathname :lecter "../../test-data/movies.sexp")))
+
+(defun parse-delectus1-sexp (sexp)
+  (let ((data-alist (plist-to-alist sexp)))
+    data-alist))
+
+;;; (setf $movies-path (asdf:system-relative-pathname :lecter "../../test-data/movies.sexp"))
+;;; (time (setf $movies-alist (parse-delectus1-sexp (read-delectus-sexp-file $movies-path))))
+;;; (mapcar 'car $movies-alist)

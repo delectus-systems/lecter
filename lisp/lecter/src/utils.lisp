@@ -22,3 +22,4 @@
   (loop for tail on plist by #'cddr collect (cons (first tail)(second tail))))
 
 ;;; (plist-to-alist '("a" "1" "b" "2"))
+
