@@ -50,8 +50,8 @@
 (define (read-delectus-file path)
   (reg:register-delectus! (read-delectus-data path)))
 
-;;; (define $jr-path "/Users/mikel/Workshop/src/delectus/test-data/junior-movies.delectus")
-;;; (define $jr (read-delectus-file $jr-path))
+;;; (define $movies-path "/Users/mikel/Workshop/src/delectus/test-data/Movies.delectus")
+;;; (define $movies (read-delectus-file $movies-path))
 
 ;;; ----------------------------------------------------------------------
 ;;; writing delectus files
@@ -251,22 +251,25 @@
 ;;; ---------------------------------------------------------------------
 
 (define (value->lisp val)
-  (cond ((equal? #t val) "T")
-        ((equal? #f val) "NIL")
-        ((equal? '() val) "NIL")
+  (cond ((equal? #t val) ':TRUE)
+        ((equal? #f val) ':FALSE)
+        ((equal? '() val) 'NIL)
         (else val)))
 
 (define (columns->lisp tbl)
   (let* ((colseq (table:column-sequence tbl))
          (cols (vector->list (column-sequence:columns colseq))))
-    (map (lambda (col)(column:label col))
+    (map (lambda (col)(list ':LABEL (value->lisp (column:label col))
+                            ':DELETED (value->lisp (column:deleted? col))))
          cols)))
 
 (define (rows->lisp tbl)
   (map (lambda (row)
-         (let* ((entries (vector->list (row:entries row))))
-           (map (lambda (entry)(value->lisp (entry:value entry)))
-                entries)))
+         (let* ((deleted? (row:deleted? row))
+                (finished? (row:finished? row))
+                (entries (map (lambda (entry)(value->lisp (entry:value entry)))
+                              (vector->list (row:entries row)))))
+           (list ':DELETED (value->lisp deleted?) ':FINISHED (value->lisp finished?) ':ENTRIES entries)))
        (vector->list (table:rows tbl))))
 
 (define (table->lisp tbl)
