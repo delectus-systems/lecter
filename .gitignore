@@ -2,4 +2,5 @@
 libDelectus.a
 libDelectus.dylib
 *.o
-*.c
+/scm/*.c
+/scm/*/*.c
