@@ -28,12 +28,17 @@
     (:darwin "libDelectus.dylib")
     (:linux "libDelectus.so")
     (t (:default "libDelectus.dylib")))
-   
+
+#-linux
 (defun load-libDelectus ()
   (let ((cffi:*foreign-library-directories*
          (cons $libdelectus-path cffi:*foreign-library-directories*)))
     ;; signals cffi:load-foreign-library-error on failure
     (use-foreign-library libdelectus)))
+
+#+linux
+(defun load-libDelectus ()
+  (error "Dynamically loading libDelectus does not currently work on Linux."))
 
 ;;; (load-libDelectus)
 
