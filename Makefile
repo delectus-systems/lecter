@@ -51,17 +51,23 @@ EXE = lecter
 ifeq ($(UNAME_S),Darwin)
   CFLAGS = "-D___LIBRARY -mmacosx-version-min=10.12"
   DYLIB_FLAGS = "-D___LIBRARY -D___SHARED -mmacosx-version-min=10.12"
-
-dylib: compile_scheme
-	${GSC} -obj -cc-options ${DYLIB_FLAGS} ${C_SOURCES} src/initDelectus.c
-	${GCC} -L${GSC_LIB} -lgambit -dynamiclib ${OBJS} src/initDelectus.o \
-        -install_name libDelectus.dylib -o libDelectus.dylib
 endif
 
 ifeq ($(UNAME_S),Linux)
  CFLAGS = "-D___LIBRARY"
-  DYLIB_FLAGS = "-D___LIBRARY -D___SHARED"
+ DYLIB_FLAGS = "-D___LIBRARY -D___DYNAMIC -D___SHARED"
+endif
 
+exe:
+	${GSC} -f -o ${EXE} -exe ${SCHEME_SOURCES} scm/lecter.scm
+
+ifeq ($(UNAME_S),Darwin)
+dylib: compile_scheme
+	${GSC} -obj -cc-options ${DYLIB_FLAGS} ${C_SOURCES} src/initDelectus.c
+	${GCC} -L${GSC_LIB} -lgambit -dynamiclib ${OBJS} src/initDelectus.o -install_name libDelectus.dylib -o libDelectus.dylib
+endif
+
+ifeq ($(UNAME_S),Linux)
 dylib: compile_scheme
 	${GSC} -obj -cc-options ${DYLIB_FLAGS} ${C_SOURCES} src/initDelectus.c
 	${GCC} -L${GSC_LIB} -lgambit -dynamiclib ${OBJS} src/initDelectus.o -o libDelectus.so
@@ -71,10 +77,7 @@ endif
 lib: obj
 	ar rc ${LIB} ${OBJS} && ranlib ${LIB}
 	rm -f ${C_SOURCES}
-	rm -f ${OBJECTS}
-
-exe:
-	${GSC} -f -o ${EXE} -exe ${SCHEME_SOURCES} scm/lecter.scm
+	rm -f ${OBJS}
 
 obj: compile_scheme
 	${GSC} -obj -cc-options ${CFLAGS} ${C_SOURCES}
