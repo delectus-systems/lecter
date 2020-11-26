@@ -32,8 +32,8 @@
 (defun sql-init-delectus-table (listid
                                 &key
                                   (format +delectus-format-version+)
-                                  (created (delectus-timestamp-now))
-                                  (modified (delectus-timestamp-now)))
+                                  (created (format nil "~A" (now)))
+                                  (modified (format nil "~A" (now))))
   (assert (identity-string? listid)() "Not a valid list identity: ~S" listid)
   (yield
    (insert-into :delectus
@@ -42,7 +42,7 @@
                       :created created
                       :modified modified))))
 
-;;; (sql-init-delectus-table (makeid))
+;;; (sql-init-delectus-table (make-identity-string))
 
 (defun sql-delectus-table-exists ()
   (yield
@@ -149,7 +149,7 @@
 
 (defun sql-get-next-revision (target)
   (cond
-    ((member target ["listnames" "comments" "columns"] :test #'equal)
+    ((member target '("listnames" "comments" "columns") :test #'equal)
      (values (format nil "SELECT MAX(revision)+1 FROM `~A`" target)
              nil))
     ((identity? target)
@@ -213,22 +213,22 @@
                       :timestamp timestamp
                       :comment comment-json))))
 
-;;; (sql-insert-comment-op (makeid) 1 (delectus-timestamp-now) "Foo")
+;;; ;; (sql-insert-comment-op (makeid) 1 (now) "Foo")
 
-;;; ---------------------------------------------------------------------
-;;; 'columns' op
-;;; ---------------------------------------------------------------------
+;; ;;; ---------------------------------------------------------------------
+;; ;;; 'columns' op
+;; ;;; ---------------------------------------------------------------------
 
-(defun sql-insert-columns-op (origin revision timestamp columns-data)
-  (let ((userdata-column-labels (get-plist-keys columns-data))
-        (userdata-column-data (get-plist-values columns-data)))
-    (values (format nil "INSERT INTO `columns` (origin, revision, timestamp, ~{~A~^, ~}) VALUES (?, ?, ?, ~{~A~^, ~})"
-                    userdata-column-labels
-                    (mapcar (constantly "?") userdata-column-labels))
-            (append [origin revision timestamp] userdata-column-data))))
+;; (defun sql-insert-columns-op (origin revision timestamp columns-data)
+;;   (let ((userdata-column-labels (get-plist-keys columns-data))
+;;         (userdata-column-data (get-plist-values columns-data)))
+;;     (values (format nil "INSERT INTO `columns` (origin, revision, timestamp, ~{~A~^, ~}) VALUES (?, ?, ?, ~{~A~^, ~})"
+;;                     userdata-column-labels
+;;                     (mapcar (constantly "?") userdata-column-labels))
+;;             (append [origin revision timestamp] userdata-column-data))))
 
-;;; (setf $cols [(make-default-column-description :name "Item")])
-;;; (sql-insert-columns-op (makeid) 1 (delectus-timestamp-now) (ensure-columns-data $cols))
+;; ;;; (setf $cols [(make-default-column-description :name "Item")])
+;; ;;; (sql-insert-columns-op (makeid) 1 (delectus-timestamp-now) (ensure-columns-data $cols))
 
 ;;; ---------------------------------------------------------------------
 ;;; 'item' op
@@ -243,7 +243,7 @@
                     (mapcar (constantly "?") userdata-column-labels))
             (append [origin revision itemid item-order timestamp] userdata-field-values))))
 
-;;; (sql-insert-item-op (makeid) 1 (makeid) (delectus-timestamp-now) [(make-column-label) "Foo"])
+;;; (sql-insert-item-op (makeid) 1 (makeid) (now) `(,(make-column-label) "Foo"))
 
 
 ;;; =====================================================================
@@ -265,17 +265,6 @@
 (defun sql-check-latest-items-table-exists ()
   (values "SELECT * FROM sqlite_temp_master WHERE type='table' AND name='latest_items'"
           nil))
-
-;; (defun sql-create-latest-items-table ()
-;;   (values
-;;    (trim "
-;; create temporary table latest_items as
-;; select itemsB.*
-;;     from items itemsB
-;;     where timestamp = 
-;;         (select max(timestamp) from items itemsA where itemsB.itemid=itemsA.itemid)
-;; ")
-;;    nil))
 
 (defun sql-create-latest-items-table ()
   (values

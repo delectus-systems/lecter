@@ -58,6 +58,7 @@
     :components ((:module "src"
                           :serial t
                           :components ((:file "package")
+                                       (:file "version")
                                        (:file "cffi")
                                        (:file "utils")
                                        (:file "identities")
