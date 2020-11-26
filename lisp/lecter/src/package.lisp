@@ -11,4 +11,5 @@
 (in-package #:cl-user)
 
 (defpackage #:lecter
-  (:use #:cl #:cffi #:sqlite))
+  (:use #:cl #:cffi #:sqlite #:sxql)
+  (:import-from #:local-time #:now))

@@ -54,14 +54,16 @@
     :license  "Apache 2.0"
     :version "1.5.2"
     :serial t
-    :depends-on (:cffi :sqlite :cl-strings)
+    :depends-on (:cffi :sqlite :cl-strings :fare-csv :cl-intbytes :binascii :uuid :local-time :jonathan :sxql)
     :components ((:module "src"
                           :serial t
                           :components ((:file "package")
                                        (:file "cffi")
+                                       (:file "utils")
+                                       (:file "identities")
+                                       (:file "bind")
                                        (:file "sql")
                                        (:file "sqlite")
-                                       (:file "utils")
                                        (:file "conditions")
                                        (:file "delectus1")))))
 

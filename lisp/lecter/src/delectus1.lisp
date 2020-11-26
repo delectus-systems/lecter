@@ -1,8 +1,8 @@
 ;;;; ***********************************************************************
 ;;;;
-;;;; Name:          delectus.lisp
+;;;; Name:          delectus1.lisp
 ;;;; Project:       lecter: Delectus 1.x as a library
-;;;; Purpose:       interacting with delectus documents
+;;;; Purpose:       interacting with delectus 1.x documents
 ;;;; Author:        mikel evins
 ;;;; Copyright:     2020 by mikel evins
 ;;;;
