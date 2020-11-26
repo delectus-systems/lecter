@@ -48,12 +48,26 @@ LIB = libDelectus.a
 
 EXE = lecter
 
-CFLAGS = "-D___LIBRARY -mmacosx-version-min=10.12"
-DYLIB_FLAGS = "-D___LIBRARY -D___SHARED -mmacosx-version-min=10.12"
+ifeq ($(UNAME_S),Darwin)
+  CFLAGS = "-D___LIBRARY -mmacosx-version-min=10.12"
+  DYLIB_FLAGS = "-D___LIBRARY -D___SHARED -mmacosx-version-min=10.12"
 
 dylib: compile_scheme
 	${GSC} -obj -cc-options ${DYLIB_FLAGS} ${C_SOURCES} src/initDelectus.c
-	${GCC} -L${GSC_LIB} -lgambit -dynamiclib ${OBJS} src/initDelectus.o -install_name libDelectus.dylib -o libDelectus.dylib
+	${GCC} -L${GSC_LIB} -lgambit -dynamiclib ${OBJS} src/initDelectus.o \
+        -install_name libDelectus.dylib -o libDelectus.dylib
+endif
+
+ifeq ($(UNAME_S),Linux)
+ CFLAGS = "-D___LIBRARY"
+  DYLIB_FLAGS = "-D___LIBRARY -D___SHARED"
+
+dylib: compile_scheme
+	${GSC} -obj -cc-options ${DYLIB_FLAGS} ${C_SOURCES} src/initDelectus.c
+	${GCC} -L${GSC_LIB} -lgambit -dynamiclib ${OBJS} src/initDelectus.o \
+        -install_name libDelectus.so -o libDelectus.so
+endif
+
 
 lib: obj
 	ar rc ${LIB} ${OBJS} && ranlib ${LIB}
@@ -87,6 +101,7 @@ clean:
 	rm -f lecter
 	rm -f libDelectus.a
 	rm -f libDelectus.dylib
+	rm -f libDelectus.so
 	rm -f ${C_SOURCES}
 	rm -f ${OBJS}
 	rm -f src/*.o
