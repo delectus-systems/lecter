@@ -70,7 +70,7 @@ endif
 ifeq ($(UNAME_S),Linux)
 dylib: compile_scheme
 	${GSC} -obj -cc-options ${DYLIB_FLAGS} ${C_SOURCES} src/initDelectus.c
-	${GCC} -L${GSC_LIB} -lgambit -rdynamic -shared ${OBJS} src/initDelectus.o -o libDelectus.so
+	${GCC} ${DYLIB_FLAGS} -L${GSC_LIB} -lgambit -rdynamic -shared ${OBJS} src/initDelectus.o -o libDelectus.so
 endif
 
 

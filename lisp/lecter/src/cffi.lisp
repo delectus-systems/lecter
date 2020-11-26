@@ -18,10 +18,15 @@
 ;;; load and initialize the delectus library
 ;;; ---------------------------------------------------------------------
 
+#+darwin
 (defparameter $libdelectus-path (asdf:system-relative-pathname :lecter "../../libDelectus.dylib"))
+
+#+linux
+(defparameter $libdelectus-path (asdf:system-relative-pathname :lecter "../../libDelectus.so"))
 
 (define-foreign-library libdelectus
     (:darwin "libDelectus.dylib")
+    (:linux "libDelectus.so")
     (t (:default "libDelectus.dylib")))
    
 (defun load-libDelectus ()
@@ -29,6 +34,8 @@
          (cons $libdelectus-path cffi:*foreign-library-directories*)))
     ;; signals cffi:load-foreign-library-error on failure
     (use-foreign-library libdelectus)))
+
+;;; (load-libDelectus)
 
 ;;; ---------------------------------------------------------------------
 ;;; Delectus library API constants
