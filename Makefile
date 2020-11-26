@@ -64,8 +64,7 @@ ifeq ($(UNAME_S),Linux)
 
 dylib: compile_scheme
 	${GSC} -obj -cc-options ${DYLIB_FLAGS} ${C_SOURCES} src/initDelectus.c
-	${GCC} -L${GSC_LIB} -lgambit -dynamiclib ${OBJS} src/initDelectus.o \
-        -install_name libDelectus.so -o libDelectus.so
+	${GCC} -L${GSC_LIB} -lgambit -dynamiclib ${OBJS} src/initDelectus.o -o libDelectus.so
 endif
 
 
