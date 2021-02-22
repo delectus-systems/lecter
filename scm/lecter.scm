@@ -15,7 +15,7 @@
 ;;; lecter --csv <pathname> => returns csv conversion of delectus data to stdio
 ;;; lecter --jsonl <pathname> => returns csv conversion of delectus data to stdio
 
-(define $lecter-version-string "1.5.1d2")
+(define $lecter-version-string "1.5.2d1")
 
 (define (print-lecter-usage)
   (newline)
@@ -27,6 +27,7 @@
   (display "  lecter --format-name PATH # prints the version name of the delectus file format,")(newline)
   (display "                            # or INVALID if it's not a recognized Delectus format")(newline)
   (display "  lecter --lisp PATH # prints the Delectus data to stdio as Common Lisp expressions")(newline)
+  (display "  lecter --sexp PATH # prints the Delectus data to stdio as Common Lisp expressions")(newline)
   (display "  lecter --csv PATH # prints the Delectus data to stdio as CSV")(newline)
   (newline))
 
@@ -65,7 +66,7 @@
                                     (write format-name)
                                     (newline)))))
                            ;; --lisp
-                           ((equal? option "--lisp") (write-lisp path))
+                           ((or (equal? option "--lisp")(equal? option "--sexp")) (write-lisp path))
                            ;; --csv
                            ((equal? option "--csv") (delectus->csv path))
                            ;; unrecognized options
