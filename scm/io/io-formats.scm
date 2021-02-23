@@ -48,11 +48,11 @@
 
 (define (delectus-format-number->name version-number)
   (cond 
-   ((eqv? version-number $delectus-format-1.0) "delectus-format-1.0")
-   ((eqv? version-number $delectus-format-alpha-1) "delectus-format-alpha-1")
-   ((eqv? version-number $delectus-format-alpha-2) "delectus-format-alpha-2")
-   ((eqv? version-number $delectus-format-alpha-4) "delectus-format-alpha-4")
-   ((eqv? version-number $delectus-format-beta-2) "delectus-format-beta-2")
+   ((eqv? version-number $delectus-format-1.0) "1.0.0")
+   ((eqv? version-number $delectus-format-alpha-1) "0.1.0a1")
+   ((eqv? version-number $delectus-format-alpha-2) "0.1.0a2")
+   ((eqv? version-number $delectus-format-alpha-4) "0.1.0a4")
+   ((eqv? version-number $delectus-format-beta-2) "0.1.0b1")
    (else "INVALID")))
 
 ;;; ----------------------------------------------------------------------
