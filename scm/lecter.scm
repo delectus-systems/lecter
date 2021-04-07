@@ -15,7 +15,7 @@
 ;;; lecter --csv <pathname> => returns csv conversion of delectus data to stdio
 ;;; lecter --jsonl <pathname> => returns csv conversion of delectus data to stdio
 
-(define $lecter-version-string "1.5.2d1")
+(define $lecter-version-string "1.5.2d2")
 
 (define (print-lecter-usage)
   (newline)
