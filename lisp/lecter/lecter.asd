@@ -54,7 +54,8 @@
     :license  "Apache 2.0"
     :version "1.5.2"
     :serial t
-    :depends-on (:cffi :sqlite :cl-strings :fare-csv :cl-intbytes :binascii :uuid :local-time :jonathan :sxql)
+    :depends-on (:cffi :sqlite :cl-strings :fare-csv :cl-intbytes :binascii :uuid :local-time :jonathan :sxql
+                       :net.bardcode.alist)
     :components ((:module "src"
                           :serial t
                           :components ((:file "package")
