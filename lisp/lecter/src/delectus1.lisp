@@ -190,9 +190,9 @@
 ;;; (setf $movies-sexp (read-delectus-sexp-file (asdf:system-relative-pathname :lecter "../../test-data/movies.sexp")))
 
 (defun parse-delectus1-sexp (sexp)
-  (let ((data-alist (plist-to-alist sexp)))
+  (let ((data-alist (alist:plist-to-alist sexp)))
     data-alist))
 
 ;;; (setf $movies-path (asdf:system-relative-pathname :lecter "../../test-data/movies.sexp"))
-;;; (time (setf $movies-alist (parse-delectus1-sexp (read-delectus-sexp-file $movies-path))))
+;;; (time (setf $movies-alist (parse-delectus1-sexp (read-delectus1-sexp-file $movies-path))))
 ;;; (mapcar 'car $movies-alist)
