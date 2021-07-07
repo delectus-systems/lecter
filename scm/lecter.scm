@@ -28,6 +28,7 @@
   (display "                            # or INVALID if it's not a recognized Delectus format")(newline)
   (display "  lecter --lisp PATH # prints the Delectus data to stdio as Common Lisp expressions")(newline)
   (display "  lecter --sexp PATH # prints the Delectus data to stdio as Common Lisp expressions")(newline)
+  (display "  lecter --delectus-json PATH # prints the Delectus data to stdio as JSON, colums followed by rows")(newline)
   (display "  lecter --jsonl PATH # prints the Delectus data to stdio as JSON objects, one object per line")(newline)
   (display "  lecter --csv PATH # prints the Delectus data to stdio as CSV")(newline)
   (newline))
@@ -70,6 +71,8 @@
                            ((or (equal? option "--lisp")(equal? option "--sexp")) (write-lisp path))
                            ;; --jsonl
                            ((equal? option "--jsonl") (write-jsonl path))
+                           ;; --delectus-json
+                           ((equal? option "--delectus-json") (write-delectus-json path))
                            ;; --csv
                            ((equal? option "--csv") (delectus->csv path))
                            ;; unrecognized options
