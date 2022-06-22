@@ -1,0 +1,907 @@
+
+{"Title": "BANK JOB", "Star": "STATHAM, JASON", "Costar": "BURROWS, SAFFRON", "Subject": "SUSPENSE", "Number": "741", "Director": "DONALDSON, ROGER", "comments": false, "Rating": "**+", "Year": "2008"}
+{"Title": "Home Alone", "Star": "CULKIN, MACAULAY", "Costar": "PESCI, JOE", "Subject": "COMEDY", "Number": "1", "Director": "COLUMBUS, CHRIS", "comments": false, "Rating": false, "Year": false}
+{"Title": "HOME ALONE 2", "Star": "CULKIN, MACAULAY", "Costar": "PESCI, JOE", "Subject": "COMEDY", "Number": "1", "Director": "COLUMBUS, CHRIS", "comments": false, "Rating": false, "Year": false}
+{"Title": "HOME ALONE 3", "Star": "LINZ, ALEX D", "Costar": "", "Subject": "COMEDY", "Number": "1", "Director": "GOSNELL, RAJA", "comments": false, "Rating": false, "Year": false}
+{"Title": "FINDING NEMO", "Star": "", "Costar": "", "Subject": "DISNEY", "Number": "4", "Director": false, "comments": "", "Rating": false, "Year": false}
+{"Title": "HOMEWARD BOUND, THE INCREDIBLE JOURNEY", "Star": "FIELD, SALLY", "Costar": "FOX, MICHAEL J", "Subject": "COMEDY", "Number": "5", "Director": "DUNHAM, DUWAYNE", "comments": false, "Rating": false, "Year": false}
+{"Title": "LASSIE COME HOME", "Star": "MCDOWELL, RODDY", "Costar": "TAYLOR, ELIZABETH", "Subject": "DRAMA", "Number": "8", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ALICE IN WONDERLAND", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "18", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CASPER", "Star": "PULLMAN, BILL", "Costar": "RICCI, CHRISTIN", "Subject": "COMEDY", "Number": "19", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RENDITION", "Star": "GYLLENHAAL, JAKE", "Costar": "WITHERSPOON, REESE", "Subject": "SUSPENSE", "Number": "21", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PRINCE AND THE PAUPER", "Star": "FLYNN, ERROL", "Costar": "RAINS, CLAUDE", "Subject": "history", "Number": "22", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SNOW WHITE AND THE SEVEN DWARFS", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "24", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "JUNGLE BOOK", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "25", "Director": false, "comments": "DISNEY", "Rating": false, "Year": false}
+{"Title": "FANTASIA", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "26", "Director": "SHARPSTEEN, BEN", "comments": "DISNEY", "Rating": "***+", "Year": false}
+{"Title": "BAMBI", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "27", "Director": false, "comments": "DISNEY", "Rating": false, "Year": false}
+{"Title": "MARY POPPINS", "Star": "ANDREWS, JULIE", "Costar": "VAN DYKE, DICK", "Subject": "MUSICAL", "Number": "32", "Director": "STEVENSON, ROBERT", "comments": "OSCAR", "Rating": "****", "Year": false}
+{"Title": "LADY AND THE TRAMP", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "33", "Director": false, "comments": "DISNEY", "Rating": false, "Year": false}
+{"Title": "CINDERELLA", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "35", "Director": false, "comments": "DISNEY", "Rating": false, "Year": false}
+{"Title": "DUMBO", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "39", "Director": "SHARPSTEEN, BEN", "comments": "DISNEY", "Rating": "****", "Year": false}
+{"Title": "HARRY POTTER AND THE ORDER OF THE PHOENIX", "Star": "RADCLIFF, DANIEL", "Costar": "GRINT, RUPERT", "Subject": "FANTASY", "Number": "55", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HARRY POTTER AND THE CHAMBER OF SECRETS", "Star": "RADCLIFF, DANIEL", "Costar": "GRANT, RUPERT", "Subject": "FANTASY", "Number": "56", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "YOU ARE ALL DISEASED", "Star": "CARLIN, GEORGE", "Costar": "", "Subject": "COMEDY", "Number": "57", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TERMINATOR 3: RISE OF THE MACHINES", "Star": "SCHWARTZENEGGER, ARNOLD", "Costar": "STAHL, NICK", "Subject": "SCI-FI", "Number": "60", "Director": "MOSTOW, JONATHAN", "comments": false, "Rating": "***", "Year": false}
+{"Title": "NO COUNTRY FOR OLD MEN", "Star": "JONES, TOMMY LEE", "Costar": "BARDEM, JAVIER", "Subject": "THRILLER", "Number": "62", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BABE", "Star": "CROMWELL, JAMES", "Costar": "SZUBANKI, MAGDA", "Subject": "COMEDY", "Number": "64", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CAMELOT", "Star": "HARRIS, RICHARD", "Costar": "REDGRAVE, VANES", "Subject": "MUSICAL", "Number": "72", "Director": "LOGAN, JOSHUA", "comments": false, "Rating": false, "Year": false}
+{"Title": "VICTOR/VICTORIA", "Star": "ANDREWS, JULIE", "Costar": "GARNER, JAMES", "Subject": "MUSICAL", "Number": "75", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TRUE GRIT", "Star": "WAYNE, JOHN", "Costar": "DARBY, KIM", "Subject": "WESTERN", "Number": "84", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TO KILL A KING", "Star": "ROTH, TIM", "Costar": "SCOTT, DOUGRAY", "Subject": "HISTORY", "Number": "85", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "STAGE DOOR", "Star": "HEPBURN, KATHARINE", "Costar": "ROGERS, GINGER", "Subject": "COMEDY", "Number": "86", "Director": "LACACA, GREGORY", "comments": false, "Rating": "****", "Year": false}
+{"Title": "SONS OF KATIE ELDER", "Star": "WAYNE, JOHN", "Costar": "MARTIN, DEAN", "Subject": "WESTERN", "Number": "89", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SHOOTIST", "Star": "WAYNE, JOHN", "Costar": "BACALL, LAUREN", "Subject": "WESTERN", "Number": "89", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MAGNIFICENT SEVEN", "Star": "BRYNNER, YUL", "Costar": "WALLACH, ELI", "Subject": "WESTERN", "Number": "92", "Director": "Sturges, John", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "BIG JAKE", "Star": "WAYNE, JOHN", "Costar": "O'HARA, MAUREEN", "Subject": "WESTERN", "Number": "94", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MAN WHO SHOT LIBERTY VALANCE", "Star": "WAYNE, JOHN", "Costar": "STEWART, JAMES", "Subject": "WESTERN", "Number": "96", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HANGING TREE", "Star": "COOPER, GARY", "Costar": "SCHELL, MARIA", "Subject": "WESTERN", "Number": "97", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GUNFIGHT AT THE OK CORRAL", "Star": "LANCASTER, BURT", "Costar": "DOUGLAS, KIRK", "Subject": "WESTERN", "Number": "99", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ASSASSAINATION OF JESSE JAMES BY THE COWARD ROBERT FORD", "Star": "PITT, BRAD", "Costar": "AFFLECK, CASEY", "Subject": "WESTERN", "Number": "100", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TOMBSTONE", "Star": "RUSSELL, KURT", "Costar": "KILMER, VAL", "Subject": "WESTERN", "Number": "101", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MCLINTOCK", "Star": "WAYNE, JOHN", "Costar": "O'HARA, MAUREEN", "Subject": "WESTERN", "Number": "102", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "3:10 TO YUMA", "Star": "CROWE, RUSSELL", "Costar": "BALE, CHRISTIAN", "Subject": "WESTERN", "Number": "103", "Director": "MANGOLD, JAMES", "comments": false, "Rating": "***", "Year": false}
+{"Title": "ROOSTER COGBURN", "Star": "WAYNE, JOHN", "Costar": "HEPBURN, KATHAR", "Subject": "WESTERN", "Number": "104", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FOR A FEW DOLLARS MORE", "Star": "EASTWOOD, CLINT", "Costar": "VAN CLEEF, LEE", "Subject": "WESTERN", "Number": "105", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SHANGHAI KNIGHTS", "Star": "CHAN, JACKIE", "Costar": "WILSON, OWEN", "Subject": "COMEDY", "Number": "109", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TOTAL RECALL", "Star": "SCHWARZENEGGER, ARNOLD", "Costar": "STONE, SHARON", "Subject": "SCI-FI", "Number": "112", "Director": "VERHOEVEN, PAUL", "comments": false, "Rating": "***", "Year": false}
+{"Title": "MEN IN BLACK", "Star": "JONES, TOMMY LEE", "Costar": "SMITH, WILL", "Subject": "SCI-FI", "Number": "113", "Director": "SONNENFELD, BARRY", "comments": false, "Rating": "***", "Year": false}
+{"Title": "FIFTH ELEMENT", "Star": "WILLIS, BRUCE", "Costar": "OLDMAN, GARY", "Subject": "SCI FI", "Number": "114", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OUTLAND", "Star": "CONNERY, SEAN", "Costar": "BOYLE, PETER", "Subject": "SCI FI", "Number": "115", "Director": "HYAMS, PETER", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "PREDATOR", "Star": "SCHWARZENEGGER, ARNOLD", "Costar": "WEATHERS, CARL", "Subject": "SCI FI", "Number": "116", "Director": "MCTIERNAN, JOHN", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "THING FROM ANOTHER WORLD", "Star": "SHERIDAN, MARGARET", "Costar": "TOBEY, KENNETH", "Subject": "SCI-FI", "Number": "117", "Director": "NYBY, CHRISTIAN", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "TERMINATOR 2", "Star": "SCHWARZENEGGER, ARNOLD", "Costar": "HAMILTON, LINDA", "Subject": "SCI FI", "Number": "118", "Director": "CAMERON, JAMES", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "DAY THE EARTH STOOD STILL", "Star": "RENNIE, MICHAEL", "Costar": "NEAL, PATRICIA", "Subject": "SCI-FI", "Number": "119", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PLAY MISTY FOR ME", "Star": "EASTWOOD, CLINT", "Costar": "WALTER, JESSICA", "Subject": "SUSPENSE", "Number": "120", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "POSEIDON ADVENTURE", "Star": "HACKMAN, GENE", "Costar": "BORGNINE, ERNES", "Subject": "DRAMA", "Number": "121", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "16 BLOCKS", "Star": "WILLIS, BRUCE", "Costar": "DEF, MOS", "Subject": "SUSPENSE", "Number": "122", "Director": "DONNER, RICHARD", "comments": false, "Rating": "***", "Year": false}
+{"Title": "INDEPENDENCE DAY", "Star": "SMITH, WILL", "Costar": "GOLDBLUM, JEFF", "Subject": "SCI FI", "Number": "124", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "E.T.", "Star": "WALLACE, DEE", "Costar": "COYOTE, PETER", "Subject": "SCI FI", "Number": "126", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "EYE SEE YOU", "Star": "STALLONE, SYLVESTER", "Costar": "BERENGER, TOM", "Subject": "ACTION SUSPENSE", "Number": "129", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "POINT BLANK", "Star": "MARVIN, LEE", "Costar": "DICKINSON, ANGI", "Subject": "ACTION", "Number": "130", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RAT RACE", "Star": "ATKINSON, ROWAN", "Costar": "CLEESE, JOHN", "Subject": "COMEDY", "Number": "131", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CHICKEN RUN", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "133", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MEET THE FOCKERS", "Star": "HOFFMAN, DUSTIN", "Costar": "DENIRO, ROBERT", "Subject": "COMEDY", "Number": "134", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GODZILLA", "Star": "TAYLOR-JOHNSON, AARON", "Costar": "WATANABE, KEN", "Subject": "SCI FI", "Number": "140", "Director": "EDWARDS, GARETH", "comments": false, "Rating": false, "Year": false}
+{"Title": "STAR WARS 4, 5, 6", "Star": "FORD, HARRISON", "Costar": "FISHER, CARRIE", "Subject": "SCI FI", "Number": "141", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PRESTIGE", "Star": "JACKMAN, HUGH", "Costar": "BALE, CHRISTIAN", "Subject": "SUSPENSE", "Number": "142", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MICHAEL CLAYTON", "Star": "CLOONEY, GEORGE", "Costar": "WILKINSON, TOM", "Subject": "THRILLER", "Number": "143", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AMERICAN GANGSTER", "Star": "WASHINGTON, DENZEL", "Costar": "CROWE, RUSSELL", "Subject": "THRILLER", "Number": "144", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BRAVE ONE", "Star": "FOSTER, JODIE", "Costar": "HOWARD, TERRENC", "Subject": "THRILLER", "Number": "145", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LIVE FREE OR DIE HARD", "Star": "WILLIS, BRUCE", "Costar": "LONG, JUSTIN", "Subject": "ACTION", "Number": "146", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LARRY CROWNE", "Star": "HANKS, TOM", "Costar": "ROBERTS, JULIA", "Subject": "COMEDY", "Number": "148", "Director": "HANKS, TOM", "comments": false, "Rating": false, "Year": false}
+{"Title": "REGARDING HENRY", "Star": "FORD, HARRISON", "Costar": "BENING, ANNETTE", "Subject": "DRAMA", "Number": "151", "Director": "NICHOLS, MIKE", "comments": false, "Rating": "**", "Year": false}
+{"Title": "TROUBLE WITH THE CURVE", "Star": "EASTWOOD, CLINT", "Costar": "ADAMS, AMY", "Subject": "DRAMA", "Number": "152", "Director": "LORENZ, ROBERT", "comments": false, "Rating": false, "Year": false}
+{"Title": "PHONE BOOTH", "Star": "FARRELL, COLIN", "Costar": "WHITAKER, FORRE", "Subject": "THRILLER", "Number": "154", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BERNARD AND DORIS", "Star": "SARANDON, SUSAN", "Costar": "FIENNES, RALPH", "Subject": "DRAMA", "Number": "155", "Director": "BALABAN, BOB", "comments": "TV MOVIE", "Rating": false, "Year": false}
+{"Title": "HELLBOY", "Star": "PERLMAN, RON", "Costar": "BLAIR, SELMA", "Subject": "ACTION", "Number": "156", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HIDE AND SEEK", "Star": "DENIRO, ROBERT", "Costar": "FANNING, DAKOTA", "Subject": "SUSPENSE", "Number": "157", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SYRIANA", "Star": "CLOONEY, GEORGE", "Costar": "DAMON, MATT", "Subject": "THRILLER", "Number": "158", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MY FAVORITE WIFE", "Star": "GRANT, CARY", "Costar": "DUNNE, IRENE", "Subject": "COMEDY", "Number": "159", "Director": "KANIN, GARSON", "comments": false, "Rating": false, "Year": false}
+{"Title": "STEPMOM", "Star": "ROBERTS, JULIA", "Costar": "SARANDON, SUSAN", "Subject": "DRAMA", "Number": "161", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RED DRAGON", "Star": "HOPKINS, ANTHONY", "Costar": "NORTON, EDWARD", "Subject": "THRILLER", "Number": "162", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "STAR WARS III: REVENGE OF THE SITH", "Star": "MCGREGOR, EWAN", "Costar": "PORTMAN, NATALI", "Subject": "SCI-FI", "Number": "164", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CRASH", "Star": "BULLOCK, SANDRA", "Costar": "DILLON, MATT", "Subject": "THRILLER", "Number": "165", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "POLAR EXPRESS", "Star": "HANKS, TOM", "Costar": "", "Subject": "FANTASY", "Number": "168", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "12 ANGRY MEN", "Star": "FONDA, HENRY", "Costar": "COBB, LEE J", "Subject": "DRAMA", "Number": "169", "Director": "Lumet, Sidney", "comments": false, "Rating": "****", "Year": false}
+{"Title": "CAINE MUTINY", "Star": "BOGART, HUMPHREY", "Costar": "FERRER, JOSE", "Subject": "DRAMA", "Number": "170", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AMISTAD", "Star": "HOPKINS, ANTHONY", "Costar": "FREEMAN, MORGAN", "Subject": "DRAMA", "Number": "171", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SUMMERTIME", "Star": "HEPBURN, KATHERINE", "Costar": "MASTRIANI, MARC", "Subject": "DRAMA", "Number": "172", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PRACTICAL MAGIC", "Star": "BULLOCK, SANDRA", "Costar": "KIDMAN, NICOLE", "Subject": "DRAMA", "Number": "173", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TEQUILA SUNRISE", "Star": "GIBSON, MEL", "Costar": "RUSSELL, KURT", "Subject": "THRILLER", "Number": "175", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LORD OF WAR", "Star": "CAGE, NICHOLAS", "Costar": "HAWKE, ETHAN", "Subject": "THRILLER", "Number": "176", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GONE WITH THE WIND", "Star": "GABLE, CLARK", "Costar": "LEIGH, VIVIAN", "Subject": "history", "Number": "177", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ANALYZE THAT", "Star": "DENIRO, ROBERT", "Costar": "CRYSTAL, BILLY", "Subject": "COMEDY", "Number": "180", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RECRUIT", "Star": "PACINO, AL", "Costar": "FARRELL, COLIN", "Subject": "SUSPENSE", "Number": "181", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MAN FOR ALL SEASONS", "Star": "SHAW, ROBERT", "Costar": "SCOFIELD, PAUL", "Subject": "history", "Number": "183", "Director": "ZINNEMANN, FRED", "comments": false, "Rating": "****", "Year": false}
+{"Title": "ANNE OF THE THOUSAND DAYS", "Star": "BURTON, RICHARD", "Costar": "BUJOLD, GENEVIE", "Subject": "history", "Number": "184", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "STEEL MAGNOLIAS", "Star": "FIELD, SALLY", "Costar": "MACLAINE, SHIRL", "Subject": "COMEDY/DRAMA", "Number": "186", "Director": "ROSS, HERBERT", "comments": false, "Rating": "***", "Year": false}
+{"Title": "BASIC", "Star": "TRAVOLTA, JOHN", "Costar": "JACKSON, SAMUEL", "Subject": "ACTION", "Number": "187", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BEAUTY SHOP", "Star": "LATIFAH, QUEEN", "Costar": "SILVERSTONE, AL", "Subject": "COMEDY", "Number": "188", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DARK BLUE", "Star": "RUSSELL, KURT", "Costar": "GLEESON, BRENDA", "Subject": "SUSPENSE", "Number": "189", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LITTLE WOMEN  (OLD)", "Star": "HEPBURN, KATHARINE", "Costar": "BENNETT, JOAN", "Subject": "history", "Number": "86", "Director": "CUKOR, GEORGE", "comments": "OSCAR", "Rating": "****", "Year": false}
+{"Title": "MADIGAN", "Star": "WIDMARK, RICHARD", "Costar": "FONDA, HENRY", "Subject": "DRAMA", "Number": "197", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "36 HOURS", "Star": "GARNER, JAMES", "Costar": "SAINT, EVA MARI", "Subject": "DRAMA", "Number": "200", "Director": "SEATON, GEORGE", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "CASABLANCA", "Star": "BOGART, HUMPHREY", "Costar": "BERGMAN, INGRID", "Subject": "DRAMA", "Number": "202", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HAMLET", "Star": "GIBSON, MEL", "Costar": "CLOSE, GLENN", "Subject": "history", "Number": "203", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "A TIME TO KILL", "Star": "JACKSON, SAMUEL L", "Costar": "MCCONAUGHEY, MI", "Subject": "DRAMA", "Number": "208", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LION IN WINTER", "Star": "O'TOOLE, PETER", "Costar": "HEPBURN, KATHAR", "Subject": "history", "Number": "211", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ON GOLDEN POND", "Star": "FONDA, HENRY", "Costar": "HEPBURN, KATHAR", "Subject": "DRAMA", "Number": "212", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GHOST", "Star": "SWAYZE, PATRICK", "Costar": "MOORE, DEMI", "Subject": "DRAMA", "Number": "213", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TO KILL A MOCKINGBIRD", "Star": "PECK, GREGORY", "Costar": "BADHAM, MARY", "Subject": "DRAMA", "Number": "214", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AFRICAN QUEEN", "Star": "BOGART, HUMPHREY", "Costar": "HEPBURN, KATHAR", "Subject": "DRAMA", "Number": "215", "Director": "HUSTON, JOHN", "comments": "OSCAR", "Rating": "****", "Year": false}
+{"Title": "AN AFFAIR TO REMEMBER", "Star": "GRANT, CARY", "Costar": "KERR, DEBORAH", "Subject": "DRAMA", "Number": "216", "Director": "MCCAREY, LEO", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "PIRATES OF THE CARIBBEAN 2 DEAD MAN'S CHEST", "Star": "DEPP, JOHNNY", "Costar": "BLOOM, ORLANDO", "Subject": "history", "Number": "226", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BRINGING DOWN THE HOUSE", "Star": "MARTIN, STEVE", "Costar": "LATIFAH, QUEEN", "Subject": "COMEDY", "Number": "232", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DIE HARD", "Star": "WILLIS, BRUCE", "Costar": "BEDELIA, BONNIE", "Subject": "ACTION", "Number": "233", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DIE HARD 2", "Star": "WILLIS, BRUCE", "Costar": "BEDELIA, BONNIE", "Subject": "ACTION", "Number": "233", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DIE HARD WITH A VENGEANCE", "Star": "WILLIS, BRUCE", "Costar": "JACKSON, SAMUEL", "Subject": "ACTION", "Number": "233", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "JACKAL", "Star": "WILLIS, BRUCE", "Costar": "GERE, RICHARD", "Subject": "ACTION", "Number": "236", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LAST BOY SCOUT", "Star": "WILLIS, BRUCE", "Costar": "WAYANS, DAMON", "Subject": "ACTION COMEDY", "Number": "237", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LETHAL WEAPON", "Star": "GIBSON, MEL", "Costar": "GLOVER, DANNY", "Subject": "ACTION", "Number": "238", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LETHAL WEAPON 2", "Star": "GIBSON, MEL", "Costar": "GLOVER, DANNY", "Subject": "ACTION", "Number": "238", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LETHAL WEAPON 3", "Star": "GIBSON, MEL", "Costar": "GLOVER, DANNY", "Subject": "ACTION", "Number": "238", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LETHAL WEAPON 4", "Star": "GIBSON, MEL", "Costar": "GLOVER, DANNY", "Subject": "ACTION", "Number": "238", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PAYBACK", "Star": "GIBSON, MEL", "Costar": "KRISTOFERSON, K", "Subject": "ACTION", "Number": "242", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BRAVEHEART", "Star": "GIBSON, MEL", "Costar": "MCGOOHAN, PATRI", "Subject": "history", "Number": "243", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RAMBO FIRST BLOOD", "Star": "STALLONE, SYLVESTER", "Costar": "CRENNA, RICHARD", "Subject": "ACTION", "Number": "245", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RAMBO FIRST BLOOD PART II", "Star": "STALLONE, SYLVESTER", "Costar": "CRENNA, RICHARD", "Subject": "ACTION", "Number": "245", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SNAKES ON A PLANE", "Star": "JACKSON, SAMUEL L", "Costar": "MARGULIES, JULI", "Subject": "ACTION", "Number": "250", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MEMOIRS OF A GEISHA", "Star": "ZHANG, ZIYI", "Costar": "WATANABE, KEN", "Subject": "DRAMA", "Number": "251", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RED DAWN", "Star": "SWAYZE, PATRICK", "Costar": "SHEEN, CHARLIE", "Subject": "ACTION", "Number": "252", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OPERATION PACIFIC", "Star": "WAYNE, JOHN", "Costar": "NEAL, PATRICIA", "Subject": "WAR", "Number": "253", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ROAD HOUSE", "Star": "SWAYZE, PATRICK", "Costar": "ELLIOTT, SAM", "Subject": "ACTION", "Number": "252", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DEVIL WEARS PRADA", "Star": "STREEP, MERYL", "Costar": "HATHAWAY, ANNE", "Subject": "COMEDY", "Number": "255", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "U S MARSHALLS", "Star": "JONES, TOMMY LEE", "Costar": "SNIPES, WESLEY", "Subject": "ACTION", "Number": "256", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PATRIOT GAMES", "Star": "FORD, HARRISON", "Costar": "ARCHER, ANNE", "Subject": "ACTION", "Number": "257", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CLEAR AND PRESENT DANGER", "Star": "FORD, HARRISON", "Costar": "ARCHER, ANNE", "Subject": "ACTION", "Number": "258", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RAIDERS OF THE LOST ARK", "Star": "FORD, HARRISON", "Costar": "ALLEN, KAREN", "Subject": "ACTION", "Number": "259", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "INDIANA JONES AND THE TEMPLE OF DOOM", "Star": "FORD, HARRISON", "Costar": "CAPSHAW, KATE", "Subject": "ACTION", "Number": "259", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "INDIANA JONES AND LAST CRUSADE", "Star": "FORD, HARRISON", "Costar": "CONNERY, SEAN", "Subject": "ACTION", "Number": "259", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LAST OF THE MOHICANS", "Star": "LEWIS, DANIEL DAY", "Costar": "STOWE, MADELAIN", "Subject": "history", "Number": "267", "Director": "MANN, MICHAEL", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "ADVENTURES OF ROBIN HOOD", "Star": "FLYNN, ERROL", "Costar": "DE HAVILAND, OL", "Subject": "HISTORY", "Number": "269", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LOVE ACTUALLY", "Star": "GRANT, HUGH", "Costar": "NEESON, LIAM", "Subject": "COMEDY", "Number": "270", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RAMBO, THE FIGHT CONTINUES", "Star": "STALLONE, SYLVESTER", "Costar": "BENZ, JULIE", "Subject": "ACTION", "Number": "271", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SPARTACUS", "Star": "DOUGLAS, KIRK", "Costar": "OLIVIER, LAUREN", "Subject": "history", "Number": "272", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "UNLEASHED", "Star": "LI, JET", "Costar": "FREEMAN, MORGAN", "Subject": "ACTION", "Number": "277", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "EXPENDABLES 2", "Star": "STALLONE, SYLVESTER", "Costar": "STATHAM, JASON", "Subject": "ACTION", "Number": "281", "Director": "WEST, SIMON", "comments": false, "Rating": false, "Year": false}
+{"Title": "HUNTED", "Star": "JONES, TOMMY LEE", "Costar": "DEL TORO, BENEC", "Subject": "THRILLER", "Number": "282", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "I SPY", "Star": "MURPHY, EDDIE", "Costar": "WILSON, OWEN", "Subject": "COMEDY", "Number": "284", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FIREFOX", "Star": "EASTWOOD, CLINT", "Costar": "", "Subject": "SUSPENSE", "Number": "288", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GAUNTLET", "Star": "EASTWOOD, CLINT", "Costar": "LOCKE, SONDRA", "Subject": "ACTION", "Number": "288", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HEARTBREAK RIDGE", "Star": "EASTWOOD, CLINT", "Costar": "MASON, MARSHA", "Subject": "ACTION", "Number": "287", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ROOKIE", "Star": "EASTWOOD, CLINT", "Costar": "SHEEN, CHARLIE", "Subject": "ACTION", "Number": "288", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ENFORCER", "Star": "EASTWOOD, CLINT", "Costar": "DALY, TYNE", "Subject": "ACTION", "Number": "290", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MAGNUM FORCE", "Star": "EASTWOOD, CLINT", "Costar": "HOLBROOK, HAL", "Subject": "ACTION", "Number": "290", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MR AND MRS SMITH", "Star": "PITT, BRAD", "Costar": "JOLIE, ANGELINA", "Subject": "ACTION", "Number": "292", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FRACTURE", "Star": "HOPKINS, ANTHONY", "Costar": "GOSLING, RYAN", "Subject": "THRILLER", "Number": "293", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GREAT ESCAPE", "Star": "MCQUEEN, STEVE", "Costar": "GARNER, JAMES", "Subject": "SUSPENSE", "Number": "294", "Director": "STURGES, JOHN", "comments": false, "Rating": "****", "Year": false}
+{"Title": "PREMONITION", "Star": "BULLOCK, SANDRA", "Costar": "MCMAHON, JULIAN", "Subject": "THRILLER", "Number": "295", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DIRTY DOZEN", "Star": "MARVIN, LEE", "Costar": "BORGNINE, ERNES", "Subject": "ACTION", "Number": "296", "Director": "ALDRICH, ROBERT", "comments": "WWII", "Rating": "***+", "Year": false}
+{"Title": "WHERE EAGLES DARE", "Star": "BURTON, RICHARD", "Costar": "EASTWOOD, CLINT", "Subject": "ACTION", "Number": "296", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LIONS FOR LAMBS", "Star": "REDFORD, ROBERT", "Costar": "STREEP, MERYL", "Subject": "THRILLER", "Number": "300", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OTHER BOLEYN GIRL", "Star": "PORTMAN, NATALIE", "Costar": "JOHANSSON, SCAR", "Subject": "history", "Number": "302", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CHRONICLES OF NARNIA: LION, WITCH & WARDROBE", "Star": "DISNEY", "Costar": "", "Subject": "FANTASY", "Number": "303", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GLIMMERMAN", "Star": "SEAGAL, STEVEN", "Costar": "WAYANS, KEENAN", "Subject": "ACTION", "Number": "307", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ABOVE THE LAW", "Star": "SEAGAL, STEVEN", "Costar": "STONE, SHARON", "Subject": "ACTION", "Number": "307", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "UNDER SIEGE", "Star": "SEAGAL, STEVEN", "Costar": "JONES, TOMMY LE", "Subject": "ACTION", "Number": "310", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "UNDER SIEGE 2", "Star": "SEAGAL, STEVEN", "Costar": "BOGOSIAN, ERIC", "Subject": "ACTION", "Number": "310", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FIRE DOWN BELOW", "Star": "SEAGAL, STEVEN", "Costar": "KRISTOFFERSON", "Subject": "ACTION", "Number": "307", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "JOHN CARTER", "Star": "KITSCH, TAYLOR", "Costar": "COLLINS, LYNN", "Subject": "SCI-FI", "Number": "315", "Director": "STANTON, ANDREW", "comments": "DISNEY", "Rating": false, "Year": false}
+{"Title": "BRAVADOS", "Star": "PECK, GREGORY", "Costar": "COLLINS, JOAN", "Subject": "WESTERN", "Number": "316", "Director": "KING, HENRY", "comments": false, "Rating": false, "Year": false}
+{"Title": "HARD TARGET", "Star": "VAN DAMME, JEAN", "Costar": "BRIMLEY, WILFOR", "Subject": "ACTION", "Number": "318", "Director": "WOO, JOHN", "comments": false, "Rating": false, "Year": false}
+{"Title": "ITALIAN JOB", "Star": "WAHLBERG, MARK", "Costar": "NORTON, EDWARD", "Subject": "ACTION", "Number": "320", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ISLAND IN THE SUN", "Star": "BELAFONTE, HARRY", "Costar": "MASON, JAMES", "Subject": "DRAMA", "Number": "321", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ANGEL AND THE BADMAN", "Star": "WAYNE, JOHN", "Costar": "RUSSELL, GAIL", "Subject": "WESTERN", "Number": "322", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CONQUEROR", "Star": "WAYNE, JOHN", "Costar": "HAYWARD, SUSAN", "Subject": "history", "Number": "325", "Director": "POWELL, DICK", "comments": false, "Rating": "**", "Year": false}
+{"Title": "HATARI!", "Star": "WAYNE, JOHN", "Costar": "BUTTONS, RED", "Subject": "ACTION", "Number": "327", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "EL DORADO", "Star": "Wayne, john", "Costar": "Mitchum, Robert", "Subject": "Western", "Number": "327", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LOOPER", "Star": "WILLIS, BRUCE", "Costar": "GORDON-LEVITT, JOSEPH", "Subject": "ACTION", "Number": "331", "Director": "JOHNSON, RIAN", "comments": false, "Rating": false, "Year": false}
+{"Title": "TAKEN 2", "Star": "NEESON, LIAM", "Costar": "GRACE, MAGGIE", "Subject": "ACTION", "Number": "333", "Director": "MEGATON, OLIVER", "comments": false, "Rating": false, "Year": false}
+{"Title": "HOLLYWOOD HOMICIDE", "Star": "FORD, HARRISON", "Costar": "HARTNETT, JOSH", "Subject": "ACTION", "Number": "338", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LAST TRAIN FROM GUN HILL", "Star": "DOUGLAS, KIRK", "Costar": "QUINN, ANTHONY", "Subject": "WESTERN", "Number": "339", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NARC", "Star": "PATRIC, JASON", "Costar": "LIOTTA, RAY", "Subject": "ACTION", "Number": "340", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SAFE HOUSE", "Star": "WASHINGTON, DENZEL", "Costar": "REYNOLDS, RYAN", "Subject": "ACTION", "Number": "341", "Director": "ESPINOSA, DANIEL", "comments": false, "Rating": false, "Year": false}
+{"Title": "LONG KISS GOODNIGHT", "Star": "DAVIS, GEENA", "Costar": "JACKSON, SAMUEL", "Subject": "ACTION", "Number": "342", "Director": "HARLIN, RENNY", "comments": false, "Rating": false, "Year": false}
+{"Title": "ROAD TO PERDITION", "Star": "HANKS, TOM", "Costar": "NEWMAN, PAUL", "Subject": "DRAMA", "Number": "343", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BAD BOYS", "Star": "LAWRENCE, MARTIN", "Costar": "SMITH, WILL", "Subject": "ACTION", "Number": "344", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BLADE RUNNER", "Star": "FORD, HARRISON", "Costar": "HAUER, RUTGER", "Subject": "SCI-FI", "Number": "347", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BREAKHEART PASS", "Star": "BRONSON, CHARLES", "Costar": "JOHNSON, BEN", "Subject": "WESTERN", "Number": "349", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CHEYENNE SOCIAL CLUB", "Star": "STEWART, JAMES", "Costar": "FONDA, HENRY", "Subject": "COMEDY", "Number": "352", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ADAM'S RIB", "Star": "HEPBURN, KATHARINE", "Costar": "TRACY, SPENCER", "Subject": "COMEDY", "Number": "354", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TOPPER & TOPPER RETURNS", "Star": "GRANT, CARY", "Costar": "BENNETT, CONSTA", "Subject": "COMEDY", "Number": "355", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "UNCLE BUCK", "Star": "CANDY, JOHN", "Costar": "CULKIN, MACAULEY", "Subject": "COMEDY", "Number": "362", "Director": "HUGHES, JOHN", "comments": false, "Rating": false, "Year": false}
+{"Title": "PRETTY WOMAN", "Star": "ROBERTS, JULIA", "Costar": "GERE, RICHARD", "Subject": "COMEDY", "Number": "363", "Director": "MARSHALL, GARY", "comments": false, "Rating": false, "Year": false}
+{"Title": "THIN MAN", "Star": "POWELL, WILLIAM", "Costar": "LOY, MYRNA", "Subject": "COMEDY", "Number": "364", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "IN-LAWS", "Star": "DOUGLAS, MICHAEL", "Costar": "BROOKS, ALBERT", "Subject": "COMEDY", "Number": "369", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OBJECT OF BEAUTY", "Star": "MALKOVICH, JOHN", "Costar": "MACDOWELL, ANDI", "Subject": "COMEDY", "Number": "377", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "IT RUNS IN THE FAMILY", "Star": "DOUGLAS, KIRK", "Costar": "DOUGLAS, MICHAE", "Subject": "COMEDY", "Number": "378", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MY BIG FAT GREEK WEDDING", "Star": "VARDALOS, NIA", "Costar": "CORBETT, JOHN", "Subject": "COMEDY", "Number": "380", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SABRINA", "Star": "FORD, HARRISON", "Costar": "ORMOND, JULIA", "Subject": "COMEDY", "Number": "382", "Director": "POLLACK, SYDNEY", "comments": false, "Rating": "***", "Year": false}
+{"Title": "MI-III", "Star": "CRUISE, TOM", "Costar": "HOFFMAN, PHILIP", "Subject": "ACTION", "Number": "383", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BERNIE", "Star": "BLACK, JACK", "Costar": "MACLAINE, SHIRLEY", "Subject": "COMEDY", "Number": "384", "Director": "LINKLATER, RICHARD", "comments": false, "Rating": false, "Year": false}
+{"Title": "FARGO", "Star": "MCDORMAND, FRANCES", "Costar": "MACY, WILLIAM H", "Subject": "COMEDY", "Number": "385", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CATCH ME IF YOU CAN", "Star": "DICAPRIO, LEONARDO", "Costar": "HANKS, TOM", "Subject": "COMEDY", "Number": "386", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HITCHCOCK", "Star": "HOPKINS, ANTHONY", "Costar": "MIRREN, HELEN", "Subject": "DRAMA", "Number": "496", "Director": "GERVASI, SACHA", "comments": false, "Rating": false, "Year": false}
+{"Title": "MYSTERY MEN", "Star": "MACY, WILLIAM H", "Costar": "STILLER, BEN", "Subject": "COMEDY", "Number": "389", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MURPHY'S ROMANCE", "Star": "GARNER, JAMES", "Costar": "FIELD, SALLY", "Subject": "COMEDY", "Number": "392", "Director": "RITT, MARTIN", "comments": false, "Rating": "***", "Year": false}
+{"Title": "STRANGER THAN FICTION", "Star": "FERRELL, WILL", "Costar": "GYLLENHAAL, MAG", "Subject": "COMEDY", "Number": "393", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AUNTIE MAME", "Star": "RUSSELL, ROSALIND", "Costar": "CASS, PEGGY", "Subject": "COMEDY", "Number": "394", "Director": "DACOSTA, MORTON", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "TUXEDO", "Star": "CHAN, JACKIE", "Costar": "HEWITT, JENNIFE", "Subject": "COMEDY", "Number": "397", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LUCKY # SLEVIN", "Star": "HARTNETT, JOSH", "Costar": "WILLIS, BRUCE", "Subject": "ACTION", "Number": "398", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NOTES ON A SCANDAL", "Star": "DENCH, JUDI", "Costar": "BLANCHETT, CATE", "Subject": "DRAMA", "Number": "401", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TEARS OF THE SUN", "Star": "WILLIS, BRUCE", "Costar": "SKERRIT, TOM", "Subject": "ACTION", "Number": "402", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BAD BOYS II", "Star": "LAWRENCE, MARTIN", "Costar": "SMITH, WILL", "Subject": "ACTION", "Number": "403", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PIRATES OF THE CARIBBEAN", "Star": "DEPP, JOHNNY", "Costar": "RUSH, GEOFFREY", "Subject": "history", "Number": "406", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SMOKEY AND THE BANDIT", "Star": "REYNOLDS, BURT", "Costar": "FIELD, SALLY", "Subject": "COMEDY", "Number": "407", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GREATEST STORY EVER TOLD", "Star": "VON SYDOW, MAX", "Costar": "ANDERSON, MICHA", "Subject": "history", "Number": "408", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "QUARTET", "Star": "SMITH, MAGGIE", "Costar": "COURTENAY, TOM", "Subject": "DRAMA", "Number": "411", "Director": "HOFFMAN, DUSTIN", "comments": false, "Rating": false, "Year": false}
+{"Title": "JACK REACHER", "Star": "CRUISE, TOM", "Costar": "PIKE, ROSAMUND", "Subject": "ACTION", "Number": "412", "Director": "MCQUARRIE, CHRISTOPHER", "comments": false, "Rating": false, "Year": false}
+{"Title": "ICE AGE", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "417", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LIFE OF PI", "Star": "SHARMA, SURAJ", "Costar": "KHAN, IRRFAN", "Subject": "DRAMA", "Number": "1062", "Director": "LEE, ANG", "comments": false, "Rating": false, "Year": false}
+{"Title": "HYDE PARK ON HUDSON", "Star": "MURRAY, BILL", "Costar": "LINNEY, LAURA", "Subject": "COMEDY", "Number": "1063", "Director": "MICHELL, ROGER", "comments": false, "Rating": false, "Year": false}
+{"Title": "LAY THE FAVORITE", "Star": "WILLIS, BRUCE", "Costar": "HALL, REBECCA", "Subject": "COMEDY", "Number": "424", "Director": "FREARS, STEPHEN", "comments": false, "Rating": false, "Year": false}
+{"Title": "MONA LISA SMILE", "Star": "ROBERTS, JULIA", "Costar": "DUNST, KIRSTEN", "Subject": "DRAMA", "Number": "425", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "S.W.A.T.", "Star": "JACKSON, SAMUEL L", "Costar": "FARRELL, COLIN", "Subject": "ACTION", "Number": "426", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AMERICAN PRESIDENT", "Star": "DOUGLAS, MICHAEL", "Costar": "BENING, ANNETTE", "Subject": "COMEDY", "Number": "427", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BELL, BOOK AND CANDLE", "Star": "STEWART, JAMES", "Costar": "NOVAK, KIM", "Subject": "COMEDY", "Number": "428", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GODS MUST BE CRAZY I & II", "Star": "WEYERS, MARIUS", "Costar": "PRINSLOO, SANDR", "Subject": "COMEDY", "Number": "429", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CROSSING OVER", "Star": "FORD, HARRISON", "Costar": "LIOTTA, RAY", "Subject": "SUSPENSE", "Number": "430", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MISSING", "Star": "JONES, TOMMY LEE", "Costar": "BLANCHETT, CATE", "Subject": "WESTERN", "Number": "431", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MY FRIEND FLICKA", "Star": "MCDOWALL, RODDY", "Costar": "FOSTER, PRESTON", "Subject": "WESTERN", "Number": "433", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "THUNDERBOLT AND LIGHTFOOT", "Star": "EASTWOOD, CLINT", "Costar": "BRIDGES, JEFF", "Subject": "ACTION", "Number": "434", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PRINCESS BRIDE", "Star": "ELWES, CARY", "Costar": "PATINKIN, MANDY", "Subject": "FANTASY", "Number": "436", "Director": "Reiner, Rob", "comments": false, "Rating": false, "Year": false}
+{"Title": "WOMEN", "Star": "SHEARER, NORMA", "Costar": "CRAWFORD, JOAN", "Subject": "COMEDY", "Number": "437", "Director": "CUKOR, GEORGE", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "BROKEN CITY", "Star": "WAHLBERG, MARK", "Costar": "CROWE, RUSSELL", "Subject": "SUSPENSE", "Number": "438", "Director": "HUGHES, ALLEN", "comments": false, "Rating": false, "Year": false}
+{"Title": "40 POUNDS OF TROUBLE", "Star": "CURTIS, TONY", "Costar": "PLESHETTE, SUZA", "Subject": "COMEDY", "Number": "441", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HUDSUCKER PROXY", "Star": "ROBBINS, TIM", "Costar": "LEIGH, JENNIFER", "Subject": "COMEDY", "Number": "442", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "IN HARM'S WAY", "Star": "Wayne, John", "Costar": "Douglas, Kirk", "Subject": "Action", "Number": "443", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DONOVAN'S REEF", "Star": "WAYNE, JOHN", "Costar": "MARVIN, LEE", "Subject": "COMEDY", "Number": "443", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OUT OF TIME", "Star": "WASHINGTON, DENZEL", "Costar": "MENDES, EVA", "Subject": "ACTION", "Number": "444", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HARVEY", "Star": "STEWART, JAMES", "Costar": "HULL, JOSEPHINE", "Subject": "COMEDY", "Number": "445", "Director": "KOSTER, HENRY", "comments": false, "Rating": false, "Year": false}
+{"Title": "EGG AND I", "Star": "COLBERT, CLAUDETTE", "Costar": "MACMURRAY, FRED", "Subject": "COMEDY", "Number": "446", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "INDISCREET", "Star": "GRANT, CARY", "Costar": "BERGMAN, INGRID", "Subject": "COMEDY", "Number": "454", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "QUIET MAN", "Star": "WAYNE, JOHN", "Costar": "O'HARA, MAUREEN", "Subject": "COMEDY", "Number": "455", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PHILADELPHIA STORY", "Star": "GRANT, CARY", "Costar": "HEPBURN, KATHAR", "Subject": "COMEDY", "Number": "354", "Director": "CUKOR, GEORGE", "comments": "OSCAR", "Rating": "****", "Year": false}
+{"Title": "MISTER ROBERTS", "Star": "FONDA, HENRY", "Costar": "CAGNEY, JAMES", "Subject": "COMEDY", "Number": "457", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "KING AND I", "Star": "KERR, DEBORAH", "Costar": "BRYNNER, YUL", "Subject": "MUSICAL", "Number": "461", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MILLER'S CROSSING", "Star": "BYRNE, GABRIEL", "Costar": "HARDEN, MARCIA", "Subject": "SUSPENSE", "Number": "385", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GANGSTER SQUAD", "Star": "PENN, SEAN", "Costar": "BROLIN, JOSH", "Subject": "ACTION", "Number": "1064", "Director": "FLEISCHER, RUBEN", "comments": false, "Rating": "", "Year": false}
+{"Title": "SEABISCUIT", "Star": "MAGUIRE, TOBEY", "Costar": "BRIDGES, JEFF", "Subject": "DRAMA", "Number": "465", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "REAR WINDOW", "Star": "STEWART, JAMES", "Costar": "KELLY, GRACE", "Subject": "SUSPENSE", "Number": "475", "Director": "HITCHCOCK, ALFRED", "comments": false, "Rating": "****", "Year": false}
+{"Title": "SHINING", "Star": "NICHOLSON, JACK", "Costar": "DUVALL, SHELLEY", "Subject": "HORROR", "Number": "483", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MAN OF THE YEAR", "Star": "WILLIAMS, ROBIN", "Costar": "WALKEN, CHRISTO", "Subject": "COMEDY", "Number": "484", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MONSTER", "Star": "THERON, CHARLIZE", "Costar": "RICCI, CHRISTIN", "Subject": "DRAMA", "Number": "487", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MIDNIGHT IN THE GARDEN OF GOOD & EVIL", "Star": "SPACEY, KEVIN", "Costar": "CUSACK, JOHN", "Subject": "COMEDY", "Number": "488", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FREEDOMLAND", "Star": "JACKSON, SAMUEL L", "Costar": "MOORE, JULIANNE", "Subject": "THRILLER", "Number": "489", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PAYCHECK", "Star": "AFFLECK, BEN", "Costar": "ECKHART, AARON", "Subject": "ACTION", "Number": "490", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MYSTIC RIVER", "Star": "PENN, SEAN", "Costar": "ROBBINS, TIM", "Subject": "DRAMA", "Number": "493", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SOMETHING'S GOTTA GIVE", "Star": "NICHOLSON, JACK", "Costar": "KEATON, DIANE", "Subject": "COMEDY", "Number": "494", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DJANGO UNCHAINED", "Star": "FOXX, JAMIE", "Costar": "WALTZ, CHRISTOPH", "Subject": "ACTION", "Number": "1065", "Director": "TARANTINO, QUENTIN", "comments": false, "Rating": false, "Year": false}
+{"Title": "SKYFALL", "Star": "CRAIG, DANIEL", "Costar": "DENCH, JUDI", "Subject": "ACTION", "Number": "497", "Director": "MENDES, SAM", "comments": false, "Rating": false, "Year": false}
+{"Title": "CALENDAR GIRLS", "Star": "MIRREN, HELEN", "Costar": "WALTERS, JULIE", "Subject": "COMEDY", "Number": "498", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LAST SAMURAI", "Star": "CRUISE, TOM", "Costar": "SPALL, TIMOTHY", "Subject": "DRAMA", "Number": "500", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ARBITRAGE", "Star": "GERE, RICHARD", "Costar": "SARANDON, SUSAN", "Subject": "SUSPENSE", "Number": "505", "Director": "JARECKI, NICHOLAS", "comments": false, "Rating": false, "Year": false}
+{"Title": "ABSOLUTE POWER", "Star": "EASTWOOD, CLINT", "Costar": "HACKMAN, GENE", "Subject": "SUSPENSE", "Number": "506", "Director": "EASTWOOD, CLINT", "comments": false, "Rating": "**", "Year": false}
+{"Title": "PERFECT MURDER", "Star": "DOUGLAS, MICHAEL", "Costar": "PALTROW, GWYNYT", "Subject": "SUSPENSE", "Number": "507", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BOURNE LEGACY", "Star": "RENNER, JEREMY", "Costar": "WEISZ, RACHEL", "Subject": "SUSPENSE", "Number": "509", "Director": "GILROY, TONY", "comments": false, "Rating": false, "Year": false}
+{"Title": "BAD SEED", "Star": "KELLY, NANCY", "Costar": "MCCORMACK, PATT", "Subject": "SUSPENSE", "Number": "510", "Director": "LEROY, MERVYN", "comments": false, "Rating": false, "Year": false}
+{"Title": "CAPE FEAR (OLD)", "Star": "PECK, GREGORY", "Costar": "MITCHUM, ROBERT", "Subject": "SUSPENSE", "Number": "511", "Director": "THOMPSON, J. LEE", "comments": false, "Rating": "***", "Year": false}
+{"Title": "BIG SLEEP", "Star": "BOGART, HUMPHREY", "Costar": "BACALL, LAUREN", "Subject": "SUSPENSE", "Number": "512", "Director": false, "comments": false, "Rating": "****", "Year": false}
+{"Title": "MANCHURIAN CANDIDATE", "Star": "SINATRA, FRANK", "Costar": "HARVEY, LAURENC", "Subject": "SUSPENSE", "Number": "514", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RUNAWAY JURY", "Star": "CUSACK, JOHN", "Costar": "HACKMAN, GENE", "Subject": "SUSPENSE", "Number": "515", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MERCURY RISING", "Star": "WILLIS, BRUCE", "Costar": "BALDWIN, ALEC", "Subject": "SUSPENSE", "Number": "236", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DEVIL'S ADVOCATE", "Star": "PACINO, AL", "Costar": "REEVES, KEANU", "Subject": "SUSPENSE", "Number": "528", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "EDGE", "Star": "HOPKINS, ANTHONY", "Costar": "BALDWIN, ALEC", "Subject": "SUSPENSE", "Number": "518", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "Firewall", "Star": "Ford, Harrison", "Costar": "Bettany, Paul", "Subject": "Suspense", "Number": "519", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "COPLAND", "Star": "STALLONE, SYLVESTER", "Costar": "DENIRO, ROBERT", "Subject": "SUSPENSE", "Number": "520", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "Burn After Reading", "Star": "Clooney, George", "Costar": "McDormand, Frances", "Subject": "Comedy", "Number": "521", "Director": "Coen Bros.", "comments": false, "Rating": false, "Year": false}
+{"Title": "MEN IN BLACK 3", "Star": "JONES, TOMMY LEE", "Costar": "SMITH, WILL", "Subject": "COMEDY", "Number": "522", "Director": "SONNENFELD, BARRY", "comments": false, "Rating": false, "Year": false}
+{"Title": "SIEGE", "Star": "WILLIS, BRUCE", "Costar": "WASHINGTON, DEN", "Subject": "SUSPENSE", "Number": "523", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ENEMY OF THE STATE", "Star": "SMITH, WILL", "Costar": "HACKMAN, GENE", "Subject": "SUSPENSE", "Number": "527", "Director": "SCOTT, TONY", "comments": false, "Rating": "***", "Year": false}
+{"Title": "SEVEN", "Star": "FREEMAN, MORGAN", "Costar": "PITT, BRAD", "Subject": "SUSPENSE", "Number": "528", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "Show Boat", "Star": "Gardner, Ava", "Costar": "Keel, Howard", "Subject": "Musical", "Number": "529", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LAST STAND", "Star": "SCHWARZENEGGER, ARNOLD", "Costar": "WHITAKER, FOREST", "Subject": "ACTION COMEDY", "Number": "535", "Director": "JEE-WOON, KIM", "comments": false, "Rating": false, "Year": false}
+{"Title": "SNITCH", "Star": "JOHNSON, DWAYNE", "Costar": "PEPPER, BARRY", "Subject": "Suspense", "Number": "539", "Director": "WAUGH, ROMAN", "comments": false, "Rating": false, "Year": false}
+{"Title": "Rio Lobo", "Star": "Wayne, John", "Costar": "Elam, Jack", "Subject": "Western", "Number": "540", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "KEY LARGO", "Star": "BOGART, HUMPHREY", "Costar": "BACALL, LAUREN", "Subject": "SUSPENSE", "Number": "512", "Director": false, "comments": false, "Rating": "***1/2", "Year": false}
+{"Title": "DESPERATE HOURS", "Star": "BOGART, HUMPHREY", "Costar": "MARCH, FREDRIC", "Subject": "SUSPENSE", "Number": "546", "Director": "WYLER, WILLIAM", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "DESPERATE HOURS", "Star": "HOPKINS, ANTHONY", "Costar": "ROURKE, MICKEY", "Subject": "SUSPENSE", "Number": "547", "Director": "CIMINO, MICHAEL", "comments": false, "Rating": "*+", "Year": false}
+{"Title": "DOUBLE INDEMNITY", "Star": "STANWYCK, BARBARA", "Costar": "MACMURRAY, FRED", "Subject": "SUSPENSE", "Number": "549", "Director": "SISTROM, JOSEPH", "comments": false, "Rating": false, "Year": false}
+{"Title": "Harry Potter and the Goblet of Fire", "Star": "Radcliffe, Daniel", "Costar": "Grint, Rupert", "Subject": "Fantasy", "Number": "551", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TAKING LIVES", "Star": "Jolie, Angelina", "Costar": "Hawke, Ethan", "Subject": "Suspense", "Number": "552", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "Anything Goes", "Star": "Crosby, Bing", "Costar": "O'Connor, Donald", "Subject": "Musical", "Number": "553", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TWISTED", "Star": "Judd, Ashley", "Costar": "Jackson, Samuel", "Subject": "Suspense", "Number": "554", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BOURNE SUPREMACY", "Star": "Damon, Matt", "Costar": "Potente, Franka", "Subject": "Suspense", "Number": "555", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DEAD POOL", "Star": "EASTWOOD, CLINT", "Costar": "CLARKSON, PATRI", "Subject": "SUSPENSE", "Number": "290", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NET", "Star": "BULLOCK, SANDRA", "Costar": "NORTHAM, JEREMY", "Subject": "SUSPENSE", "Number": "559", "Director": "WINKLER, IRWIN", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "REVENGE", "Star": "COSTNER, KEVIN", "Costar": "QUINN, ANTHONY", "Subject": "SUSPENSE", "Number": "561", "Director": "SCOTT, TONY", "comments": false, "Rating": "*1/2", "Year": false}
+{"Title": "Night Listener", "Star": "Williams, Robin", "Costar": "Collette, Toni", "Subject": "Thriller", "Number": "563", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HARRY POTTER AND THE PRISONER OF AZKABAN", "Star": "RADCLIFFE, DANIEL", "Costar": "Grint, Rupert", "Subject": "Fantasy", "Number": "566", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "QUICK AND THE DEAD", "Star": "Elliott, Sam", "Costar": "Capshaw, Kate", "Subject": "Western", "Number": "568", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "KING ARTHUR", "Star": "Owen, Clive", "Costar": "Knightly, Kiera", "Subject": "History", "Number": "569", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "Alexander the Great", "Star": "Burton, Richard", "Costar": "March, Fredric", "Subject": "History", "Number": "572", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "POINT OF NO RETURN", "Star": "FONDA, BRIDGET", "Costar": "BYRNE, GABRIEL", "Subject": "SUSPENSE", "Number": "573", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HEAT", "Star": "PACINO, AL", "Costar": "KILMER, VAL", "Subject": "SUSPENSE", "Number": "528", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "Coach Carter", "Star": "Jackson, Samuel L", "Costar": "Ashanti", "Subject": "Drama", "Number": "575", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "Sentinel", "Star": "Douglas, Michael", "Costar": "Sutherland, Kiefer", "Subject": "Thriller", "Number": "523", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "Flightplan", "Star": "Foster, Jodie", "Costar": "Sarsgaard, Peter", "Subject": "Suspense", "Number": "578", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MR. BROOKS", "Star": "COSTNER, KEVIN", "Costar": "MOORE, DEMI", "Subject": "SUSPENSE", "Number": "580", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "INTOLERABLE CRUELTY", "Star": "CLOONEY, GEORGE", "Costar": "ZETA-JONES, CATHERINE", "Subject": "COMEDY", "Number": "581", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DARK KNIGHT", "Star": "BALE, CHRISTIAN", "Costar": "LEDGER, HEATH", "Subject": "THRILLER", "Number": "582", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WHEN WORLDS COLLIDE", "Star": "DERR, RICHARD", "Costar": "RUSH, BARBARA", "Subject": "SCI FI", "Number": "585", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ISLAND IN THE SKY", "Star": "WAYNE, JOHN", "Costar": "NOLAN, LLOYD", "Subject": "SUSPENSE", "Number": "588", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MAN WITH THE GOLDEN ARM", "Star": "SINATRA, FRANK", "Costar": "NOVAK, KIM", "Subject": "DRAMA", "Number": "589", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ELIZABETH THE GOLDEN AGE", "Star": "BLANCHETT, CATE", "Costar": "OWEN, CLIVE", "Subject": "history", "Number": "590", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FUGITIVE", "Star": "FORD, HARRISON", "Costar": "JONES, TOMMY LE", "Subject": "SUSPENSE", "Number": "256", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "I ROBOT", "Star": "Smith, Will", "Costar": "Cromwell, James", "Subject": "SciFi", "Number": "593", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MAN WHO WASN'T THERE", "Star": "THORNTON, BILLY BOB", "Costar": "MCDORMAND, FRANCES", "Subject": "COMEDY", "Number": "594", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PRIVATE LIVES OF ELIZABETH AND ESSEX", "Star": "DAVIS, BETTE", "Costar": "FLYNN, ERROL", "Subject": "HISTORY", "Number": "595", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MAN ON FIRE", "Star": "WASHINGTON, DENZEL", "Costar": "Walken, Christo", "Subject": "Action", "Number": "596", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "W.", "Star": "BROLIN, JOSH", "Costar": "BANKS, ELIZABETH", "Subject": "DRAMA", "Number": "597", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NAKED JUNGLE", "Star": "HESTON, CHARLTON", "Costar": "Parker, Eleanor", "Subject": "Horror", "Number": "598", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GENERAL'S DAUGHTER DVD", "Star": "TRAVOLTA, JOHN", "Costar": "STOWE, MADELEIN", "Subject": "SUSPENSE", "Number": "599", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OMEN", "Star": "Stiles, Julia", "Costar": "Schreiber, Liev", "Subject": "Horror", "Number": "600", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DESERT HEAT", "Star": "VAN DAMME, JEAN CLAUDE", "Costar": "MORITA, PAT", "Subject": "ACTION", "Number": "601", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ENTRAPMENT", "Star": "CONNERY, SEAN", "Costar": "ZETA-JONES, CAT", "Subject": "SUSPENSE", "Number": "602", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "INSTINCT", "Star": "HOPKINS, ANTHONY", "Costar": "GOODING, CUBA", "Subject": "DRAMA", "Number": "603", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RISING SUN", "Star": "CONNERY, SEAN", "Costar": "SNIPES, WESLEY", "Subject": "SUSPENSE", "Number": "604", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CHARADE", "Star": "GRANT, CARY", "Costar": "HEPBURN, AUDREY", "Subject": "SUSPENSE", "Number": "605", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TAMING OF THE SHREW", "Star": "TAYLOR, ELIZABETH", "Costar": "BURTON, RICHARD", "Subject": "COMEDY", "Number": "606", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "THREE FACES OF EVE", "Star": "WOODWARD, JOANNE", "Costar": "Wayne, David", "Subject": "Drama", "Number": "607", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "STEPFORD WIVES", "Star": "Kidman, Nicole", "Costar": "Broderick, Matt", "Subject": "Mystery", "Number": "608", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MUSIC MAN", "Star": "PRESTON, ROBERT", "Costar": "JONES, SHIRLEY", "Subject": "MUSICAL", "Number": "609", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LIFE WITH FATHER", "Star": "POWELL, WILLIAM", "Costar": "DUNNE, IRENE", "Subject": "COMEDY", "Number": "610", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DOUBLE JEOPARDY", "Star": "JONES, TOMMY LEE", "Costar": "JUDD, ASHLEY", "Subject": "DRAMA", "Number": "611", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FEW GOOD MEN", "Star": "CRUISE, TOM", "Costar": "MOORE, DEMI", "Subject": "DRAMA", "Number": "613", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "THOMAS CROWN AFFAIR", "Star": "MCQUEEN, STEVE", "Costar": "DUNAWAY, FAYE", "Subject": "SUSPENSE", "Number": "615", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PINOCCHIO", "Star": "DISNEY", "Costar": "", "Subject": "CARTOON", "Number": "616", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TARZAN", "Star": "DISNEY", "Costar": "", "Subject": "CARTOON", "Number": "617", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SUDDEN IMPACT", "Star": "EASTWOOD, CLINT", "Costar": "LOCKE, SONDRA", "Subject": "SUSPENSE", "Number": "290", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FATHER OF THE BRIDE (OLD)", "Star": "TRACY, SPENCER", "Costar": "TAYLOR, ELIZABE", "Subject": "COMEDY", "Number": "625", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BEN HUR", "Star": "HESTON, CHARLTON", "Costar": "HAWKINS, JACK", "Subject": "history", "Number": "626", "Director": "WYLER, WILLIAM", "comments": "ACADEMY AWARD", "Rating": "***+", "Year": false}
+{"Title": "GUNS OF NAVARONE", "Star": "PECK, GREGORY", "Costar": "QUINN, ANTHONY", "Subject": "ACTION", "Number": "630", "Director": "THOMPSON, J LEE", "comments": "ACADEMY AWARD", "Rating": "***+", "Year": false}
+{"Title": "CHEAPER BY THE DOZEN", "Star": "WEBB, CLIFTON", "Costar": "LOY, MYRNA", "Subject": "COMEDY", "Number": "632", "Director": "LANG, WALTER", "comments": false, "Rating": "***", "Year": false}
+{"Title": "UGLY DACHSHUND", "Star": "JONES, DEAN", "Costar": "PLESHETTE, SUZANNE", "Subject": "COMEDY", "Number": "633", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "APPLE DUMPLING GANG", "Star": "KNOTTS, DON", "Costar": "CONWAY, TIM", "Subject": "COMEDY", "Number": "639", "Director": "TOKAR, NORMAN", "comments": "DISNEY", "Rating": "**", "Year": false}
+{"Title": "LETTERS FROM A KILLER", "Star": "SWAYZE, PATRICK", "Costar": "CARIDES, GIA", "Subject": "SUSPENSE", "Number": "641", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NOTTING HILL", "Star": "ROBERTS, JULIA", "Costar": "GRANT, HUGH", "Subject": "COMEDY", "Number": "642", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NATIONAL TREASURE", "Star": "CAGE, NICHOLAS", "Costar": "VOIGT, JON", "Subject": "COMEDY", "Number": "643", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NATIONAL TREASURE 2", "Star": "CAGE, NICHOLAS", "Costar": "VOIGT, JON", "Subject": "COMEDY", "Number": "644", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RANDOM HEARTS", "Star": "FORD, HARRISON", "Costar": "THOMAS, KRISTIN", "Subject": "DRAMA", "Number": "645", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "END OF DAYS", "Star": "SCHWARZENEGGER, ARNOLD", "Costar": "BYRNE, GABRIEL", "Subject": "ACTION", "Number": "646", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "THUNDERHEAD SON OF FLICKA", "Star": "MCDOWELL, RODDY", "Costar": "FOSTER, PRESTON", "Subject": "WESTERN", "Number": "647", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "THREE KINGS", "Star": "CLOONEY, GEORGE", "Costar": "WAHLBERG, MARK", "Subject": "ACTION", "Number": "648", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BONE COLLECTOR", "Star": "WASHINGTON, DENZEL", "Costar": "JOLIE, ANGELINA", "Subject": "SUSPENSE", "Number": "649", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SIXTH SENSE", "Star": "WILLIS, BRUCE", "Costar": "OSMENT, HALEY J", "Subject": "SUSPENSE", "Number": "650", "Director": "Shyamalan, M. Night", "comments": false, "Rating": false, "Year": false}
+{"Title": "INSIDE MAN", "Star": "WASHINGTON, DENZEL", "Costar": "OWEN, CLIVE", "Subject": "SUSPENSE", "Number": "651", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FIRST DEADLY SIN", "Star": "SINATRA, FRANK", "Costar": "DUNAWAY, FAYE", "Subject": "SUSPENSE", "Number": "652", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BRINGING UP BABY", "Star": "HEPBURN, KATHARINE", "Costar": "GRANT, CARY", "Subject": "COMEDY", "Number": "354", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MOLLY MAGUIRES", "Star": "HARRIS, RICHARD", "Costar": "CONNERY, SEAN", "Subject": "DRAMA", "Number": "658", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CHARLIE WILSON'S WAR", "Star": "HANKS, TOM", "Costar": "ROBERTS, JULIA", "Subject": "COMEDY", "Number": "661", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NIGHT AND DAY", "Star": "GRANT, CARY", "Costar": "SMITH, ALEXIS", "Subject": "MUSICAL", "Number": "663", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MISERY", "Star": "CAAN, JAMES", "Costar": "BATES, KATHY", "Subject": "SUSPENSE", "Number": "665", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "END GAME", "Star": "GOODING, CUBA", "Costar": "WOODS, JAMES", "Subject": "THRILLER", "Number": "666", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GOOD NIGHT, AND GOOD LUCK", "Star": "DOWNEY JR, ROBERT", "Costar": "LANGELLA, FRANK", "Subject": "DRAMA", "Number": "667", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FATHER'S LITTLE DIVIDEND", "Star": "TRACY, SPENCER", "Costar": "TAYLOR, ELIZABE", "Subject": "COMEDY", "Number": "668", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ERIN BROCKOVICH", "Star": "ROBERTS, JULIA", "Costar": "FINNEY, ALBERT", "Subject": "DRAMA", "Number": "669", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "INDIANA JONES AND THE KINGDOM OF THE CRYSTAL SKULL", "Star": "FORD, HARRISON", "Costar": "ALLEN, KAREN", "Subject": "ACTION", "Number": "670", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WHOLE NINE YARDS", "Star": "WILLIS, BRUCE", "Costar": "PERRY, MATTHEW", "Subject": "COMEDY", "Number": "671", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BICENTENNIAL MAN", "Star": "WILLIAMS, ROBIN", "Costar": "NEILL, SAM", "Subject": "COMEDY", "Number": "672", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HURRICANE", "Star": "WASHINGTON, DENZEL", "Costar": "SHANNON, VICELL", "Subject": "DRAMA", "Number": "673", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "INSIDER", "Star": "PACINO, AL", "Costar": "CROWE, RUSSELL", "Subject": "DRAMA", "Number": "674", "Director": "MANN, MICHAEL", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "CHILL FACTOR", "Star": "GOODING, CUBA", "Costar": "ULRICH, SKEET", "Subject": "ACTION", "Number": "675", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CHANGELING", "Star": "JOLIE, ANGELINA", "Costar": "MALKOVICH,JOHN", "Subject": "DRAMA", "Number": "676", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ANATOMY OF A MURDER", "Star": "STEWART, JAMES", "Costar": "REMICK, LEE", "Subject": "DRAMA", "Number": "677", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GREEN MILE", "Star": "HANKS, TOM", "Costar": "MORSE, DAVID", "Subject": "DRAMA", "Number": "678", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HEAVEN KNOWS MR. ALLISON", "Star": "MITCHUM, ROBERT", "Costar": "KERR, DEBORAH", "Subject": "SUSPENSE", "Number": "679", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SLEEPY HOLLOW", "Star": "DEPP, JOHNNY", "Costar": "RICCI, CHRISTIN", "Subject": "HORROR", "Number": "680", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TANK", "Star": "GARNER, JAMES", "Costar": "JONES, SHIRLEY", "Subject": "ACTION", "Number": "681", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LINCOLN", "Star": "DAY-LEWIS, DANIEL", "Costar": "FIELD, SALLY", "Subject": "DRAMA", "Number": "682", "Director": "SPIELBERG, STEVEN", "comments": false, "Rating": "****", "Year": false}
+{"Title": "HOLIDAY", "Star": "HEPBURN, KATHARINE", "Costar": "GRANT, CARY", "Subject": "COMEDY", "Number": "684", "Director": "CUKOR, GEORGE", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "WALK THE LINE", "Star": "PHOENIX, JOAQUIN", "Costar": "WITHERSPOON, REESE", "Subject": "MUSICAL", "Number": "685", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WOLF", "Star": "NICHOLSON, JACK", "Costar": "PFEIFFER, MICHELLE", "Subject": "SUSPENSE", "Number": "687", "Director": "NICHOLS, MIKE", "comments": false, "Rating": "***", "Year": false}
+{"Title": "BODY OF LIES", "Star": "DICAPRIO, LEONARDO", "Costar": "CROWE, RUSSELL", "Subject": "THRILLER", "Number": "688", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FRIENDLY PERSUASION", "Star": "COOPER, GARY", "Costar": "MCGUIRE, DOROTH", "Subject": "COMEDY", "Number": "690", "Director": "WYLER, WILLIAM", "comments": false, "Rating": "****", "Year": false}
+{"Title": "MEET FRANKENSTEIN", "Star": "ABBOTT, BUD", "Costar": "COSTELLO, LOU", "Subject": "COMEDY", "Number": "691", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "UNCONQUERED", "Star": "COOPER, GARY", "Costar": "GODDARD, PAULETTE", "Subject": "history", "Number": "692", "Director": "DEMILLE, CECIL B", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "APARTMENT", "Star": "LEMMON, JACK", "Costar": "MACLAINE, SHIRL", "Subject": "COMEDY", "Number": "693", "Director": "WILDER, BILLY", "comments": false, "Rating": "****", "Year": false}
+{"Title": "BEST EXOTIC MARIGOLD HOTEL", "Star": "DENCH, JUDI", "Costar": "SMITH, MAGGIE", "Subject": "COMEDY", "Number": "699", "Director": "MADDEN, JOHN", "comments": false, "Rating": false, "Year": false}
+{"Title": "GUESS WHO'S COMING TO DINNER", "Star": "TRACY, SPENCER", "Costar": "HEPBURN, KATHER", "Subject": "DRAMA", "Number": "704", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GLADIATOR", "Star": "CROWE, RUSSELL", "Costar": "PHOENIX, JOAQUI", "Subject": "history", "Number": "711", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NIXON", "Star": "HOPKINS, ANTHONY", "Costar": "BOOTHE, POWERS", "Subject": "DRAMA", "Number": "712", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ROMEO MUST DIE", "Star": "LI, JET", "Costar": "AALIYAH", "Subject": "ACTION", "Number": "713", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BIG LEBOWSKI", "Star": "BRIDGES, JEFF", "Costar": "GOODMAN, JOHN", "Subject": "COMEDY", "Number": "714", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MISSION IMPOSSIBLE 2", "Star": "CRUISE, TOM", "Costar": "NEWTON, THANDIE", "Subject": "ACTION", "Number": "715", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ARTHUR", "Star": "MOORE, DUDLEY", "Costar": "MINELLI, LIZA", "Subject": "COMEDY", "Number": "716", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PATRIOT", "Star": "GIBSON, MEL", "Costar": "LEDGER, HEATH", "Subject": "history", "Number": "717", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "3 DAYS OF THE CONDOR", "Star": "REDFORD, ROBERT", "Costar": "DUNAWAY, FAYE", "Subject": "THRILLER", "Number": "718", "Director": "POLLOCK, SYDNEY", "comments": false, "Rating": "***", "Year": false}
+{"Title": "FANTASIA 2000", "Star": "", "Costar": "", "Subject": "CARTOON", "Number": "26", "Director": "ALGAR, JAMES", "comments": "DISNEY", "Rating": "***", "Year": false}
+{"Title": "MIDNIGHT RUN", "Star": "DE NIRO, ROBERT", "Costar": "GRODIN, CHARLES", "Subject": "COMEDY", "Number": "720", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ANNIE GET YOUR GUN", "Star": "HUTTON, BETTY", "Costar": "KEEL, HOWARD", "Subject": "MUSICAL", "Number": "721", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OVERBOARD", "Star": "HAWN, GOLDIE", "Costar": "RUSSELL, KURT", "Subject": "COMEDY", "Number": "722", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DOGMA", "Star": "AFLECK, BEN", "Costar": "DAMON, MATT", "Subject": "COMEDY", "Number": "723", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AFTER THE SUNSET", "Star": "BROSNAN, PIERCE", "Costar": "HAYEK, SALMA", "Subject": "ACTION", "Number": "724", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NEVADA SMITH", "Star": "MCQUEEN, STEVE", "Costar": "MALDEN, KARL", "Subject": "WESTERN", "Number": "725", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SEVEN DAYS IN MAY", "Star": "LANCASTER, BURT", "Costar": "DOUGLAS, KIRK", "Subject": "SUSPENSE", "Number": "726", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "COLLATERAL", "Star": "CRUISE, TOM", "Costar": "FOXX, JAMIE", "Subject": "THRILLER", "Number": "727", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GEORGE CARLIN", "Star": "", "Costar": "", "Subject": "COMEDY", "Number": "728", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "X-MEN", "Star": "STEWART, PATRICK", "Costar": "JACKMAN, HUGH", "Subject": "SCI-FI", "Number": "729", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "YOUNG AT HEART", "Star": "SINATRA, FRANK", "Costar": "DAY, DORIS", "Subject": "MUSICAL", "Number": "730", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MEET THE PARENTS", "Star": "DENIRO, ROBERT", "Costar": "STILLER, BEN", "Subject": "COMEDY", "Number": "731", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CONTENDER", "Star": "OLDMAN, GARY", "Costar": "ALLEN, JOAN", "Subject": "SUSPENSE", "Number": "732", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HARD TO KILL", "Star": "SEAGAL, STEVEN", "Costar": "LEBROCK, KELLY", "Subject": "ACTION", "Number": "733", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SILENT FALL", "Star": "DREYFUSS, RICHARD", "Costar": "HAMILTON, LINDA", "Subject": "SUSPENSE", "Number": "734", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AIRPORT", "Star": "LANCASTER, BURT", "Costar": "MARTIN, DEAN", "Subject": "SUSPENSE", "Number": "735", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WONDER BOYS", "Star": "DOUGLAS, MICHAEL", "Costar": "MAGUIRE, TOBEY", "Subject": "COMEDY", "Number": "736", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "6TH DAY", "Star": "SCHWARZENEGGER, ARNOLD", "Costar": "DUVALL, ROBERT", "Subject": "SCI-FI", "Number": "737", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CLAN OF THE CAVE BEAR", "Star": "HANNAH, DARYL", "Costar": "REED, PAMELA", "Subject": "history", "Number": "738", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SHAFT", "Star": "JACKSON, SAMUEL L", "Costar": "WILLIAMS, VANES", "Subject": "ACTION", "Number": "740", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WHAT LIES BENEATH", "Star": "FORD, HARRISON", "Costar": "PFEIFFER, MICHE", "Subject": "SUSPENSE", "Number": "742", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "POLTERGEIST", "Star": "WILLIAMS, JO BETH", "Costar": "NELSON, CRAIG T", "Subject": "SUSPENSE", "Number": "744", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ART OF WAR", "Star": "SNIPES, WESLEY", "Costar": "ARCHER, ANNE", "Subject": "ACTION", "Number": "745", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BROKEN ARROW", "Star": "STEWART, JAMES", "Costar": "CHANDLER, JEFF", "Subject": "WESTERN", "Number": "749", "Director": "DAVES, DELMER", "comments": false, "Rating": "***", "Year": false}
+{"Title": "SABRINA", "Star": "BOGART, HUMPHREY", "Costar": "HEPBURN, AUDREY", "Subject": "COMEDY", "Number": "756", "Director": "WILDER, BILLY", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "PAY IT FORWARD", "Star": "SPACEY, KEVIN", "Costar": "HUNT, HELEN", "Subject": "DRAMA", "Number": "761", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "POWER", "Star": "GERE, RICHARD", "Costar": "CHRISTIE, JULIE", "Subject": "DRAMA", "Number": "763", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SUICIDE KINGS", "Star": "WALKEN, CHRISTOPHER", "Costar": "LEARY, DENIS", "Subject": "SUSPENSE", "Number": "764", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PROOF OF LIFE", "Star": "RYAN, MEG", "Costar": "CROWE, RUSSELL", "Subject": "SUSPENSE", "Number": "767", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MEAN SEASON", "Star": "RUSSELL, KURT", "Costar": "HEMINGWAY, MARI", "Subject": "SUSPENSE", "Number": "768", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "UNBREAKABLE", "Star": "WILLIS, BRUCE", "Costar": "JACKSON, SAMUEL", "Subject": "SUSPENSE", "Number": "769", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DANGEROUS LIASONS", "Star": "CLOSE, GLENN", "Costar": "MALKOVICH, JOHN", "Subject": "history", "Number": "770", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FATAL BEAUTY", "Star": "GOLDBERG, WHOOPI", "Costar": "ELLIOTT, SAM", "Subject": "ACTION", "Number": "771", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ESCAPE FROM LA", "Star": "RUSSELL, KURT", "Costar": "KEACH, STACY", "Subject": "SCI-FI", "Number": "772", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RAINMAN", "Star": "HOFFMAN, DUSTIN", "Costar": "CRUISE, TOM", "Subject": "DRAMA", "Number": "773", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SECONDHAND LIONS", "Star": "Caine, Michael", "Costar": "Duvall, Robert", "Subject": "Comedy", "Number": "775", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BIG COUNTRY", "Star": "PECK, GREGORY", "Costar": "SIMMONS, JEAN", "Subject": "WESTERN", "Number": "776", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "EMPEROR'S NEW GROOVE", "Star": "", "Costar": "DISNEY", "Subject": "CARTOON", "Number": "777", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SOME LIKE IT HOT", "Star": "MONROE, MARILYN", "Costar": "CURTIS, TONY", "Subject": "COMEDY", "Number": "778", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "THIRTEEN DAYS", "Star": "COSTNER, KEVIN", "Costar": "GREENWOOD, BRUC", "Subject": "SUSPENSE", "Number": "779", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WHAT WOMEN WANT", "Star": "GIBSON, MEL", "Costar": "HUNT, HELEN", "Subject": "COMEDY", "Number": "780", "Director": "Meyers, Nancy", "comments": false, "Rating": false, "Year": false}
+{"Title": "CROUCHING TIGER, HIDDEN DRAGON", "Star": "CHOW YUN FAT", "Costar": "YEOH, MICHELLE", "Subject": "ACTION", "Number": "781", "Director": "Lee, Ang", "comments": false, "Rating": false, "Year": false}
+{"Title": "EXCALIBUR", "Star": "TERRY, NIGEL", "Costar": "MIRREN, HELEN", "Subject": "history", "Number": "783", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CAST AWAY", "Star": "HANKS, TOM", "Costar": "HUNT, HELEN", "Subject": "DRAMA", "Number": "785", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MEN OF HONOR", "Star": "DENIRO, ROBERT", "Costar": "GOODING, CUBA", "Subject": "DRAMA", "Number": "787", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "STEEL DAWN", "Star": "SWAYZE, PATRICK", "Costar": "NIEMI, LISA", "Subject": "SCI-FI", "Number": "788", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RED SKELTON LOST EPISODES", "Star": "", "Costar": "", "Subject": "COMEDY", "Number": "789", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SPACE COWBOYS", "Star": "GARNER, JAMES", "Costar": "EASTWOOD, CLINT", "Subject": "SCI-FI", "Number": "790", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DANGEROUS BEAUTY", "Star": "MCCORMACK, CATH", "Costar": "SEWELL, RUFUS", "Subject": "DRAMA", "Number": "791", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BLACK SNAKE MOAN", "Star": "JACKSON, SAMUEL L", "Costar": "RICCI, CHRISTINA", "Subject": "DRAMA", "Number": "796", "Director": "BREWER, CRAIG", "comments": false, "Rating": false, "Year": false}
+{"Title": "BECKET", "Star": "BURTON, RICHARD", "Costar": "O'TOOLE, PETER", "Subject": "HISTORY", "Number": "797", "Director": "GLENVILLE, PETER", "comments": "12 OSCAR NOMINATIONS", "Rating": "****", "Year": false}
+{"Title": "KILLING THEM SOFTLY", "Star": "PITT, BRAD", "Costar": "LIOTTA, RAY", "Subject": "THRILLER", "Number": "801", "Director": "DOMINIK, ANDREW", "comments": false, "Rating": false, "Year": false}
+{"Title": "HOBBIT", "Star": "MCKELLEN, IAN", "Costar": "FREEMAN, MARTIN", "Subject": "FANTASY", "Number": "802", "Director": "JACKSON, PETER", "comments": false, "Rating": false, "Year": false}
+{"Title": "PSYCHO", "Star": "PERKINS, ANTHONY", "Costar": "MILES, VERA", "Subject": "SUSPENSE", "Number": "803", "Director": "HITCHCOCK, ALFRED", "comments": false, "Rating": "", "Year": false}
+{"Title": "CARRIE", "Star": "SPACEK, SISSY", "Costar": "TRAVOLTA, JOHN", "Subject": "HORROR", "Number": "811", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OMEN", "Star": "PECK, GREGORY", "Costar": "REMICK, LEE", "Subject": "HORROR", "Number": "815", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PRINCESS DIARIES", "Star": "ANDREWS, JULIE", "Costar": "HATHAWAY, ANNE", "Subject": "COMEDY", "Number": "816", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SCORE", "Star": "DENIRO, ROBERT", "Costar": "NORTON, EDWARD", "Subject": "SUSPENSE", "Number": "819", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ADAM'S RIB", "Star": "TRACY, SPENCER", "Costar": "HEPBURN, KATHAR", "Subject": "COMEDY", "Number": "820", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SHREK", "Star": "MYERS, MIKE", "Costar": "MURPHY, EDDIE", "Subject": "COMEDY", "Number": "821", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CROCODILE DUNDEE IN LOS ANGELES", "Star": "HOGAN, PAUL", "Costar": "KOZLOWSKI, LIND", "Subject": "COMEDY", "Number": "823", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "REPLICANT", "Star": "VAN DAMME, JEAN CLAUDE", "Costar": "ROOKER, MICHAEL", "Subject": "SUSPENSE", "Number": "825", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CHITTY CHITTY BANG BANG", "Star": "VAN DYKE, DICK", "Costar": "HOWES, SALLY AN", "Subject": "COMEDY", "Number": "826", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ALONG CAME A SPIDER", "Star": "FREEMAN, MORGAN", "Costar": "POTTER, MONICA", "Subject": "DRAMA", "Number": "828", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "15 MINUTES", "Star": "DENIRO, ROBERT", "Costar": "BURNS, EDWARD", "Subject": "THRILLER", "Number": "829", "Director": "HERZFELD, JOHN", "comments": false, "Rating": "***", "Year": false}
+{"Title": "HANNIBAL", "Star": "HOPKINS, ANTHONY", "Costar": "MOORE, JULIANNE", "Subject": "SUSPENSE", "Number": "830", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PLANET OF THE APES", "Star": "WAHLBERG, MARK", "Costar": "ROTH, TIM", "Subject": "SCI-FI", "Number": "832", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HOW THE GRINCH STOLE CHRISTMAS", "Star": "CARREY, JIM", "Costar": "TAMBOR, JEFFREY", "Subject": "COMEDY", "Number": "835", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CHARLIE'S ANGELS", "Star": "DIAZ, CAMERON", "Costar": "BARRYMORE, DREW", "Subject": "ACTION", "Number": "836", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MIDWAY", "Star": "HESTON, CHARLTON", "Costar": "FONDA, HENRY", "Subject": "WAR", "Number": "838", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MOONRISE KINGDOM", "Star": "MURRAY, BILL", "Costar": "MCDORMAND, FRANCES", "Subject": "COMEDY", "Number": "839", "Director": "ANDERSON, WES", "comments": false, "Rating": false, "Year": false}
+{"Title": "HAND THAT ROCKS THE CRADLE", "Star": "SCIORRA, ANABEL", "Costar": "DEMORNAY, REBEC", "Subject": "SUSPENSE", "Number": "840", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "STALAG 17", "Star": "HOLDEN, WILLIAM", "Costar": "TAYLOR, DON", "Subject": "DRAMA", "Number": "842", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ZERO DARK THIRTY", "Star": "CHASTAIN, JESSICA", "Costar": "CLARKE, JASON", "Subject": "SUSPENSE", "Number": "843", "Director": "BIGELOW, KATHRYN", "comments": false, "Rating": false, "Year": false}
+{"Title": "ALL ABOUT EVE", "Star": "DAVIS, BETTE", "Costar": "BAXTER, ANNE", "Subject": "DRAMA", "Number": "844", "Director": "MANKIEWICZ, JOSEPH", "comments": "ACADEMY AWARD", "Rating": "****", "Year": false}
+{"Title": "SOME CAME RUNNING", "Star": "SINATRA, FRANK", "Costar": "MARTIN, DEAN", "Subject": "DRAMA", "Number": "846", "Director": "MINNELLI, VINCENTE", "comments": false, "Rating": "***", "Year": false}
+{"Title": "JOHN Q.", "Star": "WASHINGTON, DENZEL", "Costar": "DUVALL, ROBERT", "Subject": "DRAMA", "Number": "848", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TRAINING DAY", "Star": "WASHINGTON, DENZEL", "Costar": "HAWKE, ETHAN", "Subject": "ACTION", "Number": "849", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HART'S WAR", "Star": "WILLIS, BRUCE", "Costar": "FARRELL, COLIN", "Subject": "DRAMA", "Number": "850", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BANDITS", "Star": "WILLIS, BRUCE", "Costar": "THORNTON, BILLY", "Subject": "COMEDY", "Number": "851", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "A BEAUTIFUL MIND", "Star": "CROWE, RUSSELL", "Costar": "CONNELLY, JENNI", "Subject": "DRAMA", "Number": "852", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "IMPOSTOR", "Star": "SINISE, GARY", "Costar": "STOWE, MADELINE", "Subject": "SCI-FI", "Number": "854", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BLITHE SPIRIT", "Star": "HARRISON, REX", "Costar": "CUMMINGS, CONST", "Subject": "COMEDY", "Number": "855", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WE WERE SOLDIERS", "Star": "GIBSON, MEL", "Costar": "ELLIOTT, SAM", "Subject": "ACTION", "Number": "856", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BLACK HAWK DOWN", "Star": "HARTNETT, JOSH", "Costar": "BANA, ERIC", "Subject": "ACTION", "Number": "857", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SHOWTIME", "Star": "DENIRO, ROBERT", "Costar": "MURPHY, EDDIE", "Subject": "COMEDY", "Number": "858", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RUSH HOUR", "Star": "CHAN, JACKIE", "Costar": "TUCKER, CHRIS", "Subject": "COMEDY", "Number": "859", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DIRTY HARRY", "Star": "EASTWOOD, CLINT", "Costar": "GUARDINO, HARRY", "Subject": "ACTION", "Number": "290", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DESIGNING WOMAN", "Star": "PECK, GREGORY", "Costar": "BACALL, LAUREN", "Subject": "COMEDY", "Number": "861", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OCEAN'S 11", "Star": "SINATRA, FRANK", "Costar": "MARTIN, DEAN", "Subject": "COMEDY", "Number": "862", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OCEAN'S ELEVEN", "Star": "CLOONEY, GEORGE", "Costar": "DAMON, MATT", "Subject": "COMEDY", "Number": "863", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "K-PAX", "Star": "SPACEY, KEVIN", "Costar": "BRIDGES, JEFF", "Subject": "DRAMA", "Number": "865", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "I AM SAM", "Star": "PENN, SEAN", "Costar": "PFEIFFER, MICHE", "Subject": "DRAMA", "Number": "866", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "COLLATERAL DAMAGE", "Star": "SCHWARZENEGGER, ARNOLD", "Costar": "KOTEAS, ELIAS", "Subject": "ACTION", "Number": "867", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DOMESTIC DISTURBANCE", "Star": "TRAVOLTA, JOHN", "Costar": "VAUGHN, VINCE", "Subject": "DRAMA", "Number": "868", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ORDER", "Star": "VANDAMME, JEAN CLAUDE", "Costar": "HESTON, CHARLTO", "Subject": "ACTION", "Number": "869", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AMERICAN LEGENDS", "Star": "DISNEY", "Costar": "", "Subject": "CARTOON", "Number": "871", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FRENCH CONNECTION", "Star": "HACKMAN, GENE", "Costar": "REY, FERNANDO", "Subject": "SUSPENSE", "Number": "872", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OTHERS", "Star": "KIDMAN, NICOLE", "Costar": "FLANAGAN, FONNU", "Subject": "SUSPENSE", "Number": "876", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SPY GAME", "Star": "REDFORD, ROBERT", "Costar": "PITT, BRAD", "Subject": "ACTION", "Number": "877", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LAST CASTLE", "Star": "REDFORD, ROBERT", "Costar": "GANDOLFINI, JAM", "Subject": "THRILLER", "Number": "878", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HARRY POTTER AND THE SORCER'S STONE", "Star": "RADCLIFFE, DANIEL", "Costar": "HARRIS, RICHARD", "Subject": "FANTASY", "Number": "879", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ALL OF ME", "Star": "MARTIN, STEVE", "Costar": "TOMLIN, LILY", "Subject": "COMEDY", "Number": "880", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DEAD ZONE", "Star": "HALL, ANTHONY M", "Costar": "STIERS, DAVID O", "Subject": "SCI-FI", "Number": "882", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ENOUGH", "Star": "LOPEZ, JENNIFER", "Costar": "WYLE, NOAH", "Subject": "SUSPENSE", "Number": "883", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WINDTALKERS", "Star": "CAGE, NICHOLAS", "Costar": "BEACH, ADAM", "Subject": "DRAMA", "Number": "885", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SPIDERMAN", "Star": "MAGUIRE, TOBEY", "Costar": "DAFOE, WILLEM", "Subject": "ACTION", "Number": "886", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MONSTERS, INC.", "Star": "CRYSTAL, BILLY", "Costar": "GOODMAN, JOHN", "Subject": "COMEDY", "Number": "891", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PANIC ROOM", "Star": "FOSTER, JODIE", "Costar": "WHITAKER, FORES", "Subject": "SUSPENSE", "Number": "892", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "INSOMNIA", "Star": "PACINO, AL", "Costar": "WILLIAMS, ROBIN", "Subject": "SUSPENSE", "Number": "893", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BANGER SISTERS", "Star": "HAWN, GOLDIE", "Costar": "SARANDON, SUSAN", "Subject": "COMEDY", "Number": "896", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ONE HOUR PHOTO", "Star": "WILLIAMS, ROBIN", "Costar": "NIELSEN, CONNIE", "Subject": "SUSPENSE", "Number": "897", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SIGNS", "Star": "GIBSON, MEL", "Costar": "PHOENIX, JOAQUI", "Subject": "SCI-FI", "Number": "898", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BLOODWORK", "Star": "EASTWOOD, CLINT", "Costar": "DANIELS, JEFF", "Subject": "SUSPENSE", "Number": "899", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BOURNE IDENTITY", "Star": "DAMON, MATT", "Costar": "POTENTE, FRANKI", "Subject": "SUSPENSE", "Number": "900", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MEN IN BLACK II", "Star": "JONES, TOMMY LEE", "Costar": "SMITH, WILL", "Subject": "COMEDY", "Number": "901", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "COUNT OF MONTE CRISTO", "Star": "HARRIS, RICHARD", "Costar": "CAVIEZEL, JIM", "Subject": "history", "Number": "902", "Director": "Reynolds, Kevin", "comments": false, "Rating": false, "Year": false}
+{"Title": "BAD COMPANY", "Star": "HOPKINS, ANTHONY", "Costar": "ROCK, CHRIS", "Subject": "ACTION", "Number": "904", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HIGH CRIMES", "Star": "JUDD, ASHLEY", "Costar": "FREEMAN, MORGAN", "Subject": "SUSPENSE", "Number": "906", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SUM OF ALL FEARS", "Star": "AFFLECK, BEN", "Costar": "FREEMAN, MORGAN", "Subject": "ACTION", "Number": "907", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CHANGING LANES", "Star": "JACKSON, SAMUEL L", "Costar": "AFFLECK, BEN", "Subject": "SUSPENSE", "Number": "910", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GLASS HOUSE", "Star": "SOBIESKI, LEELE", "Costar": "LANE, DIANE", "Subject": "THRILLER", "Number": "911", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MINORITY REPORT", "Star": "CRUISE, TOM", "Costar": "FARRELL, COLIN", "Subject": "SCI-FI", "Number": "912", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "STAR WARS ATTACK OF THE CLONES", "Star": "MCGREGOR, EWAN", "Costar": "PORTMAN, NATALI", "Subject": "SCI-FI", "Number": "913", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RICH MAN'S WIFE", "Star": "BERRY, HALLE", "Costar": "GREENE, PETER", "Subject": "THRILLER", "Number": "914", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CITY BY THE SEA", "Star": "DENIRO, ROBERT", "Costar": "MCDORMAND, FRAN", "Subject": "SUSPENSE", "Number": "915", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HOME MOVIES", "Star": "", "Costar": "", "Subject": "", "Number": "917", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WAR WAGON", "Star": "WAYNE, JOHN", "Costar": "DOUGLAS, KIRK", "Subject": "WESTERN", "Number": "308", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TAKEN", "Star": "NEESON, LIAM", "Costar": "GRACE, MAGGIE", "Subject": "ACTION", "Number": "739", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "APPALOOSA", "Star": "MORTENSEN, VIGGO", "Costar": "HARRIS, ED", "Subject": "WESTERN", "Number": "743", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ENTER THE DRAGON", "Star": "LEE, BRUCE", "Costar": "SAXON, JOHN", "Subject": "ACTION", "Number": "746", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GEORGE'S BEST STUFF", "Star": "CARLIN, GEORGE", "Costar": false, "Subject": "COMEDY", "Number": "750", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ITALIAN JOB", "Star": "CAINE, MICHAEL", "Costar": "COWARD, NOEL", "Subject": "ACTION", "Number": "754", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "STATE OF PLAY", "Star": "CROWE, RUSSELL", "Costar": "AFFLECK, BEN", "Subject": "THRILLER", "Number": "760", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OFFICE SPACE", "Star": "LIVINGSTON, RON", "Costar": "ROOT, STEPHEN", "Subject": "COMEDY", "Number": "762", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PURSUIT OF HAPPYNESS", "Star": "SMITH, WILL", "Costar": "SMITH, JADEN", "Subject": "DRAMA", "Number": "765", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NOTEBOOK", "Star": "GARNER, JAMES", "Costar": "ROWLANDS, GENA", "Subject": "DRAMA", "Number": "766", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MASTER AND COMMANDER", "Star": "CROWE, RUSSELL", "Costar": "BETTANY, PAUL", "Subject": "history", "Number": "774", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RAY", "Star": "FOXX, JAMIE", "Costar": "WASHINGTON, KERRY", "Subject": "DRAMA", "Number": "782", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "VON RYAN'S EXPRESS", "Star": "SINATRA, FRANK", "Costar": "HOWARD, TREVOR", "Subject": "ACTION", "Number": "784", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "VILLAGE", "Star": "PHOENIX, JOAQUIN", "Costar": "BRODY, ADRIEN", "Subject": "SUSPENSE", "Number": "786", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ISLAND", "Star": "MCGREGOR, EWAN", "Costar": "JOHANSSON, SCARLETT", "Subject": "SCI-FI", "Number": "792", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TROY", "Star": "PITT, BRAD", "Costar": "BANA, ERIC", "Subject": "HISTORY", "Number": "799", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "COMA", "Star": "DOUGLAS, MICHAEL", "Costar": "BUJOLD, GENEVIEVE", "Subject": "SUSPENSE", "Number": "804", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MANCHURIAN CANDIDATE", "Star": "WASHINGTON, DENZEL", "Costar": "STREEP, MERYL", "Subject": "THRILLER", "Number": "807", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DEPARTED", "Star": "DICAPRIO, LEONARDO", "Costar": "NICHOLSON, JACK", "Subject": "SUSPENSE", "Number": "817", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RIGHTEOUS KILL", "Star": "DENIRO, ROBERT", "Costar": "PACINO, AL", "Subject": "SUSPENSE", "Number": "818", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SHOOT TO KILL", "Star": "POITIER, SIDNEY", "Costar": "BERENGER, TOM", "Subject": "THRILLER", "Number": "822", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HANCOCK", "Star": "SMITH, WILL", "Costar": "THERON, CHARLIZE", "Subject": "COMEDY", "Number": "824", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WAR OF THE WORLDS", "Star": "CRUISE, TOM", "Costar": "FANNING, DAKOTA", "Subject": "SCI-FI", "Number": "827", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LADYKILLERS", "Star": "HANKS, TOM", "Costar": "PHALL, IRMA", "Subject": "COMEDY", "Number": "831", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TERMINAL", "Star": "HANKS, TOM", "Costar": "ZETA-JONES, CATHERINE", "Subject": "COMEDY", "Number": "833", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BUCK AND THE PREACHER", "Star": "POITIER, SIDNEY", "Costar": "BELAFONTE, HARRY", "Subject": "WESTERN", "Number": "834", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BEOWULF", "Star": "HOPKINS, ANTHONY", "Costar": "JOLIE, ANGELINA", "Subject": "HISTORY", "Number": "837", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BLOOD DIAMOND", "Star": "DICAPRIO, LEONARDO", "Costar": "HOUNSOU, DJIMON", "Subject": "ACTION", "Number": "841", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SHOOTER", "Star": "WAHLBERG, MARK", "Costar": "GLOVER, DANNY", "Subject": "ACTION", "Number": "845", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "I AM LEGEND", "Star": "SMITH, WILL", "Costar": "BRAGA, ALICE", "Subject": "SCI-FI", "Number": "853", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "INTERNATIONAL", "Star": "OWEN, CLIVE", "Costar": "WATTS, NAOMI", "Subject": "ACTION", "Number": "864", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "OPEN RANGE", "Star": "DUVALL, ROBERT", "Costar": "COSTNER, KEVIN", "Subject": "WESTERN", "Number": "870", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DE-LOVELY", "Star": "KLINE, KEVIN", "Costar": "JUDD, ASHLEY", "Subject": "MUSICAL", "Number": "873", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LAST KING OF SCOTLAND", "Star": "WHITAKR, FOREST", "Costar": "MCAVOY, JAMES", "Subject": "DRAMA", "Number": "874", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BREACH", "Star": "COOPER, CHRIS", "Costar": "PHILLIPPE, RYAN", "Subject": "SUSPENSE", "Number": "875", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "COWBOYS", "Star": "WAYNE, JOHN", "Costar": "BROWNE, ROSCO LEE", "Subject": "WESTERN", "Number": "887", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FORT APACHE", "Star": "WAYNE, JOHN", "Costar": "FONDA, HENRY", "Subject": "WESTERN", "Number": "887", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RIO BRAVO", "Star": "WAYNE, JOHN", "Costar": "MARTIN, DEAN", "Subject": "WESTERN", "Number": "887", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SEARCHERS", "Star": "WAYNE, JOHN", "Costar": "HUNTER, JEFFREY", "Subject": "WESTERN", "Number": "887", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DUPLICITY", "Star": "ROBERTS, JULIA", "Costar": "OWEN, CLIVE", "Subject": "ACTION", "Number": "888", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CITY OF ANGELS", "Star": "CAGE, NICHOLAS", "Costar": "RYAN, MEG", "Subject": "DRAMA", "Number": "889", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MICHAEL", "Star": "TRAVOLTA, JOHN", "Costar": "MACDOWELL, ANDIE", "Subject": "COMEDY", "Number": "889", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GALAXY QUEST", "Star": "ALLEN, TIM", "Costar": "WEAVER, SIGOURNEY", "Subject": "COMEDY", "Number": "890", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "IRONMAN", "Star": "DOWNEY JR, ROBERT", "Costar": "PALTROW, GWENYTH", "Subject": "ACTION", "Number": "894", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HOSTAGE", "Star": "WILLIS, BRUCE", "Costar": "POLLAK, KEVIN", "Subject": "SUSPENSE", "Number": "895", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SPIRAL STAIRCASE", "Star": "MCGUIRE, DOROTHY", "Costar": "BRENT, GEORGE", "Subject": "SUSPENSE", "Number": "903", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "O BROTHER, WHERE ART THOU?", "Star": "CLOONEY, GEORGE", "Costar": "TUTRTUTO, JOHN", "Subject": "COMEDY", "Number": "905", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WALL.E", "Star": "DISNEY", "Costar": false, "Subject": "CARTOON", "Number": "908", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MARY, QUEEN OF SCOTS", "Star": "REDGRAVE, VANESSA", "Costar": "JACKSON, GLENDA", "Subject": "HISTORY", "Number": "184", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "THAT DARN CAT!", "Star": "MILLS, HAYLEY", "Costar": "JONES, DEAN", "Subject": "COMEDY", "Number": "881", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LAKEVIEW TERRACE", "Star": "JACKSON, SAMUEL L", "Costar": "WILSON, PATRICK", "Subject": "SUSPENSE", "Number": "884", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PIXAR SHORT FILMS", "Star": false, "Costar": false, "Subject": "CARTOON", "Number": "909", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "88 MINUTES", "Star": "PACINO, AL", "Costar": "WITT, ALICIA", "Subject": "SUSPENSE", "Number": "886", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RUNDOWN", "Star": "THE ROCK", "Costar": "SCOTT, SEAN WILLIAM", "Subject": "ACTION", "Number": "916", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CARS", "Star": "DISNEY", "Costar": false, "Subject": "CARTOON", "Number": "918", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WOMEN", "Star": "RYAN, MEG", "Costar": "BENING, ANNETTE", "Subject": "COMEDY", "Number": "923", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PETE KELLY'S BLUES", "Star": "WEBB, JACK", "Costar": "LEIGH, JANET", "Subject": "MUSICAL", "Number": "925", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CLEANER", "Star": "JACKSON, SAMUEL L", "Costar": "HARRIS, ED", "Subject": "THRILLER", "Number": "926", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RED EYE", "Star": "MCADAMS, RACHEL", "Costar": "MURPHY, GILLIAN", "Subject": "THRILLER", "Number": "927", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GODFATHER ", "Star": "BRANDO, MARLON", "Costar": "PACINO, AL", "Subject": "DRAMA", "Number": "928", "Director": "COPPOLA, FRANCIS FORD", "comments": false, "Rating": "****", "Year": false}
+{"Title": "GHOST DOG", "Star": "WHITAKER, FOREST", "Costar": false, "Subject": "DRAMA", "Number": "929", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PERFECT STRANGER", "Star": "BERRY, HALLE", "Costar": "WILLIS, BRUCE", "Subject": "THRILLER", "Number": "931", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GOOD SHEPHERD", "Star": "DAMON, MATT", "Costar": "JOLIE, ANGELINA", "Subject": "THRILLER", "Number": "930", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FIRECREEK", "Star": "STEWART, JAMES", "Costar": "FONDA, HENRY", "Subject": "WESTERN", "Number": "352", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "EIGER SANCTION", "Star": "EASTWOOD, CLINT", "Costar": "KENNEDY, GEORGE", "Subject": "SUSPENSE", "Number": "120", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "COOGAN'S BLUFF", "Star": "EASTWOOD, CLINT", "Costar": "CLARK, SUSAN", "Subject": "DRAMA", "Number": "120", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BEGUILED", "Star": "EASTWOOD, CLINT", "Costar": "PAGE, GERALDINE", "Subject": "THRILLER", "Number": "120", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RAISING ARIZONA", "Star": "CAGE, NICHOLAS", "Costar": "HUNTER, HOLLY", "Subject": "COMEDY", "Number": "385", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BLOOD SIMPLE", "Star": "GETZ, JOHN", "Costar": "MCDORMAND, FRANCES", "Subject": "COMEDY", "Number": "385", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BARTON FINK", "Star": "TURTURRO, JOHN", "Costar": "GOODMAN, JOHN", "Subject": "COMEDY", "Number": "385", "Director": "Coen Bros.", "comments": false, "Rating": false, "Year": false}
+{"Title": "CABARET", "Star": "MINELLI, LIZA", "Costar": "GRAY, JOEL", "Subject": "MUSICAL", "Number": "462", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HUNTING PARTY", "Star": "GERE, RICHARD", "Costar": "HOWARD, TERRENCE", "Subject": "SUSPENSE", "Number": "932", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TWO FOR THE MONEY", "Star": "PACINO, AL", "Costar": "MCCONAUGHEY, MATTHEW", "Subject": "DRAMA", "Number": "933", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "KNOWING", "Star": "CAGE, NICHOLAS", "Costar": "BYRNE, ROSE", "Subject": "THRILLER", "Number": "934", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CLOSER", "Star": "ROBERTS, JULIA", "Costar": "OWEN, CLIVE", "Subject": "drama", "Number": "935", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MONSTER-IN-LAW", "Star": "LOPEZ, JENNIFER", "Costar": "FONDA, JANE", "Subject": "COMEDY", "Number": "936", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BATMAN BEGINS", "Star": "BALE, CHRISTIAN", "Costar": "CAINE, MICHAEL", "Subject": "ACTION", "Number": "937", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GUARDIAN", "Star": "COSTNER, KEVIN", "Costar": "KUTCHER, ASHTON", "Subject": "ACTION", "Number": "938", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "UNFORGIVEN", "Star": "EASTWOOD, CLINT", "Costar": "HACKMAN, GENE", "Subject": "WESTERN", "Number": "939", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DEJAVU", "Star": "WASHINGTON, DENZEL", "Costar": "KILMER, VAL", "Subject": "SUSPENSE", "Number": "940", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WEATHER MAN", "Star": "CAGE, NICHOLAS", "Costar": "CAINE, MICHAEL", "Subject": "DRAMA", "Number": "941", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "QUANTUM OF SOLACE", "Star": "CRAIG, DANIEL", "Costar": "KURYLENKO, OLGA", "Subject": "ACTION", "Number": "942", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CLEARING", "Star": "REDFORD, ROBERT", "Costar": "MIRREN, HELEN", "Subject": "THRILLER", "Number": "943", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FROM HERE TO ETERNITY", "Star": "LANCASTER, BURT", "Costar": "SINATRA, FRANK", "Subject": "DRAMA", "Number": "944", "Director": "ZINNEMANN, FRED", "comments": false, "Rating": "****", "Year": false}
+{"Title": "GRAN TORINO", "Star": "EASTWOOD, CLINT", "Costar": "", "Subject": "DRAMA", "Number": "945", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WITNESS", "Star": "FORD, HARRISON", "Costar": "", "Subject": "DRAMA", "Number": "946", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HIGH AND THE MIGHTY", "Star": "WAYNE, JOHN", "Costar": "TREVOR, CLAIRE", "Subject": "DRAMA", "Number": "947", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PRINCE OF FOXES", "Star": "POWER, TYRONE", "Costar": "WELLES, ORSON", "Subject": "ACTION", "Number": "948", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "INTERPRETER", "Star": "KIDMAN, NICOLE", "Costar": "PENN, SEAN", "Subject": "THRILLER", "Number": "949", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "POINT BLANK", "Star": "MARVIN, LEE", "Costar": "DICKINSON, ANGIE", "Subject": "ACTION", "Number": "950", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WHO'S AFRAID OF VIRGINIA WOOLF?", "Star": "TAYLOR, ELIZABETH", "Costar": "BURTON, RICHARD", "Subject": "DRAMA", "Number": "951", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FIST OF LEGEND", "Star": "LI JET", "Costar": false, "Subject": "ACTION", "Number": "952", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SLUMDOG MILLIONAIRE", "Star": "PATEL, DEV", "Costar": "PINTO, FREIDA", "Subject": "COMEDY", "Number": "953", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TRANSPORTER", "Star": "STATHAM, JASON", "Costar": "OI, SHUI", "Subject": "ACTION", "Number": "954", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SINGIN' IN THE RAIN", "Star": "KELLY, GENE", "Costar": "REYNOLDS, DEBBIE", "Subject": "MUSICAL", "Number": "955", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CASINO ROYALE", "Star": "CRAIG, DANIEL", "Costar": "GREEN, EVA", "Subject": "ACTION", "Number": "956", "Director": "Campbell, Martin", "comments": false, "Rating": false, "Year": false}
+{"Title": "FRAILTY", "Star": "PAXTON, BILL", "Costar": "MCCONAUGHEY, MATTHEW", "Subject": "SUSPENSE", "Number": "957", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WAR OF THE WORLDS", "Star": "BARRY, GENE", "Costar": "ROBINSON, ANN", "Subject": "SCI-FI", "Number": "958", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HERO", "Star": "LI, JET", "Costar": "LEUNG, TONY", "Subject": "ACTION", "Number": "959", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WHAT JUST HAPPENED", "Star": "DENIRO, ROBERT", "Costar": "PENN, SEAN", "Subject": "COMEDY", "Number": "960", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "KINGDOM", "Star": "FOXX, JAMIE", "Costar": "COOPER, CHRIS", "Subject": "SUSPENSE", "Number": "962", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RUNAWAY", "Star": "SELLECK, TOM", "Costar": "RHODES, CYNTHIA", "Subject": "SCI-FI", "Number": "963", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SPY WHO CAME IN FROM THE COLD", "Star": "BURTON, RICHARD", "Costar": "BLOOM, CLAIRE", "Subject": "THRILLER", "Number": "964", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "A FISH CALLED WANDA", "Star": "CLEESE, JOHN", "Costar": "CURTIS, JAMIE LEE", "Subject": "COMEDY", "Number": "965", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CHAPLIN", "Star": "DOWNEY JR, ROBERT", "Costar": "AYKROYD, DAN", "Subject": "DRAMA", "Number": "966", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "IMMORTAL BELOVED", "Star": "OLDMAN, GARY", "Costar": "ROSSELLINI, ISABELLA", "Subject": "history", "Number": "967", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BEDAZZLED", "Star": "FRASER, BRENDAN", "Costar": "HURLEY, ELIZABETH", "Subject": "COMEDY", "Number": "968", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "YOUNG FRANKENSTEIN", "Star": "WILDER, GENE", "Costar": "BOYLE, PETER", "Subject": "COMEDY", "Number": "969", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AMELIE", "Star": "TAUTOU, AUDREY", "Costar": "KASSOVITZ, MATHIEU", "Subject": "COMEDY", "Number": "970", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TREMORS", "Star": "BACON, KEVIN", "Costar": "WARD, FRED", "Subject": "COMEDY", "Number": "971", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TREMORS 2: AFTERSHOCKS", "Star": "WARD, FRED", "Costar": "GARTIN, CHRISTOPHER", "Subject": "COMEDY", "Number": "971", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TREMORS 3: BACK TO PERFECTION", "Star": "GROSS, MICHAEL", "Costar": "CHRISTIAN, SHAWN", "Subject": "COMEDY", "Number": "971", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TREMORS 4: THE LEGEND BEGINS", "Star": "GROSS, MICHAEL", "Costar": "BOTSFORD, SARA", "Subject": "COMEDY", "Number": "971", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LIFE IS BEAUTIFUL", "Star": "BENIGNI, ROBERTO", "Costar": "BRASCHI, NICOLETTA", "Subject": "COMEDY", "Number": "972", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WANTED", "Star": "MCAVOY, JAMES", "Costar": "JOLIE, ANGELINA", "Subject": "ACTION", "Number": "973", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GOLDEN COMPASS", "Star": "KIDMAN, NICOLE", "Costar": "ELLIOTT, SAM", "Subject": "FANTASY", "Number": "974", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SERENITY", "Star": "FILLION, NATHAN", "Costar": "TUDYK, ALAN", "Subject": "SCI-FI", "Number": "975", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SPARTAN", "Star": "KILMER, VAL", "Costar": "LUKE, DEREK", "Subject": "ACTION", "Number": "976", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SECRET LIFE OF BEES", "Star": "LATIFAH, QUEEN", "Costar": "FANNING, DAKOTA", "Subject": "DRAMA", "Number": "977", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ONCE UPON A TIME IN THE WEST", "Star": "FONDA, HENRY", "Costar": "ROBARDS, JASON", "Subject": "WESTERN", "Number": "978", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DARK CITY", "Star": "SEWELL, RUFUS", "Costar": "SUTHERLAND, KIEFER", "Subject": "SCI-FI", "Number": "979", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MONTY PYTHON'S LIFE OF BRIAN", "Star": "CHAPMAN, GRAHAM", "Costar": "CLEESE, JOHN", "Subject": "COMEDY", "Number": "980", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "FEARLESS", "Star": "LI, JET", "Costar": "SHIDOU, NAKAMURA", "Subject": "ACTION", "Number": "981", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "KISS KISS BANG BANG", "Star": "DOWNEY JR, ROBERT", "Costar": "KILMER, VAL", "Subject": "ACTION", "Number": "982", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "NIGHT AT THE OPERA", "Star": "MARX, GROUCHO", "Costar": "MARX, HARPO", "Subject": "COMEDY", "Number": "983", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BULLETPROOF MONK", "Star": "FAT, CHOW YUN", "Costar": "SCOTT, SEANN WILLIAM", "Subject": "ACTION", "Number": "984", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PUSH", "Star": "EVANS, CHRIS", "Costar": "FANNING, DAKOTA", "Subject": "FANTASY", "Number": "985", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SPIDERMAN", "Star": "MAGUIRE, TOBEY", "Costar": "DAFOE, WILLEM", "Subject": "ACTION", "Number": "986", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LETTER", "Star": "DAVIS, BETTE", "Costar": "MARSHALL, HERBERT", "Subject": "DRAMA", "Number": "987", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TAKING OF PELHAM 123", "Star": "TRAVOLTA, JOHN", "Costar": "WASHINGTON, DENZEL", "Subject": "SUSPENSE", "Number": "285", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CAPTAIN FROM CASTILE", "Star": "POWER, TYRONE", "Costar": "COBB, LEE J", "Subject": "HISTORY", "Number": "286", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "HONKYTONK MAN", "Star": "EASTWOOD, CLINT", "Costar": "EASTWOOD, KYLE", "Subject": "COMEDY", "Number": "790", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "EVERY WHICH WAY BUT LOOSE", "Star": "EASTWOOD, CLINT", "Costar": "GORDON, RUTH", "Subject": "COMEDY", "Number": "790", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ANY WHICH WAY YOU CAN", "Star": "EASTWOOD, CLINT", "Costar": "GORDON, RUTH", "Subject": "COMEDY", "Number": "790", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "STAR TREK", "Star": "CHO, JOHN", "Costar": "CROSS, BEN", "Subject": "SCI-FI", "Number": "988", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "UP", "Star": "DISNEY", "Costar": "PIXAR", "Subject": "CARTOON", "Number": "990", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "JULIE & JULIA", "Star": "STREEP, MERYL", "Costar": "ADAMS, AMY", "Subject": "COMEDY", "Number": "989", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "PRIMER", "Star": "CARRUTH, SHANE", "Costar": "SULLIVAN, DAVID", "Subject": "SCI-FI", "Number": "991", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "IN THE HEAT OF THE NIGHT", "Star": "POITIER, SIDNEY", "Costar": "STEIGER, ROD", "Subject": "DRAMA", "Number": "992", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BOURNE ULTIMATUM", "Star": "DAMON, MATT", "Costar": "STILES, JULIA", "Subject": "ACTION", "Number": "993", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MR DEEDS", "Star": "SANDLER, ADAM", "Costar": "RYDER, WINONA", "Subject": "COMEDY", "Number": "994", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "A SERIOUS MAN", "Star": "STUHLBARG, MICHAEL", "Costar": "KIND, RICHARD", "Subject": "COMEDY", "Number": "995", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SURROGATES", "Star": "WILLIS, BRUCE", "Costar": "MITCHELL, BADHA", "Subject": "ACTION", "Number": "996", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GET SHORTY", "Star": "TRAVOLTA, JOHN", "Costar": "HACKMAN, GENE", "Subject": "COMEDY", "Number": "997", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CADDYSHACK", "Star": "CHASE, CHEVY", "Costar": "DANGERFIELD, RODNEY", "Subject": "COMEDY", "Number": "998", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "A MAN CALLED SLEDGE", "Star": "GARNER, JAMES", "Costar": "WEAVER, DENNIS", "Subject": "WESTERN", "Number": "999", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MR DEEDS GOES TO TOWN", "Star": "COOPER, GARY", "Costar": "ARTHUR, JEAN", "Subject": "COMEDY", "Number": "1000", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AVATAR", "Star": "WORTHINGTON, SAM", "Costar": "SALDANA, ZOE", "Subject": "SCI-FI", "Number": "1001", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "TRANSPORTER3", "Star": "STATHAM, JASON", "Costar": "RUDAKOVA, NATALYA", "Subject": "ACTION", "Number": "1002", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GET CARTER", "Star": "STALLONE, SYLVESTER", "Costar": "RICHARDSON, MIRANDA", "Subject": "ACTION", "Number": "1003", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BODY OF LIES", "Star": "DICAPRIO, LEONARDO", "Costar": "CROWE, RUSSELL", "Subject": "ACTION", "Number": "1004", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LIMEY", "Star": "STAMP, TERENCE", "Costar": "WARREN, LESLEY ANN", "Subject": "THRILLER", "Number": "1005", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WALKING TALL", "Star": "JOHNSON, DWAYNE", "Costar": "KNOXVILLE, JOHNNY", "Subject": "ACTION", "Number": "1006", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MALTESE FALCON", "Star": "BOGART, HUMPHREY", "Costar": "ASTOR, MARY", "Subject": "DRAMA", "Number": "1007", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "GREEN ZONE", "Star": "DAMON, MATT", "Costar": "KINNEAR, GREG", "Subject": "DRAMA", "Number": "234", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SOLITARY MAN", "Star": "DOUGLAS, MICHAEL", "Costar": "SARANDON, SUSAN", "Subject": "DRAMA", "Number": "235", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "KELLY'S HEROS", "Star": "EASTWOOD, CLINT", "Costar": "SAVALAS, TELLY", "Subject": "ACTION", "Number": "296", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "IRONMAN 2", "Star": "DOWNEY, ROBERT", "Costar": "PALTROW, GWENYTH", "Subject": "ACTION", "Number": "299", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "DUEL AT DIABLO", "Star": "GARNER, JAMES", "Costar": "POITIER, SIDNEY", "Subject": "WESTERN", "Number": "1008", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ROBIN HOOD", "Star": "CROWE, RUSSELL", "Costar": "BLANCHETT, CATE", "Subject": "HISTORY", "Number": "1009", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "KARATE KID", "Star": "SMITH, JADEN", "Costar": "CHAN, JACKIE", "Subject": "ACTION", "Number": "1010", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CRAZY HEART", "Star": "BRIDGES, JEFF", "Costar": "GYLLENHAAL, MAGGIE", "Subject": "DRAMA", "Number": "1011", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ANOTHER 48 HOURS", "Star": "MURPHY, EDDIE", "Costar": "NOLTE, NICK", "Subject": "COMEDY", "Number": "1012", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "THEY ONLY KILL THEIR MASTERS", "Star": "GARNER, JAMES", "Costar": "ROSS, KATHARINE", "Subject": "SUSPENSE", "Number": "1013", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AMERICAN IN PARIS", "Star": "KELLY, GENE", "Costar": "CARON, LESLIE", "Subject": "MUSICAL", "Number": "1014", "Director": "MINNELLI, VINCENTE", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "EDGE OF DARKNESS", "Star": "GIBSON, MEL", "Costar": "WINSTONE, RAY", "Subject": "SUSPENSE", "Number": "1015", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "STREETS OF LAREDO", "Star": "GARNER, JAMES", "Costar": "SPACEK, SISSY", "Subject": "WESTERN", "Number": "1016", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "LITTLE MINISTER", "Star": "HEPBURN, KATHARINE", "Costar": "HALE, ALAN", "Subject": "DRAMA", "Number": "1017", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "A WOMAN REBELS", "Star": "HEPBURN, KATHARINE", "Costar": "MARSHALL, HERBERT", "Subject": "DRAMA", "Number": "1018", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "CROSSING OVER", "Star": "FORD, HARRISON", "Costar": "LIOTTA, RAY", "Subject": "DRAMA", "Number": "1019", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "BEAT THE DEVIL", "Star": "BOGART, HUMPHREY", "Costar": "JONES, JENNIFER", "Subject": "COMEDY", "Number": "1020", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SHADOW OF A DOUBT", "Star": "COTTEN, JOSEPH", "Costar": "WRIGHT, TERESA", "Subject": "SUSPENSE", "Number": "1021", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MAN FROM EARTH", "Star": "BILLINGSLEY, JOHN", "Costar": "CRAWFORD, ELLEN", "Subject": "SCI-FI", "Number": "1022", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "ELIZABETH I", "Star": "MIRREN, HELEN", "Costar": "IRONS, JEREMY", "Subject": "HISTORY", "Number": "239", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MIRACLE ON 34TH STREET", "Star": "O'HARA, MAUREEN", "Costar": "PAYNE, JOHN", "Subject": "FANTASY", "Number": "240", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SORCERER'S APPRENTICE", "Star": "CAGE, NICHOLAS", "Costar": "BARUCHEL, JAY", "Subject": "FANTASY", "Number": "241", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "KNIGHT AND DAY", "Star": "CRUISE, TOM", "Costar": "DIAZ, CAMERON", "Subject": "ACTION", "Number": "311", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "YOUNG BESS", "Star": "SIMMONS, JEAN", "Costar": "GRANGER, STEWART", "Subject": "HISTORY", "Number": "1023", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RAMBO III", "Star": "STALLONE, SYLVESTER", "Costar": "CRENNA, RICHARD", "Subject": "ACTION", "Number": "245", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "RED", "Star": "WILLIS, BRUCE", "Costar": "MALKOVICH, JOHN", "Subject": "ACTION COMEDY", "Number": "246", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AN INNOCENT MAN", "Star": "SELLECK, TOM", "Costar": "ABRAHAM, F. MURRAY", "Subject": "ACTION", "Number": "260", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "YOUR CHEATIN HEART", "Star": "HAMILTON, GEORGE", "Costar": "BUTTONS, RED", "Subject": "DRAMA", "Number": "261", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "WOMAN OF THE YEAR", "Star": "HEPBURN, KATHARINE", "Costar": "TRACY, SPENCER", "Subject": "COMEDY", "Number": "354", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "MECHANIC", "Star": "BRONSON, CHARLES", "Costar": "VINCENT, JAN-MICHAEL", "Subject": "ACTION", "Number": "456", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "AMERICAN", "Star": "CLOONEY, GEORGE", "Costar": "PLACIDO, VIOLANTE", "Subject": "SUSPENSE", "Number": "656", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "12 MONKEYS", "Star": "WILLIS, BRUCE", "Costar": "PITT, BRAD", "Subject": "SCI-FI", "Number": "236", "Director": "GILLIAM, TERRY", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "DESPICABLE ME", "Star": false, "Costar": false, "Subject": "CARTOON", "Number": "516", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SALT", "Star": "JOLIE, ANGELINA", "Costar": "SCHREIBER, LIEV", "Subject": "ACTION", "Number": "1024", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "IT'S COMPLICATED", "Star": "STREEP, MERYL", "Costar": "BALDWIN, ALEC", "Subject": "COMEDY", "Number": "1025", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "YOUNGBLOOD", "Star": "SWAYZE, PATRICK", "Costar": "LOWE, ROB", "Subject": "ACTION", "Number": "252", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "SHORT CIRCUIT", "Star": "SHEEDY, ALLY", "Costar": "GUTTENBERG, STEVE", "Subject": "COMEDY", "Number": "254", "Director": false, "comments": false, "Rating": false, "Year": false}
+{"Title": "VERDICT", "Star": "NEWMAN, PAUL", "Costar": "WARDEN, JACK", "Subject": "DRAMA", "Number": "314", "Director": "LUMET, SIDNEY", "comments": false, "Rating": false, "Year": false}
+{"Title": "TRUE GRIT", "Star": "BRIDGES, JEFF", "Costar": "DAMON, MATT", "Subject": "WESTERN", "Number": "374", "Director": "COEN BROS.", "comments": false, "Rating": false, "Year": false}
+{"Title": "BATTLEGROUND", "Star": "JOHNSON, VAN", "Costar": "HODIAK, JOHN", "Subject": "ACTION", "Number": "296", "Director": "WELLMAN, WILLIAM", "comments": "WWII", "Rating": "***", "Year": false}
+{"Title": "SOUND OF MUSIC", "Star": "ANDREWS, JULIE", "Costar": "PLUMMER, CHRISTOPHER", "Subject": "MUSICAL", "Number": "719", "Director": "WISE, ROBERT", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "CANNONBALL RUN", "Star": "REYNOLDS, BURT", "Costar": "MOORE, ROGER", "Subject": "COMEDY", "Number": "576", "Director": "NEEDHAM, HAL", "comments": "BOMB", "Rating": false, "Year": false}
+{"Title": "HIS GIRL FRIDAY", "Star": "GRANT, CARY", "Costar": "RUSSELL, ROSALIND", "Subject": "COMEDY", "Number": "592", "Director": "HAWKS, HOWARD", "comments": false, "Rating": "****", "Year": false}
+{"Title": "GODFATHER PART II", "Star": "PACINO, AL", "Costar": "DUVALL, ROBERT", "Subject": "DRAMA", "Number": "928", "Director": "COPPOLA, FRANCIS FORD", "comments": false, "Rating": "****", "Year": false}
+{"Title": "GODFATHER PART III", "Star": "PACINO, AL", "Costar": "KEATON, DIANE", "Subject": "DRAMA", "Number": "928", "Director": "COPPOLA, FRANCIS FORD", "comments": false, "Rating": "***", "Year": false}
+{"Title": "DOG DAY AFTERNOON", "Star": "PACINO, AL", "Costar": "CAZALE, JOHN", "Subject": "DRAMA", "Number": "1026", "Director": "LUMET, SIDNEY", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "BLIND SIDE", "Star": "BULLOCK, SANDRA", "Costar": "MCGRAW, TIM", "Subject": "DRAMA", "Number": "1027", "Director": "HANCOCK, JOHN LEE", "comments": false, "Rating": false, "Year": false}
+{"Title": "MAN WHO KNEW TOO MUCH", "Star": "STEWART, JAMES", "Costar": "DAY, DORIS", "Subject": "SUSPENSE", "Number": "1028", "Director": "HITCHCOCK, ALFRED", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "BEFORE THE DEVIL KNOWS YOU'RE DEAD", "Star": "HOFFMAN, PHILIP SEYMOUR", "Costar": "HAWKE, ETHAN", "Subject": "SUSPENSE", "Number": "1029", "Director": "LUMET, SIDNEY", "comments": false, "Rating": "***", "Year": false}
+{"Title": "HARRY POTTER AND THE HALF-BLOOD PRINCE", "Star": "RADCLIFF, DANIEL", "Costar": "GRINT, RUPERT", "Subject": "FANTASY", "Number": "1030", "Director": "YATES, DAVID", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "KING'S SPEECH", "Star": "FIRTH, COLIN", "Costar": "RUSH, GEOFFREY", "Subject": "DRAMA", "Number": "1031", "Director": "HOOPER, TOM", "comments": "ACADEMY AWARD", "Rating": false, "Year": false}
+{"Title": "WORKING GIRL", "Star": "GRIFFITH, MELANIE", "Costar": "FORD, HARRISON", "Subject": "COMEDY", "Number": "1032", "Director": "NICHOLS, MIKE", "comments": "ACADEMY AWARD NOMINEE", "Rating": "***", "Year": false}
+{"Title": "MECHANIC", "Star": "STATHAM, JASON", "Costar": "SUTHERLAND, DONALD", "Subject": "ACTION", "Number": "1033", "Director": "WEST, SIMON", "comments": false, "Rating": "", "Year": false}
+{"Title": "NETWORK", "Star": "DUNAWAY, FAYE", "Costar": "HOLDEN, WILLIAM", "Subject": "DRAMA", "Number": "1034", "Director": "LUMET, SIDNEY", "comments": false, "Rating": "****", "Year": false}
+{"Title": "LINCOLN LAWYER", "Star": "MCCONAUGHEY, MATTHEW", "Costar": "TOMEI, MARISA", "Subject": "DRAMA", "Number": "1035", "Director": "FURMAN, BRAD", "comments": false, "Rating": false, "Year": false}
+{"Title": "WEST SIDE STORY", "Star": "ROBBINS, JEROME", "Costar": "WOOD, NATALIE", "Subject": "MUSICAL", "Number": "1036", "Director": "WISE, ROBERT", "comments": "ACADEMY AWARD", "Rating": "****", "Year": false}
+{"Title": "ONE FLEW OVER THE CUCKOO'S NEST", "Star": "NICHOLSON, JACK", "Costar": "FLETCHER, LOUISE", "Subject": "DRAMA", "Number": "1037", "Director": "FORMAN, MILOS", "comments": "ACADEMY AWARD", "Rating": "****", "Year": false}
+{"Title": "MARCH OF THE PENGUINS", "Star": false, "Costar": false, "Subject": "NATURE", "Number": "1038", "Director": "JACQUET, LUC", "comments": "ACADEMY AWARD", "Rating": "***", "Year": false}
+{"Title": "2001 A SPACE ODYSSEY", "Star": "DULLEA, KIER", "Costar": "SYLVESTER, WILLIAM", "Subject": "SCI-FI", "Number": "1039", "Director": "KUBRICK, STANLEY", "comments": "ACADEMY AWARD", "Rating": "****", "Year": false}
+{"Title": "2010 THE YEAR WE MAKE CONTACT", "Star": "SCHEIDER, ROY", "Costar": "LITHGOW, JOHN", "Subject": "SCI-FI", "Number": "1040", "Director": "HYAMS, PETER", "comments": false, "Rating": "***", "Year": false}
+{"Title": "BUCKET LIST", "Star": "NICHOLSON, JACK", "Costar": "FREEMAN, MORGAN", "Subject": "COMEDY", "Number": "1041", "Director": "REINER, ROB", "comments": false, "Rating": false, "Year": false}
+{"Title": "UNKNOWN", "Star": "NEESAN, LIAM", "Costar": "KRUGER, DIANE", "Subject": "ACTION", "Number": "1042", "Director": "COLLET-SERRA, JAUME", "comments": false, "Rating": false, "Year": false}
+{"Title": "ANGELIQUE FILM COLLECTION", "Star": "MERCIER, MICHELE", "Costar": "ROCHEFORT, JEAN", "Subject": "DRAMA", "Number": "1043", "Director": "", "comments": false, "Rating": false, "Year": false}
+{"Title": "BRIDGE TOO FAR", "Star": "BOGARDE, DICK", "Costar": "CAAN, JAMES", "Subject": "ACTION", "Number": "1044", "Director": "ATTENBOROUGH, RICHARD", "comments": "WWII", "Rating": "**", "Year": false}
+{"Title": "LIMITLESS", "Star": "COOPER, BRADLEY", "Costar": "DENIRO, ROBERT", "Subject": "THRILLER", "Number": "1045", "Director": "BURGER, NEIL", "comments": false, "Rating": false, "Year": false}
+{"Title": "TRISTAN AND ISOLDE", "Star": "FRANCO, JAMES", "Costar": "MYLES, SOPHIA", "Subject": "DRAMA", "Number": "1046", "Director": "REYNOLDS, KEVIN", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "HIDALGO", "Star": "MORTENSEN, VIGGO", "Costar": "SHARIF, OMAR", "Subject": "ACTION", "Number": "1047", "Director": "JOHNSTON, JOE", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "JERRY MAGUIRE", "Star": "CRUISE, TOM", "Costar": "GOODING, CUBA", "Subject": "DRAMA", "Number": "1048", "Director": "CROWE, CAMERON", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "PATTON", "Star": "SCOTT, GEORGE C", "Costar": "MALDEN, KARL", "Subject": "DRAMA", "Number": "1049", "Director": "SCHAFFNER, FRANKLIN J", "comments": "ACADEMY AWARD", "Rating": "****", "Year": false}
+{"Title": "ALL THE KING'S MEN", "Star": "PENN, SEAN", "Costar": "LAW, JUDE", "Subject": "DRAMA", "Number": "1050", "Director": "ZAILLIAN, STEVEN", "comments": false, "Rating": "**", "Year": false}
+{"Title": "EMPIRE STRIKES BACK", "Star": "FORD, HARRISON", "Costar": "HAMIL, MARK", "Subject": "SCI-FI", "Number": "141", "Director": "KERSHNER, IRVIN", "comments": false, "Rating": "****", "Year": false}
+{"Title": "RETURN OF THE JEDI", "Star": "FORD, HARRISON", "Costar": "HAMIL, MARK", "Subject": "SCI-FI", "Number": "141", "Director": "MARQUAND, RICHARD", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "CAPTAIN AMERICA", "Star": "EVANS, CHRIS", "Costar": "JONES, TOMMY LEE", "Subject": "ACTION", "Number": "517", "Director": "JOHNSTONE, JOE", "comments": false, "Rating": false, "Year": false}
+{"Title": "GENTLEMAN'S AGREEMENT", "Star": "PECK, GREGORY", "Costar": "MCGUIRE, DOROTHY", "Subject": "DRAMA", "Number": "893", "Director": "KAZAN, ELIA", "comments": false, "Rating": "***", "Year": false}
+{"Title": "X-MEN FIRST CLASS", "Star": "MCAVOY, JAMES", "Costar": "FASSBENDER, MICHAEL", "Subject": "ACTION", "Number": "1051", "Director": "VAUGHN, MATTHEW", "comments": false, "Rating": false, "Year": false}
+{"Title": "SCARFACE", "Star": "PACINO, AL", "Costar": "PFEIFFER, MICHELLE", "Subject": "DRAMA", "Number": "1052", "Director": "DE PALMA, BRIAN", "comments": false, "Rating": "*+", "Year": false}
+{"Title": "THOR", "Star": "HEMSWORTH, CHRIS", "Costar": "PORTMAN, NATALIE", "Subject": "ACTION", "Number": "1053", "Director": "BRANNAGH, KENNETH", "comments": false, "Rating": false, "Year": false}
+{"Title": "HANNA", "Star": "RONAN, SAOIRSE", "Costar": "BANA, ERIC", "Subject": "ACTION", "Number": "1054", "Director": "WRIGHT, JOE", "comments": false, "Rating": false, "Year": false}
+{"Title": "THIRD MAN", "Star": "COTTEN, JOSEPH", "Costar": "VALLI, ALIDA", "Subject": "SUSPENSE", "Number": "1055", "Director": "REED, CAROL", "comments": "ACADEMY AWARD", "Rating": "****", "Year": false}
+{"Title": "COWBOYS AND ALIENS", "Star": "CRAIG, DANIEL", "Costar": "FORD, HARRISON", "Subject": "SCI-FI", "Number": "1056", "Director": "FAVREAU, JOHN", "comments": false, "Rating": false, "Year": false}
+{"Title": "TREASURE OF THE SIERRA MADRE", "Star": "BOGART, HUMPHREY", "Costar": "HUSTON, WALTER", "Subject": "DRAMA", "Number": "1057", "Director": "HUSTON, JOHN", "comments": "ACADEMY AWARD", "Rating": "****", "Year": false}
+{"Title": "KILLER ELITE", "Star": "STATHAM, JASON", "Costar": "OWEN, CLIVE", "Subject": "ACTION", "Number": "1058", "Director": "MCKENDRY, GARY", "comments": false, "Rating": false, "Year": false}
+{"Title": "DRIVE", "Star": "GOSLING, RYAN", "Costar": "MULLIGAN, CAREY", "Subject": "ACTION", "Number": "1059", "Director": "WINDING, NICHOLAS", "comments": false, "Rating": false, "Year": false}
+{"Title": "HELP", "Star": "CHASTAIN, JESSICA", "Costar": "DAVIS, VIOLA", "Subject": "DRAMA", "Number": "1060", "Director": "TAYLOR, TATE", "comments": false, "Rating": false, "Year": false}
+{"Title": "WAR HORSE", "Star": "THEWLIS, DAVID", "Costar": "WATSON, EMILY", "Subject": "DRAMA", "Number": "12", "Director": "SPIELBERG, STEVEN", "comments": false, "Rating": false, "Year": false}
+{"Title": "GREAT CARUSO", "Star": "LANZA, MARIO", "Costar": "BLYTH, ANN", "Subject": "MUSICAL", "Number": "961", "Director": "THORPE, RICHARD", "comments": false, "Rating": false, "Year": false}
+{"Title": "WE BOUGHT A ZOO", "Star": "DAMON, MATT", "Costar": "JOHANSSON, SCARLETT", "Subject": "COMEDY", "Number": "52", "Director": "CROWE, CAMERON", "comments": false, "Rating": false, "Year": false}
+{"Title": "A FISTFUL OF DOLLARS", "Star": "EASTWOOD, CLINT", "Costar": "VOLONTE, GIAN MARIA", "Subject": "WESTERN", "Number": "105", "Director": "LEONE, SERGIO", "comments": false, "Rating": "***", "Year": false}
+{"Title": "GOOD, THE BAD, AND THE UGLY", "Star": "EASTWOOD, CLINT", "Costar": "VAN CLEEF, LEE", "Subject": "WESTERN", "Number": "105", "Director": "LEONE, SERGIO", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "HANG 'EM HIGH", "Star": "EASTWOOD, CLINT", "Costar": "STEVENS, INGER", "Subject": "WESTERN", "Number": "105", "Director": "POST, TED", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "CONTRABAND", "Star": "WAHLBERG, MARK", "Costar": "BECKINSALE, KATE", "Subject": "ACTION", "Number": "107", "Director": "KORMAKUR, BALTASAR", "comments": false, "Rating": false, "Year": false}
+{"Title": "CATS", "Star": "PAIGE, ELAINE", "Costar": "MILLS, JOHN", "Subject": "MUSICAL", "Number": "108", "Director": "MALLET, DAVID", "comments": false, "Rating": false, "Year": false}
+{"Title": "ADVENTURES OF TINTIN", "Star": "BELL, JAMIE", "Costar": "SERKIS, ANDY", "Subject": "CARTOON", "Number": "110", "Director": "SPIELBERG, STEVEN", "comments": false, "Rating": false, "Year": false}
+{"Title": "PHANTOM OF THE OPERA", "Star": "RAINS, CLAUDE", "Costar": "EDDY, NELSON", "Subject": "MUSICAL", "Number": "111", "Director": "LUBIN, ARTHUR", "comments": "ACADEMY AWARD", "Rating": "***", "Year": false}
+{"Title": "IN OLD ARIZONA", "Star": "BAXTER, WARNER", "Costar": "LOWE, EDMUND", "Subject": "WESTERN", "Number": "123", "Director": "WALSHL, RAOUL AND CUMMINGS, IRVING", "comments": "ACADEMY AWARD", "Rating": false, "Year": false}
+{"Title": "J. EDGAR", "Star": "DICAPRIO, LEONARDO", "Costar": "WATTS, NAOMI", "Subject": "DRAMA", "Number": "125", "Director": "EASTWOOD, CLINT", "comments": false, "Rating": false, "Year": false}
+{"Title": "FATAL ATTRACTION", "Star": "DOUGLAS, MICHAEL", "Costar": "CLOSE, GLENN", "Subject": "SUSPENSE", "Number": "132", "Director": "LYNE, ADRIAN", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "PLANET OF THE APES", "Star": "HESTAN, CHARLTON", "Costar": "MCDOWELL, RODDY", "Subject": "SCI-FI", "Number": "291", "Director": "SHAFFNER, FRANKLIN J", "comments": false, "Rating": false, "Year": false}
+{"Title": "PINK CADILLAC", "Star": "EASTWOOD, CLINT", "Costar": "PETERS, BERNADETTE", "Subject": "ACTION", "Number": "557", "Director": "VAN HORN, BUDDY", "comments": false, "Rating": false, "Year": false}
+{"Title": "CITY HEAT", "Star": "EASTWOOD, CLINT", "Costar": "REYNOLDS, BURT", "Subject": "ACTION COMEDY", "Number": "557", "Director": "BENJAMIN, RICHARD", "comments": false, "Rating": false, "Year": false}
+{"Title": "CAHILL, UNITED STATES MARSHALL", "Star": "WAYNE, JOHN", "Costar": "KENNEDY, GEORGE", "Subject": "WESTERN", "Number": "623", "Director": "MCLAGLEN, ANDREW V", "comments": false, "Rating": false, "Year": false}
+{"Title": "HONDO", "Star": "WAYNE, JOHN", "Costar": "PAGE, GERALDINE", "Subject": "WESTERN", "Number": "860", "Director": "FARROW, JOHN", "comments": false, "Rating": "***", "Year": false}
+{"Title": "MORNING GLORY", "Star": "HEPBURN, HATHARINE", "Costar": "MENJOU, ADOLPHE", "Subject": "DRAMA", "Number": "86", "Director": "SHERMAN, LOWELL", "comments": "ACADEMY AWARD", "Rating": "****", "Year": false}
+{"Title": "CHISUM", "Star": "WAYNE, JOHN", "Costar": "TUCKER, FOREST", "Subject": "WESTERN", "Number": "194", "Director": "MCLAGLEN, ANDREW V", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "MR BLANDINGS BUILDS HIS DREAM HOUSE", "Star": "GRANT, CARY", "Costar": "LOY, MYRNA", "Subject": "COMEDY", "Number": "223", "Director": "POTTER, H C", "comments": false, "Rating": "***", "Year": false}
+{"Title": "DIAL M FOR MURDER", "Star": "MILLAND, RAY", "Costar": "KELLY, GRACE", "Subject": "SUSPENSE", "Number": "174", "Director": "HITCHCOCK, ALFRED", "comments": false, "Rating": "***", "Year": false}
+{"Title": "BRONCO BILLY", "Star": "EASTWOOD, CLINT", "Costar": "LOCKE, SONDRA", "Subject": "COMEDY/DRAMA", "Number": "166", "Director": "EASTWOOD, CLINT", "comments": false, "Rating": "***", "Year": false}
+{"Title": "SAMARITAN", "Star": "JACKSON, SAMUEL L", "Costar": "KIRGY, LUKE", "Subject": "SUSPENSE", "Number": "135", "Director": "WEAVER, DAVID", "comments": false, "Rating": false, "Year": false}
+{"Title": "GET THE GRINGO", "Star": "GIBSON, MEL", "Costar": "", "Subject": "ACTION", "Number": "149", "Director": "GRUNBERG, ADRIAN", "comments": false, "Rating": false, "Year": false}
+{"Title": "SAFE", "Star": "STATHAM, JASON", "Costar": "", "Subject": "ACTION", "Number": "150", "Director": "YAKIN, BOAZ", "comments": false, "Rating": false, "Year": false}
+{"Title": "GILR WITH THE DRAGON TATOO", "Star": "CRAIG, DANIEL", "Costar": "MARA, ROONEY", "Subject": "MYSTERY", "Number": "414", "Director": "FINCHER, DAVID", "comments": false, "Rating": false, "Year": false}
+{"Title": "HEIST", "Star": "HACKMAN, GENE", "Costar": "DEVITO, DANNY", "Subject": "ACTION", "Number": "409", "Director": "MAMET, DAVID", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "TRUE CRIME", "Star": "EASTWOOD, CLINT", "Costar": "WASHINGTON, ISAIAH", "Subject": "SUSPENSE", "Number": "390", "Director": "EASTWOOD, CLINT", "comments": false, "Rating": "***", "Year": false}
+{"Title": "HEREAFTER", "Star": "DAMON, MATT", "Costar": "DEFRANCE, CECILE", "Subject": "DRAMA", "Number": "379", "Director": "EASTWOOD, CLINT", "comments": false, "Rating": false, "Year": false}
+{"Title": "AVENGERS", "Star": "DOWNEY, JR, ROBERT", "Costar": "EVANS, CHRIS", "Subject": "ACTION", "Number": "324", "Director": "WHEDON, JOSS", "comments": false, "Rating": false, "Year": false}
+{"Title": "RED BALLOON", "Star": "LAMORISSE, PASCAL", "Costar": "SELLIER, GEORGES", "Subject": "FANTASY", "Number": "248", "Director": "LAMORISSE, ALBERT", "comments": "FRENCH,  ACADEMY AWARD", "Rating": false, "Year": false}
+{"Title": "BLACK MOON RISING", "Star": "JONES, TOMMY LEE", "Costar": "HAMILTON, LINDA", "Subject": "ACTION", "Number": "228", "Director": "COKLISS, HARLEY", "comments": false, "Rating": "BOMB", "Year": false}
+{"Title": "FLIGHT", "Star": "WASHINGTON, DENZEL", "Costar": "CHEADLE, DON", "Subject": "DRAMA", "Number": "387", "Director": "ZEMECKIS, ROBERT", "comments": false, "Rating": "***", "Year": false}
+{"Title": "SEVEN PSYCHOPATHS", "Star": "WALKEN, CHRISTOPHER", "Costar": "HARRELLSON, WOODY", "Subject": "COMEDY", "Number": "415", "Director": "MCDONAGH, MARTIN", "comments": "", "Rating": "", "Year": false}
+{"Title": "BEASTS OF THE SOUTHERN WILD", "Star": "WALLIS, QUVENZHANE", "Costar": "HENRY, DWIGHT", "Subject": "DRAMA", "Number": "420", "Director": "ZETLIN, BENH", "comments": "SUNDANCE WINNER", "Rating": "", "Year": false}
+{"Title": "HARRY POTTER AND THE DEATHLY HALLOWS PARTS 1 & 2", "Star": "RADCLIFFE, DANIEL", "Costar": "GRINT, RUPERT", "Subject": "FANTASY", "Number": "421", "Director": "YATES, DAVID", "comments": false, "Rating": "", "Year": false}
+{"Title": "ARGO", "Star": "AFLECK, BEN", "Costar": "CRANSTON, BRYAN", "Subject": "SUSPENSE", "Number": "441", "Director": "AFLECK, BEN", "comments": false, "Rating": "", "Year": false}
+{"Title": "SCHINDLER'S LIST", "Star": "NEESON, LIAM", "Costar": "KINGSLEY, BEN", "Subject": "SUSPENSE", "Number": "464", "Director": "SPIELBERG, STEVEN", "comments": "7 ACADEMAY AWARDS", "Rating": "****", "Year": false}
+{"Title": "RISE OF THE PLANET OF THE APES", "Star": "FRANCO, JAMES", "Costar": "PINTO, FREIDA", "Subject": "ACTION", "Number": "1066", "Director": "WYATT, RUPERT", "comments": false, "Rating": false, "Year": false}
+{"Title": "SON OF LASSIE", "Star": "LASFORD, PETER", "Costar": "CRISP, DONALD", "Subject": "DRAMA", "Number": "8", "Director": "SIMON, S. SYLVAN", "comments": false, "Rating": false, "Year": false}
+{"Title": "COURAGE OF LASSIE", "Star": "TAYLOR, ELIZABETH", "Costar": "MORGAN, FRANK", "Subject": "DRAMA", "Number": "8", "Director": "WILCOX, FRED M", "comments": false, "Rating": false, "Year": false}
+{"Title": "STAND UP GUYS", "Star": "PACINO, AL", "Costar": "WALKEN, CHRISTOPHER", "Subject": "DRAMA", "Number": "1067", "Director": "STEVENS, FISHER", "comments": false, "Rating": false, "Year": false}
+{"Title": "GOOD DAY TO DIE HARD", "Star": "WILLIS, BRUCE", "Costar": "COURTNEY, JAI", "Subject": "ACTION", "Number": "1068", "Director": "MOORE, JOHN", "comments": false, "Rating": false, "Year": false}
+{"Title": "PARKER", "Star": "STATHAM, JASON", "Costar": "LOPEZ, JENNIFER", "Subject": "ACTION", "Number": "1069", "Director": "HACKFORD, TAYLOR", "comments": false, "Rating": false, "Year": false}
+{"Title": "CALL", "Star": "BERRY, HALLE", "Costar": "BRESLIN, ABIGAIL", "Subject": "SUSPENSE", "Number": "1070", "Director": "ANDERSON, BRAD", "comments": false, "Rating": false, "Year": false}
+{"Title": "DAY OF THE JACKAL", "Star": "FOX, EDWARD", "Costar": "BADEL, ALAN", "Subject": "SUSPENSE", "Number": "1071", "Director": "ZINNEMANN, FRED", "comments": false, "Rating": false, "Year": false}
+{"Title": "ALL THE PRESIDENT'S MEN", "Star": "HOFFMAN, DUSTIN", "Costar": "REDFORD, ROBERT", "Subject": "DRAMA", "Number": "1072", "Director": "PAKULA, ALAN J", "comments": false, "Rating": false, "Year": false}
+{"Title": "TO HAVE AND HAVE NOT", "Star": "BOGART, HUMPHREY", "Costar": "BACALL, LAUREN", "Subject": "DRAMA", "Number": "1073", "Director": "HAWKS, HOWARD", "comments": false, "Rating": false, "Year": false}
+{"Title": "MUD", "Star": "MCCONAUGHEY, MATTHEW", "Costar": "SHERIDAN, TYE", "Subject": "DRAMA", "Number": "1074", "Director": "NICHOLS, JEFF", "comments": false, "Rating": false, "Year": false}
+{"Title": "OBLIVION", "Star": "CRUISE, TOM", "Costar": "FREEMAN, MORGAN", "Subject": "SCI-FI", "Number": "1075", "Director": "KOSINSKI, JOSEPH", "comments": false, "Rating": false, "Year": false}
+{"Title": "OLYMPUS HAS FALLEN", "Star": "BUTLER, GERARD", "Costar": "FREEMAN, MORGAN", "Subject": "SUSPENSE", "Number": "1076", "Director": "FUQUA, ANTOINE", "comments": false, "Rating": false, "Year": false}
+{"Title": "EMPEROR", "Star": "JONES, TOMMY LEE", "Costar": "FOX, MATTHEW", "Subject": "DRAMA", "Number": "1077", "Director": "WEBBER, PETER", "comments": false, "Rating": false, "Year": false}
+{"Title": "ESCAPE FROM ALCATRAZ", "Star": "EASTWOOD, CLINT", "Costar": "MCGOOHAN, PATRICK", "Subject": "DRAMA", "Number": "1078", "Director": "SIEGEL, DON", "comments": false, "Rating": false, "Year": false}
+{"Title": "BULLET TO THE HEAD", "Star": "STALLONE, SYLVESTER", "Costar": "KANG, SUNG", "Subject": "ACTION", "Number": "1079", "Director": "CAMON, ALLESANDRO", "comments": false, "Rating": false, "Year": false}
+{"Title": "SHADOW DANCER", "Star": "OWEN, CLIVE", "Costar": "ANDERSON, GILLIAN", "Subject": "SUSPENSE", "Number": "1080", "Director": "MARSH, JAMES", "comments": false, "Rating": false, "Year": false}
+{"Title": "KILLING SEASON", "Star": "DENIRO, ROBERT", "Costar": "TRAVOLTA, JOHN", "Subject": "ACTION", "Number": "1081", "Director": "JOHNSON, MARK STEVEN", "comments": false, "Rating": false, "Year": false}
+{"Title": "TROUBLE ALONG THE WAY", "Star": "WAYNE, JOHN", "Costar": "REED, DONNA", "Subject": "COMEDY", "Number": "1082", "Director": "CURTIZ, MICHAEL", "comments": false, "Rating": false, "Year": false}
+{"Title": "OXBOW INCIDENT", "Star": "FONDA, HENRY", "Costar": "ANDREWS, DANA", "Subject": "WESTERN", "Number": "1083", "Director": "WELLMAN, WILLIAM A", "comments": false, "Rating": false, "Year": false}
+{"Title": "PAIN AND GAIN", "Star": "WAHLBERG, MARK", "Costar": "JOHNSON, DWAYNE", "Subject": "ACTION COMEDY", "Number": "1084", "Director": "BAY, MICHAEL", "comments": false, "Rating": false, "Year": false}
+{"Title": "COMPANY YOU KEEP", "Star": "REDFORD, ROBERT", "Costar": "LABEOUF, SHIA", "Subject": "DRAMA", "Number": "1085", "Director": "REDFORD, ROBERT", "comments": false, "Rating": false, "Year": false}
+{"Title": "MY DARLING CLEMENTINE", "Star": "FONDA, HENRY", "Costar": "MATURE, VICTOR", "Subject": "WESTERN", "Number": "1086", "Director": "FORD, JOHN", "comments": false, "Rating": false, "Year": false}
+{"Title": "ROBOT AND FRANK", "Star": "LANGELLA, FRANK", "Costar": "MARSDEN, JAMES", "Subject": "COMEDY", "Number": "1061", "Director": "SCHREIER, JAKE", "comments": false, "Rating": false, "Year": false}
+{"Title": "HEAT", "Star": "BULLOCK, SANDRA", "Costar": "MCCARTHY, MELISSA", "Subject": "COMEDY", "Number": "1087", "Director": "FEIG, PAUL", "comments": false, "Rating": "", "Year": false}
+{"Title": "THERE WILL BE BLOOD", "Star": "DAY-LEWIS, DANIEL", "Costar": "DANO, PAUL", "Subject": "DRAMA", "Number": "1088", "Director": "ANDERSON, PAUL THOMAS", "comments": "ACADEMY AWARDS", "Rating": "***+", "Year": false}
+{"Title": "CENTURION", "Star": "FASSBENDER, MICHAEL", "Costar": "WEST, DOMINIC", "Subject": "HISTORY", "Number": "1089", "Director": "MARSHALL, NEIL", "comments": false, "Rating": false, "Year": false}
+{"Title": "IRONMAN 3", "Star": "DOWNEY, JR, ROBERT", "Costar": "PALTROW, GWYNETH", "Subject": "ACTION COMEDY", "Number": "1090", "Director": "BLACK, SHANE", "comments": false, "Rating": false, "Year": false}
+{"Title": "EMERALD FOREST", "Star": "BOOTHE, POWERS", "Costar": "FOSTER, MEG", "Subject": "DRAMA", "Number": "1091", "Director": "BOORMAN, JOHN", "comments": false, "Rating": "***", "Year": false}
+{"Title": "TARANTULA!", "Star": "AGAR, JOHN", "Costar": "CARROLL, LEO G", "Subject": "HOIRROR", "Number": "1092", "Director": "ARNOLD, JACK", "comments": false, "Rating": "***", "Year": false}
+{"Title": "MONSTERS UNIVERSITY", "Star": "GOODMAN, JOHN", "Costar": "CRYSTAL, BILLY", "Subject": "COMEDY", "Number": "1093", "Director": "SCANLON, DAN", "comments": "DISNEY/PIXAR CARTOON", "Rating": "", "Year": false}
+{"Title": "HAYWIRE", "Star": "CARANO, GINA", "Costar": "FASSBENDER, MICHAEL", "Subject": "ACTION", "Number": "1094", "Director": "SODERBERGH, STEVEN", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "STAR TREK INTO DARKNESS", "Star": "PINE, CHRIS", "Costar": "QUINTO, ZACHARY", "Subject": "SCIFI", "Number": "1095", "Director": "ABRAMS, J J", "comments": false, "Rating": "***", "Year": false}
+{"Title": "YARDS", "Star": "WAHLBERG, MARK", "Costar": "PHOENIX, JOAQUIN", "Subject": "DRAMA", "Number": "1096", "Director": "GRAY, JAMES", "comments": false, "Rating": "**", "Year": false}
+{"Title": "FROZEN GROUND", "Star": "CAGE, NICHOLAS", "Costar": "CUSACK, JOHN", "Subject": "DRAMA", "Number": "1097", "Director": "WALKER, SCOTT", "comments": false, "Rating": false, "Year": false}
+{"Title": "WE OWN THE NIGHT", "Star": "PHOENIX, JOAQUIN", "Costar": "WAHLBERG, MARK", "Subject": "DRAMA", "Number": "1098", "Director": "GRAY, JAMES", "comments": false, "Rating": "***", "Year": false}
+{"Title": "RAGE", "Star": "SCOTT, GEORGE C", "Costar": "BASEHART, RICHARD", "Subject": "DRAMA", "Number": "1099", "Director": "SCOTT, GEORGE C", "comments": false, "Rating": "**", "Year": false}
+{"Title": "DESPICABLE ME 2", "Star": "CARELL, STEVE", "Costar": "WIIG, KRISTEN", "Subject": "COMEDY", "Number": "1100", "Director": "RENAUD, CHRIS & COFFIN, PIERRE", "comments": "CARTOON", "Rating": "", "Year": false}
+{"Title": "COOL HAND LUKE", "Star": "NEWMAN, PAUL", "Costar": "KENNEDY, GEORGE", "Subject": "DRAMA", "Number": "1101", "Director": "ROSENBERG, STUART", "comments": "ACADEMY AWARD", "Rating": "***+", "Year": false}
+{"Title": "AFTER EARTH", "Star": "SMITH, JADEN", "Costar": "SMITH, WILL", "Subject": "SCIFI", "Number": "1102", "Director": "SHYAMALAN, M NIGHT", "comments": false, "Rating": "", "Year": false}
+{"Title": "MAN OF STEEL", "Star": "CAVILL, HENRY", "Costar": "ADAMS, AMY", "Subject": "ACTION", "Number": "1103", "Director": "SNYDER, ZACK", "comments": false, "Rating": "**+", "Year": false}
+{"Title": "REDEMPTION", "Star": "STATHAM, JASON", "Costar": "BUZEK, AGATA", "Subject": "ACTION", "Number": "1104", "Director": "KNIGHT, STEVEN", "comments": false, "Rating": false, "Year": false}
+{"Title": "2GUNS", "Star": "WASHINGTON, DENZEL", "Costar": "WAHLBERG, MARK", "Subject": "ACTION", "Number": "1105", "Director": "KORMAKUR, BALTASAR", "comments": false, "Rating": "", "Year": false}
+{"Title": "FASTER", "Star": "JOHNSON, DWAYNE", "Costar": "THORNTON, BILLY BOB", "Subject": "ACTION", "Number": "1106", "Director": "TILLMAN, GEORGE", "comments": false, "Rating": "**", "Year": false}
+{"Title": "WOLVERINE", "Star": "JACKMAN, HUGH", "Costar": "SAHADA, HIROYUKI", "Subject": "ACTION", "Number": "1107", "Director": "MANGOLD, JAMES", "comments": false, "Rating": false, "Year": false}
+{"Title": "MILK", "Star": "PENN, SEAN", "Costar": "FRANCO, JAMES", "Subject": "DRAMA", "Number": "1108", "Director": "VAN SANT, GUS", "comments": "ACADEMY AWARD", "Rating": "***+", "Year": false}
+{"Title": "PRISONERS", "Star": "JACKMAN, HUGH", "Costar": "GYLLENHAAL, JAKE", "Subject": "DRAMA", "Number": "1109", "Director": "VILLENEUVE, DENIS", "comments": false, "Rating": "", "Year": false}
+{"Title": "3:10 TO YUMA", "Star": "FORD, GLEN", "Costar": "HEFLIN, VAN", "Subject": "WESTERN", "Number": "1110", "Director": "DAVES, DELMER", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "COCOANUTS", "Star": "MARX, GROUCHO", "Costar": "MARX, HARPO", "Subject": "COMEDY", "Number": "1111", "Director": "SANTLEY, JOSEPH", "comments": false, "Rating": "***", "Year": false}
+{"Title": "D.O.A.", "Star": "O'BRIEN, EDMOND", "Costar": "BRITTON, PAMELA", "Subject": "DRAMA", "Number": "1112", "Director": "MATE, RUDOLPH", "comments": false, "Rating": "***+", "Year": false}
+{"Title": "RED2", "Star": "WILLIS, BRUCE", "Costar": "MALKOVICH, JOHN", "Subject": "ACTION COMEDY", "Number": "1113", "Director": "PARISOT, DEAN", "comments": false, "Rating": false, "Year": false}
+{"Title": "CHEF", "Star": "FAVREAU, JON", "Costar": "VERGARA, SOFIA", "Subject": "COMEDY", "Number": "1114", "Director": "FAVREAU, JON", "comments": false, "Rating": "****", "Year": false}
+{"Title": "JACK RYAN: SHADOW RECRUIT", "Star": "PINE, CHRIS", "Costar": "COSTNER, KEVIN", "Subject": "ACTION THRILLER", "Number": "1115", "Director": "BRANAGH, KENNETH", "comments": false, "Rating": false, "Year": false}
+{"Title": "CAPTAIN AMERICA THE WINTER SOLDIER", "Star": "EVANS, CHRIS", "Costar": "JOHANSSON, SCARLETT", "Subject": "ACTION", "Number": "1116", "Director": "RUSSO, ANTHONY & RUSSO, JOE", "comments": false, "Rating": false, "Year": false}
+{"Title": "3 DAYS TO KILL", "Star": "COSTNER, KEVIN", "Costar": "HEARD, AMBER", "Subject": "ACTION THRILLER", "Number": "1117", "Director": "McG", "comments": false, "Rating": false, "Year": false}
+{"Title": "NEXT THREE DAYS", "Star": "CROWE, RUSSELL", "Costar": "BANKS, ELIZABETH", "Subject": "SUSPENSE", "Number": "1118", "Director": "HAGGIS, PAUL", "comments": false, "Rating": false, "Year": false}
+{"Title": "ENEMIES CLOSER", "Star": "VAN DAMME, JEAN-CLAUDE", "Costar": "JONES, ORLANDO", "Subject": "ACTION", "Number": "1119", "Director": "HYAMS, PETER", "comments": false, "Rating": false, "Year": false}
+{"Title": "DALLAS BUYERS CLUB", "Star": "MCCONAUGHEY, MATTHEW", "Costar": "GARNER, JENNIFER", "Subject": "DRAMA", "Number": "1120", "Director": "VALLEE, JEAN-MARC", "comments": false, "Rating": false, "Year": false}
+{"Title": "12 YEARS A SLAVE", "Star": "EJIOFOR,CHIWETEL", "Costar": "FASSBENDER, MICHAEL", "Subject": "DRAMA", "Number": "1121", "Director": "MCQUEEN, STEVE", "comments": false, "Rating": false, "Year": false}
+{"Title": "CAPTAIN PHILLIPS", "Star": "HANKS, TOM", "Costar": "ABDI, BARKHAD", "Subject": "SUSPENSE", "Number": "1122", "Director": "GREENGRASS, PAUL", "comments": false, "Rating": false, "Year": false}
+{"Title": "ALL IS LOST", "Star": "REDFORD, ROBERT", "Costar": false, "Subject": "SUSPENSE", "Number": "1123", "Director": "CHANDOR, J C", "comments": false, "Rating": false, "Year": false}
+{"Title": "LAST VEGAS", "Star": "DOUGLAS, MICHAEL", "Costar": "DENIRO, ROBERT", "Subject": "COMEDY", "Number": "1124", "Director": "TURTETAUB, JON", "comments": false, "Rating": false, "Year": false}
+{"Title": "AMERICAN HUSTLE", "Star": "BALE, CHRISTIAN", "Costar": "COOPER, BRADLEY", "Subject": "SUSPENSE", "Number": "1125", "Director": "RUSSELL, DAVID O", "comments": false, "Rating": false, "Year": false}
+{"Title": "ESCAPE PLAN", "Star": "STALLONE, SYLVESTER", "Costar": "SCHWARZENEGGER, ARNOLD", "Subject": "ACTION", "Number": "1126", "Director": "HAFSTROM, MIKAEL", "comments": false, "Rating": false, "Year": false}
+{"Title": "AUGUST: OSAGE COUNTY", "Star": "STREEP, MERYL", "Costar": "ROBERTS, JULIA", "Subject": "COMEDY", "Number": "1127", "Director": "WELLS, JOHN", "comments": false, "Rating": false, "Year": false}
+{"Title": "PHILOMENA", "Star": "DENCH, JUDI", "Costar": "COOGAN, STEVE", "Subject": "DRAMA", "Number": "1128", "Director": "FREARS, STEPHEN", "comments": false, "Rating": false, "Year": false}
+{"Title": "HOMEFRONT", "Star": "STATHAM, JASON", "Costar": "FRANCO, JAMES", "Subject": "ACTION", "Number": "1129", "Director": "FLEDER, GARY", "comments": false, "Rating": false, "Year": false}
+{"Title": "NEBRASKA", "Star": "DERN, BRUCE", "Costar": "FORTE, WILL", "Subject": "COMEDY", "Number": "1130", "Director": "PAYNE, ALEXANDER", "comments": false, "Rating": false, "Year": false}
+{"Title": "THOR THE DARK WORLD", "Star": "HEMSWORTH, CHRIS", "Costar": "PORTMAN, NATALIE", "Subject": "ACTION", "Number": "1131", "Director": "TAYLOR, ALAN", "comments": false, "Rating": false, "Year": false}
+{"Title": "NON-STOP", "Star": "NEESON, LIAM", "Costar": "MOORE, JULIANNE", "Subject": "SUSPENSE", "Number": "1132", "Director": "COLLET-SERRA, JAUME", "comments": false, "Rating": false, "Year": false}
+{"Title": "FIVE MINUTES OF HEAVEN", "Star": "NEESON, LIAM", "Costar": "NESBITT, JAMES", "Subject": "DRAMA", "Number": "1133", "Director": "HIRSCHBIEGEL, OLIVER", "comments": false, "Rating": false, "Year": false}
+{"Title": "PLANET OF THE APES", "Star": "HESTON, CHARLTON", "Costar": "MCDOWELL, RODDY", "Subject": "SCI-FI", "Number": "2", "Director": "SCHAFFNER, FRANKLIN J", "comments": false, "Rating": false, "Year": false}
+{"Title": "SORRY, WRONG NUMBER", "Star": "STANWYCK, BARBARA", "Costar": "LANCASTER, BURT", "Subject": "DRAMA", "Number": "3", "Director": "LITVAK, ANATOLE", "comments": false, "Rating": false, "Year": false}
+{"Title": "HIGH PLAINS DRIFTER", "Star": "EASTWOOD, CLINT", "Costar": "BLOOM, VERNA", "Subject": "WESTERN", "Number": "1134", "Director": "EASTWOOD, CLINT", "comments": false, "Rating": false, "Year": false}
+{"Title": "JOE KIDD", "Star": "EASTWOOD, CLINT", "Costar": "DUVALL, ROBERT", "Subject": "WESTERN", "Number": "1134", "Director": "STURGES, JOHN", "comments": false, "Rating": false, "Year": false}
+{"Title": "TWO MULES FOR SISTER SARA", "Star": "EASTWOOD, CLINT", "Costar": "MACLAINE, SHIRLEY", "Subject": "WESTERN", "Number": "1134", "Director": "SIEGEL, DON", "comments": false, "Rating": false, "Year": false}
+{"Title": "EXPENDABLES 3", "Star": "STALLONE, SYLVESTER", "Costar": "STATHAM, JASON", "Subject": "ACTION", "Number": "1135", "Director": "HUGHES, PATRICK", "comments": false, "Rating": false, "Year": false}
+{"Title": "DAWN OF THE PLANET OF THE APES", "Star": "SERKIS, ANDY", "Costar": "CLARKE, JASON", "Subject": "DRAMA", "Number": "1136", "Director": "REEVES, MATT", "comments": false, "Rating": false, "Year": false}
+{"Title": "GRAND BUDAPEST HOTEL", "Star": "FIENNES, RALPH", "Costar": "ABRAHAM, F. MURRAY", "Subject": "COMEDY", "Number": "1137", "Director": "ANDERSON, WES", "comments": false, "Rating": false, "Year": false}
+{"Title": "RUGGLES OF RED GAP", "Star": "LAUGHTON, CHARLES", "Costar": "BOLAND, MARY", "Subject": "COMEDY", "Number": "545", "Director": "MCCAREY, LEO", "comments": " ", "Rating": "****", "Year": false}
+{"Title": "AWFUL TRUTH", "Star": "DUNNE, IRENE", "Costar": "GRANT, CARY", "Subject": "COMEDY", "Number": "1138", "Director": "MCCAREY, LEO", "comments": false, "Rating": "***1/2", "Year": false}
+{"Title": "JOE VERSUS THE VOLCANO", "Star": "HANKS, TOM", "Costar": "RYAN, MEG", "Subject": "COMEDY", "Number": "1139", "Director": "SHANLEY, JOHN PATRICK", "comments": false, "Rating": "**1/2", "Year": false}
+{"Title": "DYING OF THE LIGHT", "Star": "CAGE, NICHOLAS", "Costar": "YELCHIN, ANTON", "Subject": "THRILLER", "Number": "1140", "Director": "SCHRADER, PAUL", "comments": false, "Rating": false, "Year": false}
+{"Title": "HUMBLING", "Star": "PACINO, AL", "Costar": "GERWIG, GRETA", "Subject": "COMEDY", "Number": "1141", "Director": "LEVINSON, BARRY", "comments": false, "Rating": false, "Year": false}
+{"Title": "GAMBLER", "Star": "WAHLBERG, MARK", "Costar": "GOODMAN, JOHN", "Subject": "THRILLER", "Number": "1142", "Director": "WYATT, RUPERT", "comments": false, "Rating": false, "Year": false}
+{"Title": "TAKEN 3", "Star": "NEESON, LIAM", "Costar": "WHITAKER, FOREST", "Subject": "SUSPENSE", "Number": "1143", "Director": "MEGATON, OLIVER", "comments": false, "Rating": false, "Year": false}
+{"Title": "ENDER'S GAME", "Star": "FORD, HARRISON", "Costar": "BUTTERFIELD, ASA", "Subject": "SCI-FI", "Number": "1144", "Director": "HOOD, GAVIN", "comments": false, "Rating": false, "Year": false}
+{"Title": "JOHN WICK", "Star": "REEVES, KEANU", "Costar": "NYQUIST, MICHAEL", "Subject": "ACTION", "Number": "1145", "Director": "STAHELSKI, CHAD", "comments": false, "Rating": false, "Year": false}
+{"Title": "NOVEMBER MAN", "Star": "BROSNAN, PIERCE", "Costar": "BRACEY, LUKE", "Subject": "THRILLER", "Number": "1146", "Director": "DONALDSON, ROGER", "comments": false, "Rating": false, "Year": false}
+{"Title": "WOOLY BOYS", "Star": "FONDA, PETER", "Costar": "KRISTOFFERSON, KRIS", "Subject": "COMEDY", "Number": "1147", "Director": "BURZYNSKI, LESZEK", "comments": false, "Rating": false, "Year": false}
+{"Title": "X-MEN DAYS OF FUTURE PAST", "Star": "JACKMAN, HUGH", "Costar": "MCAVOY, JAMES", "Subject": "SCIFI", "Number": "1148", "Director": "SINGER, BRYAN", "comments": false, "Rating": false, "Year": false}
+{"Title": "MOST WANTED MAN", "Star": "HOFFMAN, PHILIP SEYMOUR", "Costar": "MCADAMS, RACHEL", "Subject": "SUSPENSE", "Number": "1149", "Director": "", "comments": false, "Rating": "****", "Year": false}
+{"Title": "PRINCE", "Star": "CUSACK, JOHN", "Costar": "PATRIC, JASON", "Subject": "SUSPENSE", "Number": "1150", "Director": "MILLER, MILLER", "comments": false, "Rating": false, "Year": false}
+{"Title": "MAN OF TAI CHI", "Star": "REEVES, KEANU", "Costar": "CHEN, TIGER", "Subject": "ACTION", "Number": "1151", "Director": "REEVES, KEANU", "comments": false, "Rating": false, "Year": false}
+{"Title": "ELSA & FRED", "Star": "MACLAINE, SHIRLEY", "Costar": "PLUMMER, CHRISTOPHER", "Subject": "COMEDY", "Number": "1152", "Director": "RADFORD, MICHAEL", "comments": false, "Rating": false, "Year": false}
+{"Title": "HUNGER GAMES", "Star": "LAWRENCE, JENNIFER", "Costar": "HUTCHERSON, JOSH", "Subject": "ACTION", "Number": "1153", "Director": "ROSS, GARY", "comments": false, "Rating": "**1/2", "Year": false}
+{"Title": "BLACK NARCISSUS", "Star": "KERR, DEBORAH", "Costar": "PRESSBURGER, EMERIC", "Subject": "DRAMA", "Number": "1154", "Director": "POWELL, MICHAEL", "comments": false, "Rating": "****", "Year": false}
+{"Title": "HUNDRED-FOOT JOURNEY", "Star": "MIRREN, HELEN", "Costar": "PURI, OM", "Subject": "DRAMA", "Number": "1155", "Director": "HALLSTROM, LASSE", "comments": false, "Rating": "****", "Year": false}
+{"Title": "JOE", "Star": "CAGE, NICHOLAS", "Costar": "SHERIDAN, TYE", "Subject": "DRAMA", "Number": "1156", "Director": "GREEN, DAVID GORDON", "comments": false, "Rating": false, "Year": false}
+{"Title": "LUCY", "Star": "JOHANSSON, SCARLETT", "Costar": "FREEMAN, MORGAN", "Subject": "SCIFI", "Number": "1157", "Director": "BESSON, LUC", "comments": false, "Rating": false, "Year": false}
+{"Title": "WALK AMONG THE TOMBSTONES", "Star": "NEESON, LIAM", "Costar": "STEVENS, DAN", "Subject": "SUSPENSE", "Number": "1158", "Director": "FRANK, SCOTT", "comments": false, "Rating": false, "Year": false}
+{"Title": "SECOND BEST EXOTIC MARIGOLD HOTEL", "Star": "DENCH, JUDI", "Costar": "SMITH, MAGGIE", "Subject": "COMEDY", "Number": "1159", "Director": "MADDEN, JOHN", "comments": false, "Rating": false, "Year": false}
+{"Title": "GUARDIANS OF THE GALAXY", "Star": "PRATT, CHRIS", "Costar": "SALDANA, ZIE", "Subject": "ACTION COMEDY", "Number": "1160", "Director": "GUNN, JAMES", "comments": false, "Rating": false, "Year": false}
+{"Title": "RUN ALL NIGHT", "Star": "NEESON, LIAM", "Costar": "HARRIS, ED", "Subject": "THRILLER", "Number": "1161", "Director": "COLLET-SERRA, JAUME", "comments": false, "Rating": false, "Year": false}
+{"Title": "EQUALIZER", "Star": "WASHINGTON, DENZEL", "Costar": "MORETZ, CHLOE GRACE", "Subject": "ACTION", "Number": "1162", "Director": "FUQUA, ANTOINE", "comments": false, "Rating": false, "Year": false}
