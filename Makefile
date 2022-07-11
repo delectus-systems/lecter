@@ -1,6 +1,6 @@
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Darwin)
-  GAMBIT_HOME=/usr/local/Gambit
+  GAMBIT_HOME=/usr/local/opt/gambit-scheme/current
 endif
 ifeq ($(UNAME_S),Linux)
   GAMBIT_HOME=/usr/local/Gambit
