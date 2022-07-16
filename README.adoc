@@ -1,4 +1,4 @@
-= libDelectus
+= lecter
 :toc:
 
 ## Building and using
